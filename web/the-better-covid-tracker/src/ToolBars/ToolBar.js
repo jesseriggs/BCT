@@ -1,4 +1,29 @@
 import React, {Component} from 'react';
+import { Buttons } from '../Buttons/Button.js';
+import { Frame } from 'arwes';
+
+class ToolForm extends Component
+{
+	render(){
+		const onSubmit = ()=>{console.log("submit")};
+		return(
+			<div style={{float:"right"}}>
+				<form
+				    onSubmit={onSubmit}
+				    style={{position:"relative",display:"flex"}}
+				>
+					<div style={{width:"160px"}}>
+					  <Frame>
+					    <input placeholder="enter text">
+					    </input>
+					  </Frame>
+					</div>
+					<Buttons />
+				</form>
+			</div>
+		);
+	}
+}
 
 class ToolBar extends Component
 {
@@ -6,10 +31,13 @@ class ToolBar extends Component
 		super(...arguments);
 	}
 	render(){
+		const children = this.props.children;
 		return(
-			<div>
-				<p>This is a toolbar.</p>
-				{this.props.children}
+			<div className={"toolbar"}>
+				<ToolForm />
+				{typeof children === 'function'?
+					children():
+					children}
 			</div>
 		);
 	}

@@ -10,7 +10,7 @@ const TestData = [
 	{ quarter: 4, earnings: 16000 },
 	{ quarter: 5, earnings: 15000 },
 	{ quarter: 6, earnings: 17500 },
-	{ quarter: 7, earnings: 18250 },
+	{ quarter: 7, earnings: 17250 },
 	{ quarter: 8, earnings: 19000 }
 ];
 
