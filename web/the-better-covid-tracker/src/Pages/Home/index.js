@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Graph } from '../../Graphs/Graph.js';
 
 class HomePage extends Component
 {
@@ -8,7 +9,10 @@ class HomePage extends Component
 
 	render(){
 		return(
-			<p>Hello Home</p>
+			<div>
+			  <p>Hello Home</p>
+			  <Graph></Graph>
+			</div>
 		);
 	}
 }
