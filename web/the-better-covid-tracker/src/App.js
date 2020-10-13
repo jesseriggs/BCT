@@ -4,9 +4,7 @@ import {Template} from './Templates/Template.js';
 
 const App = ()=>{
 	return(
-	  <React.StrictMode>
-	    <Template><HomePage /></Template>
-	  </React.StrictMode>
+		<Template headerText = "Home" ><HomePage /></Template>
 	);
 };
 

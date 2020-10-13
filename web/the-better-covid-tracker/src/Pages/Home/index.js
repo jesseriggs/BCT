@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
+import { Heading } from 'arwes';
 import { Graph } from '../../Graphs/Graph.js';
 
 class HomePage extends Component
 {
-	constructor(props){
-		super(props);
-	}
-
-	render(){
+	render()
+	{
 		return(
 			<div>
-			  <p>Hello Home</p>
+
+			    <Heading
+				data-layer='alert'
+				node = 'h5'
+			    >
+				Mortality
+			    </Heading>
+
 			  <Graph></Graph>
 			</div>
 		);
 	}
 }
 
-export {HomePage};
+export { HomePage };

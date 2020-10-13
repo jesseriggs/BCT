@@ -3,17 +3,18 @@ import { assign } from "lodash";
 // *
 // * Colors
 // *
-const yellow200 = "#26dafd";
-const deepOrange600 = "#26dafd";
-const lime300 = "#26dafd";
-const lightGreen500 = "#26dafd";
+const yellow200 = "#ecfe80";
+const purple = "#ec80fe";
+const deepOrange600 = "#df9527";
+const lime300 = "#00ff00";
+const lightGreen500 = "#6f6";
 const teal700 = "#26dafd";
-const cyan900 = "#26dafd";
-const colors = [deepOrange600, yellow200, lime300, lightGreen500, teal700, cyan900];
-const blueGrey50 = "#26dafd";
-const blueGrey300 = "#26dafd";
-const blueGrey700 = "#26dafd";
-const grey900 = "#26dafd";
+const cyan900 = "#8bebfe";
+const colors = [deepOrange600, yellow200, lime300, lightGreen500, teal700, cyan900, purple];
+const blueGrey50 = "#268b8b";
+const blueGrey300 = "#26dada";
+const blueGrey700 = "#8bebeb";
+const grey900 = "#a1ecfb";
 // *
 // * Typography
 // *
@@ -37,7 +38,7 @@ const baseLabelStyles = {
   fontSize,
   letterSpacing,
   padding,
-  fill: blueGrey700,
+  fill: purple,
   stroke: "transparent",
   strokeWidth: 0
 };
@@ -46,7 +47,7 @@ const centeredLabelStyles = assign({ textAnchor: "middle" }, baseLabelStyles);
 // *
 // * Strokes
 // *
-const strokeDasharray = "10, 5";
+const strokeDasharray = "1, 5";
 const strokeLinecap = "round";
 const strokeLinejoin = "round";
 
@@ -93,7 +94,7 @@ const material = {
           strokeLinejoin
         },
         tickLabels: assign({}, baseLabelStyles, {
-          fill: blueGrey700
+          fill: grey900
         })
       }
     },
@@ -209,7 +210,8 @@ const material = {
           fill: "transparent",
           opacity: 1,
           stroke: blueGrey700,
-          strokeWidth: 2
+          strokeWidth: 2,
+	  // boxShadow:"0 0 0 10 #fff" // you can't do that, man...
         },
         labels: baseLabelStyles
       }
@@ -284,3 +286,4 @@ const material = {
 };
 
 export default material;
+export {colors};

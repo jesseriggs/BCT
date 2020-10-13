@@ -19,6 +19,20 @@ input {
 	border: none;
 }
 
+#main-menu {
+	position: fixed;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+#menu-button-container {
+	color: #ffffff;
+}
+
+#menu-button-container:hover #main-menu {
+	display: block;
+}
+
 .corona-pattern {
 	top:0;
 	bottom:0;
@@ -46,14 +60,14 @@ input {
 .main-container{
 	width: 100%;
 	max-width: 59vw;
-	height:10%;
+	height:100%;
 	z-index:5;
 	top:50px;bottom:0;left:0;right:0;
 	background-color: rgba( 2, 17, 20, 0.3 );
-	margin-left:20px;
 	margin-right:auto;
 	margin-top:10px;
 	float: left;
+	/*display:flex;*/
 }
 
 .description-pane{
@@ -64,7 +78,15 @@ input {
 	top:50px;bottom:0;left:0;right:0;
 	background-color: rgba( 2, 17, 20, 0.3 );
 	margin-left:20px;
-	margin-right:10px;
 	margin-top:10px;
 	float: right;
+	/*display:flex;*/
 }
+
+.menu-container{
+	max-width: 62vw;
+	z-index:6;
+	top:50px;bottom:0;left:0;right:0;
+	background-color: rgba( 2, 17, 20, 0.3 );
+}
+
