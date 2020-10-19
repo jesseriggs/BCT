@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Buttons, StartButton } from '../Buttons/Button.js';
 import { ToolBar } from '../ToolBars/ToolBar.js';
-import { Arwes, Frame, Heading, SoundsProvider, ThemeProvider, Words, createSounds, createTheme, withSounds } from 'arwes';
+import { Arwes, Frame, Heading, ThemeProvider, Words, createSounds, createTheme, withSounds } from 'arwes';
 import { maxH } from '../globals.js';
 import '../styles/index.css';
 
@@ -10,6 +10,7 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 const theme    = createTheme();
 theme.animTime = 1000;
 
+/*
 const TemplateSounds = {
         shared  : { volume : 1, },
         players : {
@@ -27,12 +28,14 @@ const TemplateSounds = {
 		},
         }
 };
+
 const templateSounds = createSounds( TemplateSounds );
 const sounds         = { start : "" };
 const Sounds         = withSounds()( props =>{
 	sounds.start = props.sounds.start;
 	return(<div></div>);
 } );
+*/
 
 class MainContainer extends Component
 {
