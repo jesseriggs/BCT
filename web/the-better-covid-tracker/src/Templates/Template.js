@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Buttons, StartButton } from '../Buttons/Button.js';
 import { ToolBar } from '../ToolBars/ToolBar.js';
-import { Arwes, Frame, Heading, ThemeProvider, Words, createSounds, createTheme, withSounds } from 'arwes';
+import { Arwes, Frame, Heading, ThemeProvider, Words, createTheme } from 'arwes';
 import { maxH } from '../globals.js';
 import '../styles/index.css';
 
