@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Buttons, StartButton } from '../Buttons/Button.js';
 import { ToolBar } from '../ToolBars/ToolBar.js';
 import { Arwes, Frame, Heading, SoundsProvider, ThemeProvider, Words, createSounds, createTheme, withSounds } from 'arwes';
 import { maxH } from '../globals.js';
@@ -50,6 +51,7 @@ class MainContainer extends Component
 			    <Frame
 				animate = { true }
 				corners = { 3 }
+				show    = { this.state.show }
 			    >
 				    <div style = {{
 					backgroundColor : "#02111488",
@@ -70,7 +72,9 @@ class MainContainer extends Component
 	componentDidMount()
 	{
 		if( !this.state.show )
+		    setTimeout( ()=>{
 			this.setState( { show : true } );
+		    }, 100);
 	}
 }
 
@@ -119,8 +123,11 @@ class DescriptionPane extends Component
 	}
 	componentDidMount()
 	{
-		if( !this.state.show )
+		if( !this.state.show ){
+		    setTimeout( ()=>{
 			this.setState( { show : true } );
+		    }, 300 );
+		}
 	}
 }
 
@@ -153,6 +160,79 @@ class Footer extends Component
 	}
 }
 
+class ContentInitialized extends Component
+{
+	render()
+	{
+		return(
+		  <ThemeProvider theme = { theme }>
+		    <div 
+			 style={{
+			     display      : "flex",
+			     paddingLeft  : "5vw",
+			     paddingRight : "5vw",
+		    }}>
+			<MainContainer>
+				{ this.props.children }
+			</MainContainer>
+			<DescriptionPane />
+		    </div>
+		  </ThemeProvider>
+		);
+	}
+}
+
+class StartMessage extends Component
+{
+	constructor( props )
+	{
+		super( props );
+		this.state = { show : false };
+	}
+	render()
+	{
+		return(
+			<div style={{
+			    width:"240px",
+			    height:maxH,
+			    marginTop:"10px",
+			    marginLeft:"auto",
+			    marginRight:"auto"
+			}}>
+			    <Frame
+				animate = { true }
+				corners = { 3 }
+				show    = { this.state.show }
+			    >
+			      <div style = {{ padding : "10px" }} >
+				<Words animate = { true } >
+					BCT has sounds. Click Start to begin.
+				</Words>
+				<Buttons style = {{
+				    marginLeft : "auto",
+				    marginRight : "auto"
+				}}>
+					<StartButton
+					    target    = "content-area"
+					    component = {
+						<ContentInitialized>
+						  {this.props.children}
+						</ContentInitialized>
+					    }
+					/>
+				</Buttons>
+			      </div>
+			    </Frame>
+			</div>
+		);
+	}
+	componentDidMount()
+	{
+		if( !this.state.show )
+			this.setState( { show : true } );
+	}
+}
+
 class Template extends Component
 {
 	constructor( props )
@@ -170,11 +250,6 @@ class Template extends Component
 				show
 			  >
 			    <div>
-				{ /* TODO: this is super hacky. I'll fix it when
-				     I implement start screen. */ }
-				<SoundsProvider sounds = { templateSounds }>
-				    <Sounds />
-				</SoundsProvider>
 				<ToolBar theme = { theme }>
 				    <span style = {{ marginLeft : "60px" }}>
 				        This is where tools go
@@ -191,15 +266,11 @@ class Template extends Component
 				>
 					{ this.props.headerText }
 				</Heading>
-				<div style={{
-				    display      : "flex",
-				    paddingLeft  : "5vw",
-				    paddingRight : "5vw",
-				}}>
-					<MainContainer>
+				<div
+				  id="content-area">
+					<StartMessage>
 						{ this.props.children }
-					</MainContainer>
-					<DescriptionPane />
+					</StartMessage>
 				</div>
 				<Footer>
 					<span>This is a footer</span>
@@ -213,7 +284,7 @@ class Template extends Component
 	{
 		if( !this.state.show ){
 			this.setState( { play : true } );
-			sounds.start.play();
+			//sounds.start.play();
 		}
 	}
 }

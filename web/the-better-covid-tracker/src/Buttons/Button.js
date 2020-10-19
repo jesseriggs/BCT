@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Button, SoundsProvider, ThemeProvider, createSounds, createTheme, withSounds } from 'arwes';
 
 const theme = createTheme();
@@ -14,6 +15,9 @@ const ButtonSounds = {
 		},
 		logo:{
 			sound : { src : ['static/sound/logo.mp3' ]}
+		},
+		start:{
+			sound : { src : ['static/sound/start.mp3' ]}
 		},
 	}
 };
@@ -45,6 +49,24 @@ const MenuButton = withSounds()( props=>(
 	</ThemeProvider>
 ));
 
+const startOnClick = ( component, target, sound )=>{
+	sound.play();
+	ReactDOM.render(component, document.getElementById(target));
+}
+
+const StartButton = withSounds()( props =>(
+	<ThemeProvider theme = { theme }>
+	    <Button
+		onClick = { ()=>{
+			startOnClick(
+				props.component,
+				props.target,
+				props.sounds.start );
+		}}
+	    >Start</Button>
+	</ThemeProvider>
+));
+
 class Buttons extends Component
 {
 	render()
@@ -61,4 +83,4 @@ class Buttons extends Component
 	}
 }
 
-export { Buttons, MenuButton, SubmitButton };
+export { Buttons, MenuButton, StartButton, SubmitButton };
