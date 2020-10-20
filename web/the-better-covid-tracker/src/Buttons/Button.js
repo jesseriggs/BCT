@@ -49,19 +49,30 @@ const MenuButton = withSounds()( props=>(
 	</ThemeProvider>
 ));
 
-const startOnClick = ( component, target, sound )=>{
-	sound.play();
-	ReactDOM.render(component, document.getElementById(target));
+const startOnClick = ( component, target, sound, controller )=>{
+	controller.fadeOut();
+	setTimeout( ()=>{
+		sound.play();
+		ReactDOM.render(
+			component,
+			document.getElementById( target )
+		)},
+		3000 
+	);
 }
 
 const StartButton = withSounds()( props =>(
 	<ThemeProvider theme = { theme }>
 	    <Button
+		animate = { true }
+		show    = { props.show }
 		onClick = { ()=>{
 			startOnClick(
 				props.component,
 				props.target,
-				props.sounds.start );
+				props.sounds.start,
+				props.controller
+			);
 		}}
 	    >Start</Button>
 	</ThemeProvider>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Buttons, StartButton } from '../Buttons/Button.js';
 import { ToolBar } from '../ToolBars/ToolBar.js';
-import { Arwes, Frame, Heading, ThemeProvider, Words, createTheme } from 'arwes';
+import { Arwes, Frame, Heading, Loading, ThemeProvider, Words, createTheme } from 'arwes';
 import { maxH } from '../globals.js';
 import '../styles/index.css';
 
@@ -11,30 +11,26 @@ const theme    = createTheme();
 theme.animTime = 1000;
 
 /*
-const TemplateSounds = {
-        shared  : { volume : 1, },
-        players : {
-                deploy : {
-                        sound : { src : [ 'static/sound/deploy.mp3' ] }
-                },
-                expand : {
-                        sound : { src : [ 'static/sound/expand.mp3' ] }
-                },
-                logo   : {
-                        sound : { src : ['static/sound/logo.mp3' ] }
-                },
-		start  : {
-			sound : { src : ['static/sound/start.mp3' ] }
-		},
-        }
-};
+const loadingClass = (theme)=>{
+    return{
+	circle : {
+		position : 'absolute',
+		left     : '50%',
+		top      : '50%',
+		display  : 'block',
 
-const templateSounds = createSounds( TemplateSounds );
-const sounds         = { start : "" };
-const Sounds         = withSounds()( props =>{
-	sounds.start = props.sounds.start;
-	return(<div></div>);
-} );
+		boder        : 'solid black',
+		borderRadius : '50%',
+
+		backgroundColor : 'black',
+		/*
+		boxShadow       :
+			`0 0 ${ theme.shadowLength * 2 }px`
+			+ `${ theme.color.base }`,
+			//* /
+	},
+    };
+};
 */
 
 class MainContainer extends Component
@@ -212,12 +208,14 @@ class StartMessage extends Component
 					BCT has sounds. Click Start to begin.
 				</Words>
 				<Buttons style = {{
-				    marginLeft : "auto",
+				    marginLeft  : "auto",
 				    marginRight : "auto"
 				}}>
 					<StartButton
-					    target    = "content-area"
-					    component = {
+					    show       = { this.state.show }
+					    target     = "content-area"
+					    controller = { this }
+					    component  = {
 						<ContentInitialized>
 						  {this.props.children}
 						</ContentInitialized>
@@ -226,8 +224,28 @@ class StartMessage extends Component
 				</Buttons>
 			      </div>
 			    </Frame>
+			    <div style = {{
+				    position : 'relative',
+				    width : "200px",
+				    height : "200px"
+			    }} >
+				<Loading
+				    animate
+				    full
+				    classes = {{
+					    circle : "circle",
+					    circle1 : "circle1",
+					    circle2 : "circle2",
+				    }}
+				    show = { !this.state.show }
+				/>
+			    </div>
 			</div>
 		);
+	}
+	fadeOut()
+	{
+		this.setState( { show : false } );
 	}
 	componentDidMount()
 	{
@@ -270,7 +288,9 @@ class Template extends Component
 					{ this.props.headerText }
 				</Heading>
 				<div
-				  id="content-area">
+				  id    = "content-area"
+				  style = {{ height : maxH }}
+				>
 					<StartMessage>
 						{ this.props.children }
 					</StartMessage>
@@ -287,7 +307,6 @@ class Template extends Component
 	{
 		if( !this.state.show ){
 			this.setState( { play : true } );
-			//sounds.start.play();
 		}
 	}
 }
