@@ -1,7 +1,7 @@
 /**
  * Data contains abstractions for implementing an MVC in React.
  */
-import React, { Component } from 'react';
+import { Component } from 'react';
 
 /**
  * DataController contains a state model, and methods for business logic. This
