@@ -1,5 +1,13 @@
+/**
+ * Data contains abstractions for implementing an MVC in React.
+ */
 import React, { Component } from 'react';
 
+/**
+ * DataController contains a state model, and methods for business logic. This
+ * is built to attach to some React component. The component acts as a view
+ * that will present data when it is updated.
+ */
 class DataController
 {
 	constructor( props )

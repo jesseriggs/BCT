@@ -14,4 +14,6 @@ const maxH = ( height - 162 ) + "px";
 const theme = createTheme();
 theme.animTime = 500;
 
-export { maxH, theme, lorem };
+const dataServer = "http://localhost:9000/data/";
+
+export { dataServer, maxH, theme, lorem };

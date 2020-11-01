@@ -10,29 +10,6 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 const theme    = createTheme();
 theme.animTime = 1000;
 
-/*
-const loadingClass = (theme)=>{
-    return{
-	circle : {
-		position : 'absolute',
-		left     : '50%',
-		top      : '50%',
-		display  : 'block',
-
-		boder        : 'solid black',
-		borderRadius : '50%',
-
-		backgroundColor : 'black',
-		/*
-		boxShadow       :
-			`0 0 ${ theme.shadowLength * 2 }px`
-			+ `${ theme.color.base }`,
-			//* /
-	},
-    };
-};
-*/
-
 class MainContainer extends Component
 {
 	constructor( props )
@@ -43,7 +20,7 @@ class MainContainer extends Component
 	render()
 	{
 		const children = this.props.children;
-		
+
 		return(
 		    <ThemeProvider theme = { theme }>
 			<div className = { "main-container" }>
@@ -137,13 +114,7 @@ class Footer extends Component
 		const children = this.props.children;
 		return(
 			<ThemeProvider theme = { theme }>
-			    <div style={{
-				height          : "50px",
-				position        : "relative",
-				backgroundColor : "#021114e0",
-				marginTop       : "10px",
-				fontSize        : "12px"
-			    }}>
+			    <div className = { "bct-footer" }>
 				<Frame
 				    style = {{
 					height  : "50px",
@@ -165,7 +136,7 @@ class ContentInitialized extends Component
 	{
 		return(
 		  <ThemeProvider theme = { theme }>
-		    <div 
+		    <div
 			 style={{
 			     display      : "flex",
 			     paddingLeft  : "5vw",
@@ -202,9 +173,9 @@ class StartMessage extends Component
 				animate = { true }
 				corners = { 3 }
 				show    = { this.state.show }
-			    >
+			      >
 			      <div style = {{ padding : "10px" }} >
-				<Words animate = { true } >
+				<Words animate = { true } show = { this.state.show } >
 					BCT has sounds. Click Start to begin.
 				</Words>
 				<Buttons style = {{
@@ -226,14 +197,14 @@ class StartMessage extends Component
 			    </Frame>
 			    <div style = {{
 				    position : 'relative',
-				    width : "200px",
-				    height : "200px"
+				    width    : "200px",
+				    height   : "200px"
 			    }} >
 				<Loading
 				    animate
 				    full
 				    classes = {{
-					    circle : "circle",
+					    circle  : "circle",
 					    circle1 : "circle1",
 					    circle2 : "circle2",
 				    }}
@@ -259,7 +230,8 @@ class Template extends Component
 	constructor( props )
 	{
 		super( props );
-		this.state = { play : false };
+		this.state      = { play : false };
+		this.controller = props.controller;
 	}
 	render()
 	{
@@ -271,13 +243,16 @@ class Template extends Component
 				show
 			  >
 			    <div>
-				<ToolBar theme = { theme }>
+				<ToolBar
+					theme = { theme }
+					controller = { this.controller }
+				   >
 				    <span style = {{ marginLeft : "60px" }}>
 				        This is where tools go
 				    </span>
 				</ToolBar>
 				<Heading
-				    node='h3' 
+				    node='h3'
 				    style={{
 					marginTop    : "60px",
 					marginBottom : "0",
@@ -296,7 +271,7 @@ class Template extends Component
 					</StartMessage>
 				</div>
 				<Footer>
-					<span>This is a footer</span>
+					<span>Better Covid Tracker (C) 2020</span>
 				</Footer>
 			    </div>
 			  </Arwes>

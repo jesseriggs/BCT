@@ -5,16 +5,28 @@ import { maxH, theme } from '../globals.js';
 
 class ToolForm extends Component
 {
+	constructor( props )
+	{
+		super( props );
+		this.inputItem  = "";
+		this.onSubmit   = this.onSubmit.bind( this );
+		this.controller = props.controller;
+	}
+	onSubmit( e )
+	{
+		if( Boolean( this.inputItem.value )
+				&& this.controller ){
+			this.controller.fetchData( this.inputItem.value );
+		}
+		this.inputItem.value = "";
+		e.preventDefault();
+	}
 	render()
 	{
-		const onSubmit = ( e )=>{
-			console.log( "submit" );
-			e.preventDefault();
-		};
 		return(
 			<div style={{ float:"right", padding:"5px" }}>
 				<form
-				    onSubmit = { onSubmit }
+				    onSubmit = { this.onSubmit }
 				    style    = {{
 					position : "relative",
 					display  : "flex"
@@ -24,7 +36,10 @@ class ToolForm extends Component
 						paddingRight : "5px"
 					}}>
 					  <Frame>
-					    <input placeholder = "enter text">
+					    <input
+						ref = { ( a ) =>
+							this.inputItem = a }
+						placeholder = "enter text">
 					    </input>
 					  </Frame>
 					</div>
@@ -36,12 +51,12 @@ class ToolForm extends Component
 }
 
 const defaultElems = (
-		<ul>
-			<li>Put</li>
-			<li>Menu</li>
-			<li>Items</li>
-			<li>Here</li>
-		</ul>
+	<ul>
+		<li>Put</li>
+		<li>Menu</li>
+		<li>Items</li>
+		<li>Here</li>
+	</ul>
 );
 
 class Menu extends Component
@@ -122,6 +137,7 @@ class ToolBar extends Component
 		this.state = {
 			menuVisible : false
 		};
+		this.controller = props.controller;
 	}
 	toggleMenu()
 	{
@@ -165,7 +181,8 @@ class ToolBar extends Component
 					{typeof children === 'function' ?
 						children() :
 						children}
-					<ToolForm />
+					<ToolForm
+					    controller = { this.controller } />
 				</Frame>
 			    </ThemeProvider>
 			</div>
