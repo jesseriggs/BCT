@@ -120,3 +120,12 @@ input {
 	background-color: rgba( 2, 17, 20, 0.3 );
 }
 
+.bct-footer{
+	height: 50px;
+	position: absolute;
+	background-color: rgba(2,17,20,0.88);
+	font-size: 12px;
+	bottom: 0;
+	width: 100%;
+	padding-right: 2px;
+}
