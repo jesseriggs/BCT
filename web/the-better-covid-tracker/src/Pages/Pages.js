@@ -9,7 +9,7 @@ const getKey = ( str ) => {
 	if( str.length === 0 )
 		return key;
 	for( var i = 0; i < str.length; i++ ){
-		key += str.charAt( i ) * 31 + 19;
+		key += 31 * i  + 19;
 	}
 	return key;
 };

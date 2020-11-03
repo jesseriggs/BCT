@@ -1,32 +1,48 @@
 import React, { Component } from 'react';
 import { Heading } from 'arwes';
 import { Graph } from '../../Graphs/Graph.js';
+import { DescriptionPane, MainContainer } from '../../Templates/Template.js'
 
 class HomePage extends Component
 {
 	constructor( props )
 	{
 		super( props );
+		this.title = "Home Page";
+		this.text  = "This is the Home Page text.";
 		this.state = {
 			data : {
 				title : "none",
-				data : []
+				data  : []
 			}
 		};
 	}
 	render()
 	{
-		const controller = this.props.controller;
+		const datacontroller = this.props.datacontroller;
 		return(
-			<div>
+		    <div
+			 style={{
+			     display      : "flex",
+			     paddingLeft  : "5vw",
+			     paddingRight : "5vw",
+		      }}>
+			<MainContainer>
+			  <div>
 			    <Heading
 				data-layer='alert'
 				node = 'h5'
 			      >
 				Mortality
 			    </Heading>
-			  <Graph controller = { controller } ></Graph>
-			</div>
+			    <Graph controller = { datacontroller } ></Graph>
+			  </div>
+			</MainContainer>
+			<DescriptionPane
+			    text  = { this.text }
+			    title = { this.title }
+			  />
+		    </div>
 		);
 	}
 	update( apiResponse )
