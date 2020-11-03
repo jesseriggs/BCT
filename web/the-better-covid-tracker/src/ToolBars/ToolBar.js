@@ -23,8 +23,9 @@ class ToolForm extends Component
 	}
 	render()
 	{
+		const display = this.props.showInput ? "flex" : "none";
 		return(
-			<div style={{ float:"right", padding:"5px" }}>
+			<div style={{ float:"right", padding:"5px", display: display }}>
 				<form
 				    onSubmit = { this.onSubmit }
 				    style    = {{
@@ -86,9 +87,9 @@ class Menu extends Component
 			},
 			exiting:  {
 				    width      : "150px",
-				    transition : "width 0.5s linear", 
+				    transition : "width 0.5s linear",
 			},
-			exited:   { 
+			exited:   {
 				    width : "150px",
 			},
 		}
@@ -118,7 +119,7 @@ class Menu extends Component
 					scrollbarWidth : "none",
 					transition     : "opacity 0.5s linear",
 					...insty[ animation.status ]
-				}}>
+				  }}>
 				    <Heading node = 'h3' >Menu</Heading>
 				    <List node = 'ul' >{ elems }</List>
 				</div>
@@ -150,9 +151,9 @@ class ToolBar extends Component
 		const children = this.props.children;
 		const state    = this.state;
 		const styles   = {
-			entering: { opacity:"1", },
-			entered:  { opacity:"1", },
-			exiting:  { opacity:"1", },
+			entering: { opacity   : "1", },
+			entered:  { opacity   : "1", },
+			exiting:  { opacity   : "1", },
 			exited:   {
 				    opacity   : "0",
 				    transform : "translate(-30vw)",
@@ -182,7 +183,9 @@ class ToolBar extends Component
 						children() :
 						children}
 					<ToolForm
-					    controller = { this.controller } />
+					    controller   = { this.controller }
+					    showInput    = { this.props.showInput }
+					  />
 				</Frame>
 			    </ThemeProvider>
 			</div>

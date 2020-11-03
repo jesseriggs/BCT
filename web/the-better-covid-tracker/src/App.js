@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { HomePage } from './Pages/Home/index.js';
 import { Template } from './Templates/Template.js';
 import { DataController } from './Data/Data.js';
+import { PageController } from './Pages/Pages.js';
 
 const dataServer     = "http://localhost:9000/data";
 const dataController = new DataController(
@@ -13,43 +13,35 @@ const dataController = new DataController(
 		url   : dataServer,
 	}
 );
-
-const homepage = {
-	headerText : "Home",
-	content    : ()=>{
-		return(
-			<HomePage
-				dataserver = { dataServer }
-				controller = { dataController }
-			/>
-		);
-	},
-};
+const pageController = new PageController( dataController );
 
 class App extends Component
 {
 	constructor( props )
 	{
 		super( props );
-		this.state = { showInput : false };
-		this.page  = homepage;
+		this.state = {
+			inputDisplay : "none",
+			page         : pageController.getPage(),
+		};
 	}
 	render()
 	{
 		return(
 			<Template
-				showInput  = { this.state.showInput }
-				headerText = { this.page.headerText }
-				controller = { dataController }
+				inputDisplay   = { this.state.inputDisplay }
+				headerText     = { this.state.page.pageName }
+				dataController = { dataController }
+				pageController = { pageController }
 			    >
-				{ this.page.content }
+				{ this.state.page }
 			</Template>
 		);
 	}
 	componentDidMount()
 	{
-		if( !this.state.showInput )
-			this.setState( { showInput : true } );
+		if( this.state.inputDisplay !== "flex" )
+			this.setState( { inputDipslay : "flex" } );
 	}
 };
 
