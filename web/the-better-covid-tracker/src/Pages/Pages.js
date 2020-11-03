@@ -9,7 +9,8 @@ const getKey = ( str ) => {
 	if( str.length === 0 )
 		return key;
 	for( var i = 0; i < str.length; i++ ){
-		key += 31 * i  + 19;
+		key += 31 * key + str.charCodeAt( i );
+		key = key && key;
 	}
 	return key;
 };
@@ -45,7 +46,7 @@ class PageController
 				( <HomePage datacontroller =
 					{ dataController } /> ),
 				true,
-				true
+				false
 			),
 			"Start" : new Page(
 				"Start",

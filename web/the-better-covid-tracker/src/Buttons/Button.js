@@ -50,6 +50,7 @@ const MenuButton = withSounds()( props=>(
 
 const startOnClick = ( sound, buttonLink, controller )=>{
 	controller.fadeOut();
+	//sound.play();
 	setTimeout(
 		()=>{
 			//sound.play();
@@ -64,10 +65,9 @@ const StartButton = withSounds()( props =>(
 	<ThemeProvider theme = { theme }>
 	    <Button
 		animate = { true }
-		show    = { props.show }
 		onClick = { ()=>{
 			startOnClick(
-				buttonSounds.start,
+				props.sounds.start,
 				props.buttonLink,
 				props.controller
 			);

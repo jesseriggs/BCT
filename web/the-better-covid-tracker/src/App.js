@@ -33,6 +33,7 @@ class App extends Component
 				headerText     = { this.state.page.pageName }
 				dataController = { dataController }
 				pageController = { pageController }
+				showMenu       = { false }
 			    >
 				{ this.state.page }
 			</Template>

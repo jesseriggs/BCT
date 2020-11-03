@@ -169,22 +169,33 @@ class ToolBar extends Component
 			<div className = { "toolbar" }>
 			    <ThemeProvider theme = { theme }>
 				<Frame>
-					<div style={{
+					<div style = {{
 						float   : "left",
-						padding : "5px"
+						padding : "5px",
+						height  : "50px",
 					}}>
-						<Buttons>
+					    < div style = {{
+						display : this.props.showMenu ?
+							"block" :
+							"none"
+					      }}>
+						<Buttons
+							show = {
+							    this.props.showMenu
+							} >
 						    <MenuButton
 							menu   = { this }
 							toggle = { state } />
 						</Buttons>
+					    </div>
 					</div>
 					{typeof children === 'function' ?
 						children() :
 						children}
 					<ToolForm
 					    controller   = { this.controller }
-					    showInput    = { this.props.showInput }
+					    showInput    = {
+							this.props.showInput }
 					  />
 				</Frame>
 			    </ThemeProvider>

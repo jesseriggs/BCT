@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ToolBar } from '../ToolBars/ToolBar.js';
-import { Arwes, Frame, Heading, Link, ThemeProvider, Words, createTheme } from 'arwes';
+import { Arwes, Frame, Heading, Link, SoundsProvider, ThemeProvider, Words, createTheme, withSounds, createSounds } from 'arwes';
 import { maxH } from '../globals.js';
 import '../styles/index.css';
 
@@ -166,6 +166,7 @@ class Template extends Component
 					theme        = { theme }
 					controller   = { this.controller }
 					showInput    = { page.showInput }
+					showMenu     = { this.props.showMenu }
 				   >
 				    <span style = {{
 					    marginLeft : "60px",
@@ -234,4 +235,25 @@ class Template extends Component
 	}
 }
 
-export { DescriptionPane, Footer, MainContainer, Template };
+const masterSounds = {};
+
+const SoundsTemplate = withSounds()( props =>
+(
+	<Template { ...props } >
+		{ props.children }
+	</Template>
+));
+
+const BetterTemplate = ( props ) =>
+{
+	return (
+		<SoundsProvider
+		    sounds = { createSounds( masterSounds ) }
+		    { ...props }
+		  >
+			{ props.children }
+		</SoundsProvider>
+	);
+}
+
+export { BetterTemplate, DescriptionPane, Footer, MainContainer, Template };
