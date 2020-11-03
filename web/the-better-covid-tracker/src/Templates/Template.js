@@ -251,7 +251,9 @@ const BetterTemplate = ( props ) =>
 		    sounds = { createSounds( masterSounds ) }
 		    { ...props }
 		  >
+		    <SoundsTemplate>
 			{ props.children }
+		    </SoundsTemplate>
 		</SoundsProvider>
 	);
 }
