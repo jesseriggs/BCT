@@ -12,24 +12,45 @@ class DataController
 {
 	constructor( props )
 	{
-		this.url   = props.url;
-		this.view  = null;
-		this.model =
-			{
-				data  : [],
-				title : props.title,
-				desc  : props.desc,
-				axis  : { x : props.axis.x, y : props.axis.y },
-				ticks : { x : props.ticks.x, y : props.ticks.y },
-			};
+		this.county = "";
+		this.url    = props.url;
+		this.view   = null;
+		this.map    = props.map;
+		this.states = Object.keys( props.map );
+		this.model  = {
+			data   : { confirmed : [], deaths : [] },
+			title  : props.title,
+			desc   : props.desc,
+			axis   : { x : props.axis.x, y : props.axis.y },
+			ticks  : { x : props.ticks.x, y : props.ticks.y },
+			map    : {}
+		};
+	}
+	getStates()
+	{
+		return this.states;
+	}
+	getCounties( state )
+	{
+		if( !Boolean( state ) ) return [];
+		return this.map[ state ].counties;
 	}
 	setData( data )
 	{
 		console.log("setting data");
-		console.log(data.data[0]);
-		this.model.data = data.data;
-		if( this.view != null )
-			this.view.update( this.model );
+		var county = data.counties[ this.county ];
+		this.model.title = county ? county.combined : "";
+		this.model.data = {
+				confirmed : county ? county.confirmed : [],
+				deaths    : county ? county.deaths : []
+			};
+		this.view &&  this.view.update( this.model );
+		this.title && this.title.update( this.model.title );
+	}
+	setTitle( title )
+	{
+		this.title = title;
+		this.title.update( this.model.title );
 	}
 	setView( view )
 	{
@@ -37,9 +58,12 @@ class DataController
 		this.view.update( this.model );
 		this.fetchData();
 	}
-	fetchData( filter = '' )
+	fetchData( state = 'Idaho', county = 'Ada' )
 	{
-		fetch( this.url + filter )
+		this.county = county;
+		var request = this.url + "/" + state + ".json";
+		console.log( request );
+		fetch( request )
 			.then( res => res.json() )
 			.then( res => this.setData( res ) );
 	}

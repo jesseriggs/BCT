@@ -19,6 +19,15 @@ input {
 	border: none;
 }
 
+select, select option {
+	width: 100%;
+	height: 36px;
+	font-size: 17px;
+	background: #021114;
+	border: none;
+	color: #26dafd;
+}
+
 #main-menu {
 	position: fixed;
 	margin-top: 5px;

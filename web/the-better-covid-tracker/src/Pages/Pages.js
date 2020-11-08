@@ -43,10 +43,11 @@ class PageController
 			"Home"  : new Page(
 				"Home",
 				"/Home",
-				( <HomePage datacontroller =
-					{ dataController } /> ),
+				( <HomePage
+					datacontroller = { dataController }
+				    /> ),
 				true,
-				false
+				true
 			),
 			"Start" : new Page(
 				"Start",

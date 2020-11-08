@@ -11,6 +11,7 @@ const dataController = new DataController(
 		axis  : { x : "x", y : "y" },
 		ticks : { x : [0], y : [1] },
 		url   : dataServer,
+		map   : {}
 	}
 );
 

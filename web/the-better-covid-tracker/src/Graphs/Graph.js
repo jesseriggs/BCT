@@ -11,12 +11,13 @@ class Graph extends Component
 		const model      = controller.model;
 		this.state =
 			{
-				axis : {
+				axis  : {
 					x : model.axis.x,
 					y : model.axis.y,
 				},
 				data  : model.data,
 				show  : false,
+				title : model.title
 			};
 	}
 	render()
@@ -49,7 +50,7 @@ class Graph extends Component
 				<VictoryAxis
 				    dependentAxis
 				    tickFormat = { ( x )=>(
-					    		`${ x / 1 }M` )}
+					    		`${ x / 1000 }K` )}
 				    label      = { this.state.axis.y }
 				    style      = {{
 		    			axisLabel  : { padding: 37 },
@@ -57,11 +58,19 @@ class Graph extends Component
 				    }}
 				/>
 				<VictoryLine
-					data  = { this.state.data }
-					x     = "quarter"
-					y     = "earnings"
+					data  = { this.state.data.confirmed }
+					x     = "day"
+					y     = "confirmed"
 					style = {{
 					    data : { stroke : colors[ 5 ]}
+					}}
+				/>
+				<VictoryLine
+					data  = { this.state.data.deaths }
+					x     = "day"
+					y     = "deaths"
+					style = {{
+					    data : { stroke : colors[ 7 ]}
 					}}
 				/>
 			</VictoryChart>
@@ -76,6 +85,7 @@ class Graph extends Component
 				y : model.axis.y,
 			},
 			data  : model.data,
+			title : model.title,
 		});
 	}
 	componentDidMount()

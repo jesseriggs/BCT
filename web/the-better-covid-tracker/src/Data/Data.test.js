@@ -11,11 +11,12 @@ test(
 	()=>{
 		const model      =
 			{
-				data  : [],
+				data  : { confirmed : [], deaths : [] },
 				title : "Title",
 				desc  : "Description",
 				axis  : { x : 'xaxis', y : 'yaxis' },
 				ticks : { x : 'xticks', y : 'yticks' },
+				map   : {}
 			};
 		const controller = new DataController( model );
 		expect( controller.model ).toEqual( model );

@@ -5,8 +5,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { ToolBar } from './ToolBar.js';
 
+const controller = {
+	getStates   : () => { return [] },
+	getCounties : () => { return [] }
+};
+
 it( "ToolBar renders without crashing", ()=>{
 	const div     = document.createElement( 'div' );
-	const toolbar = ( <ToolBar><div></div></ToolBar> );
+	const toolbar = ( <ToolBar controller = { controller } >
+				<div></div></ToolBar> );
 	ReactDOM.render( toolbar, div );
 });

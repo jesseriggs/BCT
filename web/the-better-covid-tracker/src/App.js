@@ -3,14 +3,16 @@ import { Template } from './Templates/Template.js';
 import { DataController } from './Data/Data.js';
 import { PageController } from './Pages/Pages.js';
 
-const dataServer     = "http://localhost:9000/data";
+const countyMap      = require( "./map.json" );
+const dataServer     = "http://localhost:3000/static/data";
 const dataController = new DataController(
 	{
 		title : "Title",
 		desc  : "",
-		axis  : { x : "x", y : "y" },
+		axis  : { x : "days", y : "people" },
 		ticks : { x : [0], y : [1] },
 		url   : dataServer,
+		map   : countyMap,
 	}
 );
 const pageController = new PageController( dataController );

@@ -38,15 +38,22 @@ function parseLine( input )
 async function parseFile( filename, deathfile )
 {
 	try{
-		const usa = {};
-		const rl  = readline.createInterface(
+		const map   = {};
+		const usa   = {};
+		var   ticks = [];
+		const rl    = readline.createInterface(
 			{
 				input     : fs.createReadStream( filename ),
 				crlfDelay : Infinity
 			});
 		rl.on( 'line',
 			( line ) => {
-				if( line.charAt( 0 ) === 'U' ) return;
+				if( line.charAt( 0 ) === 'U' ){
+					ticks = line.split( "," );
+					for( var i =0; i < 11; i++ )
+						ticks.shift();
+					return;
+				}
 				var data = parseLine( line );
 				!( usa[ data.state ] ) &&
 					( usa[ data.state ] =
@@ -87,6 +94,34 @@ async function parseFile( filename, deathfile )
 		Object.values( usa ).forEach( state => {
 			saveToJSON( state );
 		} );
+
+		Object.values( usa ).forEach( state => {
+			map[ state.name ] = {
+				name     : state.name,
+				counties : Object.keys( state.counties )
+			};
+		} );
+		fs.writeFile( "map.json", JSON.stringify( map ), 'utf8',
+			( err ) => {
+				if( err ){
+					console.error(
+						"error writting map.json" );
+					throw( err );
+				}
+				console.log( "    => map.json" );
+			}
+		);
+
+		fs.writeFile( "ticks.json", JSON.stringify( ticks ), 'utf8',
+			( err ) => {
+				if( err ){
+					console.error(
+						"error writting ticks.json" );
+					throw( err );
+				}
+				console.log( "    => ticks.json" );
+			}
+		);
 	} catch ( err ) {
 		console.error( err );
 	}

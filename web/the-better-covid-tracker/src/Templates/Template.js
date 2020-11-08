@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ToolBar } from '../ToolBars/ToolBar.js';
-import { Arwes, Frame, Heading, Link, SoundsProvider, ThemeProvider, Words, createTheme, withSounds, createSounds } from 'arwes';
+import { Arwes, Frame, Heading, Link, SoundsProvider, ThemeProvider, Words, createTheme, createSounds } from 'arwes';
 import { maxH } from '../globals.js';
 import '../styles/index.css';
 
@@ -36,6 +36,7 @@ class MainContainer extends Component
 				animate = { true }
 				corners = { 3 }
 				show    = { this.state.show }
+				sounds  = { createSounds( masterSounds ) }
 			    >
 				    <div style = {{
 					backgroundColor : "#02111488",
@@ -90,11 +91,12 @@ class DescriptionPane extends Component
 					overflowY      : "scroll",
 					scrollbarWidth : "none"
 				}}>
-					<Heading node='h3'>{ title }</Heading>
+					<Heading node='h4'>{ title }</Heading>
 					<p>
 					    <Words
 						animate = { true }
 						theme   = {{ animTime : 3000 }}
+						style   = {{ fontSize : "18px" }}
 						>
 						    { text }
 					    </Words>
@@ -145,6 +147,7 @@ class Template extends Component
 		super( props );
 		this.controller     = props.dataController;
 		this.pageController = props.pageController;
+		this.sounds         = createSounds( masterSounds );
 		this.state          = {
 			play : false,
 			page : props.children,
@@ -152,8 +155,12 @@ class Template extends Component
 	}
 	render()
 	{
-		const links = this.getLinks();
-		const page  = this.props.children;
+		const links      = this.getLinks();
+		const page       = this.props.children;
+		const controller = this.controller;
+		const showMenu   = this.props.showMenu;
+		const sounds     = this.sounds;
+
 		return(
 			<ThemeProvider theme = { theme }>
 			  <Arwes
@@ -161,17 +168,17 @@ class Template extends Component
 				animate
 				show
 			  >
+			   <SoundsProvider sounds = { sounds }>
 			    <div>
 				<ToolBar
 					theme        = { theme }
-					controller   = { this.controller }
+					controller   = { controller }
 					showInput    = { page.showInput }
-					showMenu     = { this.props.showMenu }
+					showMenu     = { showMenu }
 				   >
 				    <span style = {{
-					    marginLeft : "60px",
-					    bottom : "0",
-					    position : "absolute"
+					    bottom     : "0",
+					    position   : "absolute"
 				      }}>
 					{ links }
 				    </span>
@@ -185,18 +192,19 @@ class Template extends Component
 					height       : "30px"
 				    }}
 				>
-					{ this.state.page.pageName }
+					{ page.pageName }
 				</Heading>
 				<div
 				    id    = "content-area"
 				    style = {{ height : maxH }}
 				  >
-					{ this.state.page.content() }
+					{ page.content() }
 				</div>
 				<Footer>
 				    <span>Better Covid Tracker (C) 2020</span>
 				</Footer>
 			    </div>
+			   </SoundsProvider>
 			  </Arwes>
 			</ThemeProvider>
 		);
@@ -235,27 +243,40 @@ class Template extends Component
 	}
 }
 
-const masterSounds = {};
+const masterSounds = {
+	shared  : { volume : 1, },
+	players : {
+		click : {
+			sound : { src : [ 'static/sound/click.mp3' ] }
+		},
+		deploy : {
+			sound : { src : [ 'static/sound/deploy.mp3' ] }
+		},
+		error : {
+			sound : { src : [ 'static/sound/error.mp3' ] }
+		},
+		expand : {
+			sound : { src : [ 'static/sound/expand.mp3' ] }
+		},
+		fade : {
+			sound : { src : [ 'static/sound/fade.mp3' ] }
+		},
+		hover : {
+			sound : { src : [ 'static/sound/hover.mp3' ] }
+		},
+		logo : {
+			sound : { src : [ 'static/sound/logo.mp3' ] }
+		},
+		start : {
+			sound : { src : [ 'static/sound/logo.mp3' ] }
+		},
+		transmission : {
+			sound : { src : [ 'static/sound/transmission.mp3' ] }
+		},
+		typing : {
+			sound : { src : [ 'static/sound/typing.mp3' ] }
+		},
+	}
+};
 
-const SoundsTemplate = withSounds()( props =>
-(
-	<Template { ...props } >
-		{ props.children }
-	</Template>
-));
-
-const BetterTemplate = ( props ) =>
-{
-	return (
-		<SoundsProvider
-		    sounds = { createSounds( masterSounds ) }
-		    { ...props }
-		  >
-		    <SoundsTemplate>
-			{ props.children }
-		    </SoundsTemplate>
-		</SoundsProvider>
-	);
-}
-
-export { BetterTemplate, DescriptionPane, Footer, MainContainer, Template };
+export { DescriptionPane, Footer, MainContainer, Template, masterSounds };
