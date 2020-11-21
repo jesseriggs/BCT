@@ -311,10 +311,10 @@ class ToolBar extends Component
 			transition : [ "opacity" ],
 		};
 		return(
-		    <div>
+		    <div id = "bct-toolbar-wrapper" >
 			<div className = { "toolbar" }>
 			    <ThemeProvider theme = { theme }>
-				<Frame>
+				<Frame corners = { 3 } >
 					<div style = {{
 						float   : "left",
 						padding : showMenu

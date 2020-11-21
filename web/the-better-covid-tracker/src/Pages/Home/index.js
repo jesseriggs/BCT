@@ -10,11 +10,11 @@ class HomePage extends Component
 		super( props );
 		this.title = "graph";
 		this.text  = "Better Covid Tracker's graph displays cases ( in"
-			+ "cyan ) and deaths ( in magenta ), in thousands ( k "
-			+ ") of people, over the number of days that CoVid-19 "
-			+ "has been tracked in the US. Each graph shows data f"
-			+ "rom a specific county. State and county may be sele"
-			+ "cted from the dropdown menus above^.";
+			+ " cyan ) and deaths ( in magenta ), in thousands ( k"
+			+ " ) of people, over the number of days that CoVid-19"
+			+ " has been tracked in the US. Each graph shows data "
+			+ "from a specific county. State and county may be sel"
+			+ "ected from the dropdown menus above^.";
 		this.state = {
 			data : {
 				title : "none",
@@ -26,27 +26,26 @@ class HomePage extends Component
 	{
 		const datacontroller = this.props.datacontroller;
 		return(
-		    <div
-			 style={{
-			     display      : "flex",
-			     paddingLeft  : "5vw",
-			     paddingRight : "5vw",
-		      }}>
+		    <div style = {{ position : "absolute", width : "100%", height : "100%" }} >
+		      <div style = {{ position : "absolute", left : "0", width : "67%", height : "100%", paddingRight : "10px" }} >
 			<MainContainer>
-			  <div>
+			  <div style = {{ position : "absolute", width : "100%", height : "100%", paddingRight : "10px", maxWidth : "100%", maxHeight : "100%" }}>
 			    <Heading
 				data-layer='alert'
-				node = 'h5'
+				node = 'h4'
 			      >
 				<Title controller = { datacontroller } />
 			    </Heading>
 			    <Graph controller = { datacontroller } ></Graph>
 			  </div>
 			</MainContainer>
+		      </div>
+		      <div style = {{ position : "absolute", right : "0", width : "33%", height : "100%", paddingLeft : "10px" }} >
 			<DescriptionPane
 			    text  = { this.text }
 			    title = { this.title }
 			  />
+		      </div>
 		    </div>
 		);
 	}

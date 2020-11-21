@@ -31,7 +31,59 @@ class MainContainer extends Component
 
 		return(
 		    <ThemeProvider theme = { theme }>
-			<div className = { "main-container" }>
+			<div className = { "bct-main-container" }>
+			    <Frame
+				animate = { true }
+				className = "bct-full-size"
+				corners = { 3 }
+				show    = { this.state.show }
+				sounds  = { createSounds( masterSounds ) }
+				style   = {{ width : "100%", height : "100%", display : "grid", }}
+			      >
+				    <div style = {{
+					backgroundColor : "#02111488",
+					paddingLeft     : "20px",
+					paddingRight    : "20px",
+					paddingBottom   : "20px",
+					paddingTop      : "10px",
+					overflow        : "hidden",
+					scrollbarWidth  : "none",
+					height          : "100%",
+					width           : "100%",
+					position        : "absolute",
+				    }}>
+					    { typeof children === 'function' ?
+						     children() :
+						     children }
+				    </div>
+			    </Frame>
+			</div>
+		    </ThemeProvider>
+		);
+	}
+	componentDidMount()
+	{
+		if( !this.state.show )
+		    setTimeout( ()=>{
+			this.setState( { show : true } );
+		    }, 100);
+	}
+}
+
+class GeneralContainer extends Component
+{
+	constructor( props )
+	{
+		super( props );
+		this.state = { show : false };
+	}
+	render()
+	{
+		const children = this.props.children;
+
+		return(
+		    <ThemeProvider theme = { theme }>
+			<div className = { "bct-general-container" }>
 			    <Frame
 				animate = { true }
 				corners = { 3 }
@@ -40,7 +92,10 @@ class MainContainer extends Component
 			    >
 				    <div style = {{
 					backgroundColor : "#02111488",
-					padding         : "20px",
+					paddingLeft     : "20px",
+					paddingRight    : "20px",
+					paddingBottom   : "20px",
+					paddingTop      : "15px",
 					maxHeight       : maxH,
 					overflowY       : "scroll",
 					scrollbarWidth  : "none"
@@ -80,29 +135,45 @@ class DescriptionPane extends Component
 		return(
 		    <ThemeProvider theme = { theme }>
 			<div className = { "description-pane" }>
+			  <div style = {{
+			  	position : "absolute",
+				width : "100%",
+				height : "100%"
+			   }}>
 			    <Frame
-				animate = { true }
-				show    = { this.state.show }
-				corners = { 3 }
-			    >
-				<div style = {{
-					padding        : "20px",
-					maxHeight      : maxH,
-					overflowY      : "scroll",
-					scrollbarWidth : "none"
-				}}>
-					<Heading node='h4'>{ title }</Heading>
-					<p>
-					    <Words
-						animate = { true }
-						theme   = {{ animTime : 3000 }}
-						style   = {{ fontSize : "18px" }}
-						>
-						    { text }
-					    </Words>
-					</p>
-				</div>
+				animate   = { true }
+				show      = { this.state.show }
+				corners   = { 3 }
+				className = "bct-full-size"
+			      >
+				<div></div>
 			    </Frame>
+			    <div style = {{
+				paddingLeft     : "20px",
+				paddingRight    : "20px",
+				paddingBottom   : "20px",
+				paddingTop      : "15px",
+				maxHeight       : "100%",
+				overflowY       : "scroll",
+				scrollbarWidth  : "none",
+				position        : "absolute",
+				top             : "0",
+				left            : "0",
+				bottom          : "0",
+				backgroundColor : "#021117c5"
+			      }}>
+				<Heading node = 'h4'>{ title }</Heading>
+				<p>
+				    <Words
+					animate = { true }
+					theme   = {{ animTime : 3000 }}
+					style   = {{ fontSize : "18px" }}
+					>
+					    { text }
+				    </Words>
+				</p>
+			    </div>
+			  </div>
 			</div>
 		    </ThemeProvider>
 		);
@@ -126,11 +197,12 @@ class Footer extends Component
 			<ThemeProvider theme = { theme }>
 			    <div className = { "bct-footer" }>
 				<Frame
-				    style = {{
+				    corners = { 3 }
+				    hover   = { false }
+				    style   = {{
 					height  : "50px",
 					padding : "5px"
 				    }}
-				    hover = { false }
 				    >
 					{ children }
 				</Frame>
@@ -169,7 +241,7 @@ class Template extends Component
 				show
 			  >
 			   <SoundsProvider sounds = { sounds }>
-			    <div>
+			    <div id = "bct-template-wrapper">
 				<ToolBar
 					theme        = { theme }
 					controller   = { controller }
@@ -184,20 +256,17 @@ class Template extends Component
 				    </span>
 				</ToolBar>
 				<Heading
-				    node='h3'
+				    node='h4'
 				    style={{
-					marginTop    : "60px",
-					marginBottom : "0",
-					marginLeft   : "2vw",
-					height       : "30px"
+					marginTop    : "77px",
+					marginBottom : "-5px",
+					marginLeft   : "27px",
+					height       : "28px"
 				    }}
 				>
 					{ page.pageName }
 				</Heading>
-				<div
-				    id    = "content-area"
-				    style = {{ height : maxH }}
-				  >
+				<div id = "bct-content-area">
 					{ page.content() }
 				</div>
 				<Footer>
@@ -279,4 +348,4 @@ const masterSounds = {
 	}
 };
 
-export { DescriptionPane, Footer, MainContainer, Template, masterSounds };
+export { DescriptionPane, Footer, GeneralContainer, MainContainer, Template, masterSounds };

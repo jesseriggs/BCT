@@ -27,7 +27,13 @@ class Graph extends Component
 		    <div style = {{
 			    opacity    : op(),
 			    marginTop  : "-40px",
+			    marginLeft : "-10px",
 			    transition : "opacity 2s",
+			    position   : "relative",
+			    maxHeight  : "100%",
+			    maxWidth   : "100%",
+			    height     : "100%",
+			    paddingBottom : "10px",
 		      }}>
 			<VictoryChart
 			    appears       = { true }

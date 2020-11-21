@@ -16,7 +16,10 @@ class NotFoundPage extends Component
 		    <MainContainer animate show>
 			<div>
 			  <PlayError />
-			  <Heading>Page Not Found</Heading>
+			  <Heading
+			  	data-layer = "error"
+				node       = "h4"
+			    >Page Not Found</Heading>
 			  <Words animate show sounds = { false }>
 			    The robot overlords have denied your request.
 			  </Words>
