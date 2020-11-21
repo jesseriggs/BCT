@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { VictoryAxis, VictoryChart, VictoryLine } from 'victory';
 import material, { colors } from './material.js';
+import ticks from './ticks.json';
 
 class Graph extends Component
 {
 	constructor( props )
 	{
 		super( props );
+		this.ticks = ticks;
 		const controller = props.controller;
 		const model      = controller.model;
 		this.state =
@@ -17,7 +19,7 @@ class Graph extends Component
 				},
 				data  : model.data,
 				show  : false,
-				title : model.title
+				title : model.title,
 			};
 	}
 	render()
@@ -48,6 +50,8 @@ class Graph extends Component
 			>
 				<VictoryAxis
 				    label      = { this.state.axis.x }
+				    tickFormat = { (x)=>(
+				    	`${this.ticks[x]}` ) }
 				    style      = {{
 		    			axisLabel  : { padding : 20 },
 				 	tickLabels : { padding : 2 }
