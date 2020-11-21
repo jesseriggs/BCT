@@ -31,6 +31,7 @@ class MainContainer extends Component
 
 		return(
 		    <ThemeProvider theme = { theme }>
+		      <div id = "bct-main-container-wrapper">
 			<div className = { "bct-main-container" }>
 			    <Frame
 				animate = { true }
@@ -58,6 +59,7 @@ class MainContainer extends Component
 				    </div>
 			    </Frame>
 			</div>
+		      </div>
 		    </ThemeProvider>
 		);
 	}
@@ -134,7 +136,8 @@ class DescriptionPane extends Component
 				this.props.title;
 		return(
 		    <ThemeProvider theme = { theme }>
-			<div className = { "description-pane" }>
+		      <div id = "bct-description-pane-wrapper">
+			<div className = { "bct-description-pane" }>
 			  <div style = {{
 			  	position : "absolute",
 				width : "100%",
@@ -175,6 +178,7 @@ class DescriptionPane extends Component
 			    </div>
 			  </div>
 			</div>
+		      </div>
 		    </ThemeProvider>
 		);
 	}
@@ -237,6 +241,7 @@ class Template extends Component
 			<ThemeProvider theme = { theme }>
 			  <Arwes
 				classes = {{ pattern : "corona-pattern" }}
+				style   = {{ overflow : "hidden" }}
 				animate
 				show
 			  >

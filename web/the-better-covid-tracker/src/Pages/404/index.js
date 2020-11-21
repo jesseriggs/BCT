@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MainContainer } from '../../Templates/Template.js';
+import { GeneralContainer } from '../../Templates/Template.js';
 import { Heading, Words, withSounds } from 'arwes';
 
 const PlayError = withSounds()( props => (
@@ -13,7 +13,7 @@ class NotFoundPage extends Component
 	{
 		return(
 		  <div style = {{ marginLeft : "5vw" }} >
-		    <MainContainer animate show>
+		    <GeneralContainer animate show>
 			<div>
 			  <PlayError />
 			  <Heading
@@ -24,7 +24,7 @@ class NotFoundPage extends Component
 			    The robot overlords have denied your request.
 			  </Words>
 			</div>
-		    </MainContainer>
+		    </GeneralContainer>
 		  </div>
 		);
 	}

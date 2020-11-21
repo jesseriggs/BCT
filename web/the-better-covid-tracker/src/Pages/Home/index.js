@@ -26,10 +26,17 @@ class HomePage extends Component
 	{
 		const datacontroller = this.props.datacontroller;
 		return(
-		    <div style = {{ position : "absolute", width : "100%", height : "100%" }} >
-		      <div style = {{ position : "absolute", left : "0", width : "67%", height : "100%", paddingRight : "10px" }} >
+		    <div className = "bct-pages-splitter" >
+		      <div className = "bct-pages-lpane-wrap" >
 			<MainContainer>
-			  <div style = {{ position : "absolute", width : "100%", height : "100%", paddingRight : "10px", maxWidth : "100%", maxHeight : "100%" }}>
+			  <div style = {{
+				position     : "absolute",
+				width        : "100%",
+				height       : "100%",
+				paddingRight : "10px",
+				maxWidth     : "100%",
+				maxHeight    : "100%",
+			   }}>
 			    <Heading
 				data-layer='alert'
 				node = 'h4'
@@ -40,7 +47,7 @@ class HomePage extends Component
 			  </div>
 			</MainContainer>
 		      </div>
-		      <div style = {{ position : "absolute", right : "0", width : "33%", height : "100%", paddingLeft : "10px" }} >
+		      <div className = "bct-pages-rpane-wrap" >
 			<DescriptionPane
 			    text  = { this.text }
 			    title = { this.title }
