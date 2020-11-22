@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { ToolBar } from '../ToolBars/ToolBar.js';
+import { ToolBar } from '../ToolBars';
 import { Arwes, Frame, Heading, Link, SoundsProvider, ThemeProvider, Words, createTheme, createSounds } from 'arwes';
-import { maxH } from '../globals.js';
 import '../styles/index.css';
 
 /**
@@ -98,7 +97,7 @@ class GeneralContainer extends Component
 					paddingRight    : "20px",
 					paddingBottom   : "20px",
 					paddingTop      : "15px",
-					maxHeight       : maxH,
+					maxHeight       : "100%",
 					overflowY       : "scroll",
 					scrollbarWidth  : "none"
 				    }}>
