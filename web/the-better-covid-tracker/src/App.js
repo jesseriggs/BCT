@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Template } from './Templates/Template.js';
+import { Template } from './Templates';
 import { DataController } from './Data/Data.js';
 import { PageController } from './Pages/Pages.js';
 

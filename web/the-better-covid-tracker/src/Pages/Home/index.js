@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Heading, Words } from 'arwes';
 import { Graph } from '../../Graphs/Graph.js';
-import { DescriptionPane, MainContainer } from '../../Templates/Template.js'
+import { DescriptionPane, MainContainer } from '../../Templates';
 
 class HomePage extends Component
 {

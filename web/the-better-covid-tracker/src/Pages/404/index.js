@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GeneralContainer } from '../../Templates/Template.js';
+import { GeneralContainer } from '../../Templates';
 import { Heading, Words, withSounds } from 'arwes';
 
 const PlayError = withSounds()( props => (

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HomePage } from './index.js';
 import { DataController } from '../../Data/Data.js';
+import { ThemeProvider, createTheme } from 'arwes';
 
 const dataServer     = "http://localhost:9000/data";
 const dataController = new DataController(
@@ -15,7 +16,12 @@ const dataController = new DataController(
 	}
 );
 
+const theme = createTheme();
+
 it('Home page renders without crashing', ()=>{
 	const div = document.createElement('div');
-	ReactDOM.render(<HomePage datacontroller = { dataController } />, div);
+	ReactDOM.render(
+		<ThemeProvider theme = { theme }>
+			<HomePage datacontroller = { dataController } />
+		</ThemeProvider>, div);
 });
