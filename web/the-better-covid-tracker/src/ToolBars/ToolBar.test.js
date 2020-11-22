@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { ToolBar } from './ToolBar.js';
+import { ToolBar } from './';
 
 const controller = {
 	getStates   : () => { return [] },
