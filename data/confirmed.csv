@@ -1,0 +1,3341 @@
+fips,city,state,cum_total_confirmed_to_date
+84001001,Autauga,Alabama,2597
+84001003,Baldwin,Alabama,8131
+84001005,Barbour,Alabama,1157
+84001007,Bibb,Alabama,1036
+84001009,Blount,Alabama,2735
+84001011,Bullock,Alabama,688
+84001013,Butler,Alabama,1132
+84001015,Calhoun,Alabama,5924
+84001017,Chambers,Alabama,1669
+84001019,Cherokee,Alabama,979
+84001021,Chilton,Alabama,2144
+84001023,Choctaw,Alabama,416
+84001025,Clarke,Alabama,1547
+84001027,Clay,Alabama,883
+84001029,Cleburne,Alabama,740
+84001031,Coffee,Alabama,2281
+84001033,Colbert,Alabama,2923
+84001035,Conecuh,Alabama,668
+84001037,Coosa,Alabama,304
+84001039,Covington,Alabama,2116
+84001041,Crenshaw,Alabama,700
+84001043,Cullman,Alabama,4065
+84001045,Dale,Alabama,2242
+84001047,Dallas,Alabama,2188
+84001049,DeKalb,Alabama,4577
+84001051,Elmore,Alabama,3885
+84001053,Escambia,Alabama,1940
+84001055,Etowah,Alabama,5800
+84001057,Fayette,Alabama,818
+84001059,Franklin,Alabama,2420
+84001061,Geneva,Alabama,1155
+84001063,Greene,Alabama,396
+84001065,Hale,Alabama,910
+84001067,Henry,Alabama,836
+84001069,Houston,Alabama,4995
+84001071,Jackson,Alabama,2885
+84001073,Jefferson,Alabama,30027
+84001075,Lamar,Alabama,609
+84001077,Lauderdale,Alabama,3712
+84001079,Lawrence,Alabama,1201
+84001081,Lee,Alabama,7478
+84001083,Limestone,Alabama,3970
+84001085,Lowndes,Alabama,782
+84001087,Macon,Alabama,688
+84001089,Madison,Alabama,12092
+84001091,Marengo,Alabama,1161
+84001093,Marion,Alabama,1330
+84001095,Marshall,Alabama,5710
+84001097,Mobile,Alabama,19189
+84001099,Monroe,Alabama,765
+84001101,Montgomery,Alabama,11952
+84001103,Morgan,Alabama,6031
+84080001,Out of AL,Alabama,0
+84001105,Perry,Alabama,666
+84001107,Pickens,Alabama,1133
+84001109,Pike,Alabama,1531
+84001111,Randolph,Alabama,990
+84001113,Russell,Alabama,2158
+84001117,Shelby,Alabama,9629
+84001115,St. Clair,Alabama,3930
+84001119,Sumter,Alabama,552
+84001121,Talladega,Alabama,3318
+84001123,Tallapoosa,Alabama,1681
+84001125,Tuscaloosa,Alabama,12356
+84090001,Unassigned,Alabama,0
+84001127,Walker,Alabama,3458
+84001129,Washington,Alabama,896
+84001131,Wilcox,Alabama,621
+84001133,Winston,Alabama,1210
+84002013,Aleutians East,Alaska,21
+84002016,Aleutians West,Alaska,106
+84002020,Anchorage,Alaska,14396
+84002050,Bethel,Alaska,1127
+84002060,Bristol Bay,Alaska,0
+84002164,Bristol Bay plus Lake and Peninsula,Alaska,141
+84002068,Denali,Alaska,40
+84002070,Dillingham,Alaska,94
+84002090,Fairbanks North Star,Alaska,3136
+84002100,Haines,Alaska,16
+84002105,Hoonah-Angoon,Alaska,0
+84002110,Juneau,Alaska,785
+84002122,Kenai Peninsula,Alaska,2095
+84002130,Ketchikan Gateway,Alaska,185
+84002150,Kodiak Island,Alaska,215
+84002158,Kusilvak,Alaska,381
+84002170,Matanuska-Susitna,Alaska,2539
+84002180,Nome,Alaska,182
+84002185,North Slope,Alaska,405
+84002188,Northwest Arctic,Alaska,337
+84080002,Out of AK,Alaska,0
+84002195,Petersburg,Alaska,24
+84002198,Prince of Wales-Hyder,Alaska,46
+84002220,Sitka,Alaska,153
+84002230,Skagway,Alaska,9
+84002240,Southeast Fairbanks,Alaska,221
+84090002,Unassigned,Alaska,122
+84002261,Valdez-Cordova,Alaska,234
+84002275,Wrangell,Alaska,20
+84002282,Yakutat,Alaska,44
+84002290,Yukon-Koyukuk,Alaska,150
+16,,American Samoa,0
+84004001,Apache,Arizona,4886
+84004003,Cochise,Arizona,3079
+84004005,Coconino,Arizona,6865
+84004007,Gila,Arizona,2612
+84004009,Graham,Arizona,1873
+84004011,Greenlee,Arizona,171
+84004012,La Paz,Arizona,744
+84004013,Maricopa,Arizona,187636
+84004015,Mohave,Arizona,5593
+84004017,Navajo,Arizona,7537
+84080004,Out of AZ,Arizona,0
+84004019,Pima,Arizona,35237
+84004021,Pinal,Arizona,15009
+84004023,Santa Cruz,Arizona,3524
+84090004,Unassigned,Arizona,0
+84004025,Yavapai,Arizona,4261
+84004027,Yuma,Arizona,16307
+84005001,Arkansas,Arkansas,900
+84005003,Ashley,Arkansas,729
+84005005,Baxter,Arkansas,1241
+84005007,Benton,Arkansas,11018
+84005009,Boone,Arkansas,1556
+84005011,Bradley,Arkansas,426
+84005013,Calhoun,Arkansas,127
+84005015,Carroll,Arkansas,1283
+84005017,Chicot,Arkansas,1127
+84005019,Clark,Arkansas,742
+84005021,Clay,Arkansas,761
+84005023,Cleburne,Arkansas,644
+84005025,Cleveland,Arkansas,328
+84005027,Columbia,Arkansas,979
+84005029,Conway,Arkansas,599
+84005031,Craighead,Arkansas,6498
+84005033,Crawford,Arkansas,2860
+84005035,Crittenden,Arkansas,3076
+84005037,Cross,Arkansas,752
+84005039,Dallas,Arkansas,263
+84005041,Desha,Arkansas,513
+84005043,Drew,Arkansas,572
+84005045,Faulkner,Arkansas,4387
+84005047,Franklin,Arkansas,709
+84005049,Fulton,Arkansas,496
+84005051,Garland,Arkansas,3456
+84005053,Grant,Arkansas,534
+84005055,Greene,Arkansas,2528
+84005057,Hempstead,Arkansas,798
+84005059,Hot Spring,Arkansas,2755
+84005061,Howard,Arkansas,768
+84005063,Independence,Arkansas,1942
+84005065,Izard,Arkansas,942
+84005067,Jackson,Arkansas,1497
+84005069,Jefferson,Arkansas,4972
+84005071,Johnson,Arkansas,1198
+84005073,Lafayette,Arkansas,251
+84005075,Lawrence,Arkansas,1080
+84005077,Lee,Arkansas,1155
+84005079,Lincoln,Arkansas,2387
+84005081,Little River,Arkansas,605
+84005083,Logan,Arkansas,830
+84005085,Lonoke,Arkansas,2462
+84005087,Madison,Arkansas,558
+84005089,Marion,Arkansas,377
+84005091,Miller,Arkansas,2034
+84005093,Mississippi,Arkansas,2978
+84005095,Monroe,Arkansas,286
+84005097,Montgomery,Arkansas,240
+84005099,Nevada,Arkansas,424
+84005101,Newton,Arkansas,401
+84005103,Ouachita,Arkansas,592
+84080005,Out of AR,Arkansas,0
+84005105,Perry,Arkansas,224
+84005107,Phillips,Arkansas,881
+84005109,Pike,Arkansas,349
+84005111,Poinsett,Arkansas,1574
+84005113,Polk,Arkansas,688
+84005115,Pope,Arkansas,3449
+84005117,Prairie,Arkansas,337
+84005119,Pulaski,Arkansas,15420
+84005121,Randolph,Arkansas,916
+84005125,Saline,Arkansas,4256
+84005127,Scott,Arkansas,327
+84005129,Searcy,Arkansas,270
+84005131,Sebastian,Arkansas,6555
+84005133,Sevier,Arkansas,1641
+84005135,Sharp,Arkansas,617
+84005123,St. Francis,Arkansas,1968
+84005137,Stone,Arkansas,440
+84090005,Unassigned,Arkansas,2603
+84005139,Union,Arkansas,1436
+84005141,Van Buren,Arkansas,320
+84005143,Washington,Arkansas,14406
+84005145,White,Arkansas,2752
+84005147,Woodruff,Arkansas,182
+84005149,Yell,Arkansas,1574
+84006001,Alameda,California,27435
+84006003,Alpine,California,42
+84006005,Amador,California,446
+84006007,Butte,California,3624
+84006009,Calaveras,California,424
+84006011,Colusa,California,639
+84006013,Contra Costa,California,22191
+84006015,Del Norte,California,273
+84006017,El Dorado,California,1930
+84006019,Fresno,California,35635
+84006021,Glenn,California,829
+84006023,Humboldt,California,730
+84006025,Imperial,California,14864
+84006027,Inyo,California,274
+84006029,Kern,California,37982
+84006031,Kings,California,9922
+84006033,Lake,California,823
+84006035,Lassen,California,1355
+84006037,Los Angeles,California,361869
+84006039,Madera,California,5714
+84006041,Marin,California,7506
+84006043,Mariposa,California,101
+84006045,Mendocino,California,1385
+84006047,Merced,California,10986
+84006049,Modoc,California,111
+84006051,Mono,California,499
+84006053,Monterey,California,13738
+84006055,Napa,California,2718
+84006057,Nevada,California,1015
+84006059,Orange,California,69142
+84080006,Out of CA,California,0
+84006061,Placer,California,5687
+84006063,Plumas,California,173
+84006065,Riverside,California,79613
+84006067,Sacramento,California,32865
+84006069,San Benito,California,1711
+84006071,San Bernardino,California,84201
+84006073,San Diego,California,70709
+84006075,San Francisco,California,14327
+84006077,San Joaquin,California,24649
+84006079,San Luis Obispo,California,5607
+84006081,San Mateo,California,13203
+84006083,Santa Barbara,California,10839
+84006085,Santa Clara,California,30411
+84006087,Santa Cruz,California,3819
+84006089,Shasta,California,3897
+84006091,Sierra,California,17
+84006093,Siskiyou,California,495
+84006095,Solano,California,9349
+84006097,Sonoma,California,11363
+84006099,Stanislaus,California,20144
+84006101,Sutter,California,2638
+84006103,Tehama,California,1410
+84006105,Trinity,California,113
+84006107,Tulare,California,19673
+84006109,Tuolumne,California,708
+84090006,Unassigned,California,0
+84006111,Ventura,California,17741
+84006113,Yolo,California,4139
+84006115,Yuba,California,1732
+84008001,Adams,Colorado,25696
+84008003,Alamosa,Colorado,510
+84008005,Arapahoe,Colorado,23394
+84008007,Archuleta,Colorado,139
+84008009,Baca,Colorado,51
+84008011,Bent,Colorado,64
+84008013,Boulder,Colorado,9731
+84008014,Broomfield,Colorado,1773
+84008015,Chaffee,Colorado,566
+84008017,Cheyenne,Colorado,49
+84008019,Clear Creek,Colorado,165
+84008021,Conejos,Colorado,145
+84008023,Costilla,Colorado,68
+84008025,Crowley,Colorado,991
+84008027,Custer,Colorado,55
+84008029,Delta,Colorado,440
+84008031,Denver,Colorado,32087
+84008033,Dolores,Colorado,9
+84008035,Douglas,Colorado,8750
+84008037,Eagle,Colorado,2028
+84008041,El Paso,Colorado,22039
+84008039,Elbert,Colorado,503
+84008043,Fremont,Colorado,2084
+84008045,Garfield,Colorado,1851
+84008047,Gilpin,Colorado,76
+84008049,Grand,Colorado,266
+84008051,Gunnison,Colorado,438
+84008053,Hinsdale,Colorado,6
+84008055,Huerfano,Colorado,116
+84008057,Jackson,Colorado,14
+84008059,Jefferson,Colorado,17333
+84008061,Kiowa,Colorado,20
+84008063,Kit Carson,Colorado,250
+84008067,La Plata,Colorado,791
+84008065,Lake,Colorado,230
+84008069,Larimer,Colorado,8451
+84008071,Las Animas,Colorado,155
+84008073,Lincoln,Colorado,116
+84008075,Logan,Colorado,1984
+84008077,Mesa,Colorado,4708
+84008079,Mineral,Colorado,24
+84008081,Moffat,Colorado,210
+84008083,Montezuma,Colorado,561
+84008085,Montrose,Colorado,770
+84008087,Morgan,Colorado,1418
+84008089,Otero,Colorado,402
+84008091,Ouray,Colorado,107
+84080008,Out of CO,Colorado,0
+84008093,Park,Colorado,199
+84008095,Phillips,Colorado,158
+84008097,Pitkin,Colorado,421
+84008099,Prowers,Colorado,450
+84008101,Pueblo,Colorado,6450
+84008103,Rio Blanco,Colorado,96
+84008105,Rio Grande,Colorado,200
+84008107,Routt,Colorado,516
+84008109,Saguache,Colorado,198
+84008111,San Juan,Colorado,19
+84008113,San Miguel,Colorado,180
+84008115,Sedgwick,Colorado,96
+84008117,Summit,Colorado,1287
+84008119,Teller,Colorado,513
+84090008,Unassigned,Colorado,26
+84008121,Washington,Colorado,185
+84008123,Weld,Colorado,11761
+84008125,Yuma,Colorado,290
+84009001,Fairfield,Connecticut,33648
+84009003,Hartford,Connecticut,25182
+84009005,Litchfield,Connecticut,3602
+84009007,Middlesex,Connecticut,3145
+84009009,New Haven,Connecticut,25248
+84009011,New London,Connecticut,5352
+84080009,Out of CT,Connecticut,0
+84009013,Tolland,Connecticut,2665
+84090009,Unassigned,Connecticut,466
+84009015,Windham,Connecticut,2161
+84010001,Kent,Delaware,4375
+84010003,New Castle,Delaware,17262
+84080010,Out of DE,Delaware,0
+84010005,Sussex,Delaware,9585
+84090010,Unassigned,Delaware,99
+84088888,,Diamond Princess,49
+84011001,District of Columbia,District of Columbia,19961
+84080011,Out of DC,District of Columbia,0
+84090011,Unassigned,District of Columbia,0
+84012001,Alachua,Florida,12272
+84012003,Baker,Florida,1953
+84012005,Bay,Florida,8087
+84012007,Bradford,Florida,1368
+84012009,Brevard,Florida,14464
+84012011,Broward,Florida,100288
+84012013,Calhoun,Florida,830
+84012015,Charlotte,Florida,4624
+84012017,Citrus,Florida,4266
+84012019,Clay,Florida,7356
+84012021,Collier,Florida,16749
+84012023,Columbia,Florida,4603
+84012027,DeSoto,Florida,2189
+84012029,Dixie,Florida,952
+84012031,Duval,Florida,40369
+84012033,Escambia,Florida,15873
+84012035,Flagler,Florida,2531
+84012037,Franklin,Florida,823
+84012039,Gadsden,Florida,3211
+84012041,Gilchrist,Florida,723
+84012043,Glades,Florida,652
+84012045,Gulf,Florida,1042
+84012047,Hamilton,Florida,956
+84012049,Hardee,Florida,1728
+84012051,Hendry,Florida,2424
+84012053,Hernando,Florida,4560
+84012055,Highlands,Florida,3479
+84012057,Hillsborough,Florida,55257
+84012059,Holmes,Florida,1099
+84012061,Indian River,Florida,4716
+84012063,Jackson,Florida,3698
+84012065,Jefferson,Florida,736
+84012067,Lafayette,Florida,1301
+84012069,Lake,Florida,10012
+84012071,Lee,Florida,27891
+84012073,Leon,Florida,14188
+84012075,Levy,Florida,1329
+84012077,Liberty,Florida,564
+84012079,Madison,Florida,1221
+84012081,Manatee,Florida,15614
+84012083,Marion,Florida,12341
+84012085,Martin,Florida,5926
+84012086,Miami-Dade,Florida,213197
+84012087,Monroe,Florida,3093
+84012089,Nassau,Florida,2905
+84012091,Okaloosa,Florida,8275
+84012093,Okeechobee,Florida,1966
+84012095,Orange,Florida,54341
+84012097,Osceola,Florida,16989
+84080012,Out of FL,Florida,0
+84012099,Palm Beach,Florida,61305
+84012101,Pasco,Florida,13532
+84012103,Pinellas,Florida,30611
+84012105,Polk,Florida,26253
+84012107,Putnam,Florida,2637
+84012113,Santa Rosa,Florida,6961
+84012115,Sarasota,Florida,12319
+84012117,Seminole,Florida,12075
+84012109,St. Johns,Florida,7952
+84012111,St. Lucie,Florida,10202
+84012119,Sumter,Florida,3279
+84012121,Suwannee,Florida,3203
+84012123,Taylor,Florida,1611
+84090012,Unassigned,Florida,2232
+84012125,Union,Florida,1208
+84012127,Volusia,Florida,14952
+84012129,Wakulla,Florida,1549
+84012131,Walton,Florida,3465
+84012133,Washington,Florida,1450
+84013001,Appling,Georgia,1315
+84013003,Atkinson,Georgia,576
+84013005,Bacon,Georgia,746
+84013007,Baker,Georgia,121
+84013009,Baldwin,Georgia,2595
+84013011,Banks,Georgia,720
+84013013,Barrow,Georgia,3271
+84013015,Bartow,Georgia,4872
+84013017,Ben Hill,Georgia,983
+84013019,Berrien,Georgia,674
+84013021,Bibb,Georgia,7392
+84013023,Bleckley,Georgia,701
+84013025,Brantley,Georgia,760
+84013027,Brooks,Georgia,633
+84013029,Bryan,Georgia,1455
+84013031,Bulloch,Georgia,3683
+84013033,Burke,Georgia,1196
+84013035,Butts,Georgia,1025
+84013037,Calhoun,Georgia,293
+84013039,Camden,Georgia,1741
+84013043,Candler,Georgia,613
+84013045,Carroll,Georgia,5259
+84013047,Catoosa,Georgia,1909
+84013049,Charlton,Georgia,778
+84013051,Chatham,Georgia,10542
+84013053,Chattahoochee,Georgia,1944
+84013055,Chattooga,Georgia,1189
+84013057,Cherokee,Georgia,9895
+84013059,Clarke,Georgia,7687
+84013061,Clay,Georgia,148
+84013063,Clayton,Georgia,10085
+84013065,Clinch,Georgia,531
+84013067,Cobb,Georgia,28464
+84013069,Coffee,Georgia,2830
+84013071,Colquitt,Georgia,2583
+84013073,Columbia,Georgia,6119
+84013075,Cook,Georgia,833
+84013077,Coweta,Georgia,4936
+84013079,Crawford,Georgia,244
+84013081,Crisp,Georgia,902
+84013083,Dade,Georgia,483
+84013085,Dawson,Georgia,1088
+84013089,DeKalb,Georgia,26296
+84013087,Decatur,Georgia,1561
+84013091,Dodge,Georgia,1053
+84013093,Dooly,Georgia,476
+84013095,Dougherty,Georgia,3649
+84013097,Douglas,Georgia,5388
+84013099,Early,Georgia,670
+84013101,Echols,Georgia,270
+84013103,Effingham,Georgia,2135
+84013105,Elbert,Georgia,1115
+84013107,Emanuel,Georgia,1409
+84013109,Evans,Georgia,546
+84013111,Fannin,Georgia,981
+84013113,Fayette,Georgia,3001
+84013115,Floyd,Georgia,5244
+84013117,Forsyth,Georgia,6392
+84013119,Franklin,Georgia,1170
+84013121,Fulton,Georgia,38578
+84013123,Gilmer,Georgia,1224
+84013125,Glascock,Georgia,80
+84013127,Glynn,Georgia,4179
+84013129,Gordon,Georgia,3281
+84013131,Grady,Georgia,980
+84013133,Greene,Georgia,707
+84013135,Gwinnett,Georgia,37766
+84013137,Habersham,Georgia,2183
+84013139,Hall,Georgia,12152
+84013141,Hancock,Georgia,467
+84013143,Haralson,Georgia,1248
+84013145,Harris,Georgia,999
+84013147,Hart,Georgia,773
+84013149,Heard,Georgia,352
+84013151,Henry,Georgia,8224
+84013153,Houston,Georgia,4603
+84013155,Irwin,Georgia,424
+84013157,Jackson,Georgia,3177
+84013159,Jasper,Georgia,440
+84013161,Jeff Davis,Georgia,945
+84013163,Jefferson,Georgia,978
+84013165,Jenkins,Georgia,497
+84013167,Johnson,Georgia,522
+84013169,Jones,Georgia,766
+84013171,Lamar,Georgia,655
+84013173,Lanier,Georgia,387
+84013175,Laurens,Georgia,2532
+84013177,Lee,Georgia,912
+84013179,Liberty,Georgia,1506
+84013181,Lincoln,Georgia,306
+84013183,Long,Georgia,322
+84013185,Lowndes,Georgia,6050
+84013187,Lumpkin,Georgia,1239
+84013193,Macon,Georgia,324
+84013195,Madison,Georgia,1074
+84013197,Marion,Georgia,241
+84013189,McDuffie,Georgia,912
+84013191,McIntosh,Georgia,366
+84013199,Meriwether,Georgia,765
+84013201,Miller,Georgia,402
+84013205,Mitchell,Georgia,955
+84013207,Monroe,Georgia,1001
+84013209,Montgomery,Georgia,418
+84013211,Morgan,Georgia,788
+84013213,Murray,Georgia,1617
+84013215,Muscogee,Georgia,7103
+84013217,Newton,Georgia,3667
+84013219,Oconee,Georgia,1315
+84013221,Oglethorpe,Georgia,528
+84080013,Out of GA,Georgia,17164
+84013223,Paulding,Georgia,4784
+84013225,Peach,Georgia,1015
+84013227,Pickens,Georgia,1060
+84013229,Pierce,Georgia,1188
+84013231,Pike,Georgia,769
+84013233,Polk,Georgia,2295
+84013235,Pulaski,Georgia,437
+84013237,Putnam,Georgia,963
+84013239,Quitman,Georgia,77
+84013241,Rabun,Georgia,540
+84013243,Randolph,Georgia,365
+84013245,Richmond,Georgia,9813
+84013247,Rockdale,Georgia,2613
+84013249,Schley,Georgia,157
+84013251,Screven,Georgia,496
+84013253,Seminole,Georgia,517
+84013255,Spalding,Georgia,2270
+84013257,Stephens,Georgia,1440
+84013259,Stewart,Georgia,623
+84013261,Sumter,Georgia,1196
+84013263,Talbot,Georgia,225
+84013265,Taliaferro,Georgia,37
+84013267,Tattnall,Georgia,1117
+84013269,Taylor,Georgia,337
+84013271,Telfair,Georgia,644
+84013273,Terrell,Georgia,391
+84013275,Thomas,Georgia,1878
+84013277,Tift,Georgia,2368
+84013279,Toombs,Georgia,1672
+84013281,Towns,Georgia,544
+84013283,Treutlen,Georgia,380
+84013285,Troup,Georgia,3836
+84013287,Turner,Georgia,427
+84013289,Twiggs,Georgia,251
+84090013,Unassigned,Georgia,2441
+84013291,Union,Georgia,1039
+84013293,Upson,Georgia,1462
+84013295,Walker,Georgia,2491
+84013297,Walton,Georgia,3088
+84013299,Ware,Georgia,2567
+84013301,Warren,Georgia,212
+84013303,Washington,Georgia,1062
+84013305,Wayne,Georgia,1551
+84013307,Webster,Georgia,62
+84013309,Wheeler,Georgia,420
+84013311,White,Georgia,1236
+84013313,Whitfield,Georgia,7275
+84013315,Wilcox,Georgia,357
+84013317,Wilkes,Georgia,421
+84013319,Wilkinson,Georgia,425
+84013321,Worth,Georgia,706
+84099999,,Grand Princess,103
+316,,Guam,6452
+84015001,Hawaii,Hawaii,1538
+84015003,Honolulu,Hawaii,14798
+84015005,Kalawao,Hawaii,0
+84015007,Kauai,Hawaii,92
+84015009,Maui,Hawaii,754
+84080015,Out of HI,Hawaii,179
+84090015,Unassigned,Hawaii,0
+84016001,Ada,Idaho,23344
+84016003,Adams,Idaho,88
+84016005,Bannock,Idaho,3875
+84016007,Bear Lake,Idaho,166
+84016009,Benewah,Idaho,256
+84016011,Bingham,Idaho,2439
+84016013,Blaine,Idaho,1196
+84016015,Boise,Idaho,125
+84016017,Bonner,Idaho,843
+84016019,Bonneville,Idaho,6643
+84016021,Boundary,Idaho,328
+84016023,Butte,Idaho,117
+84016025,Camas,Idaho,52
+84016027,Canyon,Idaho,13672
+84016029,Caribou,Idaho,412
+84016031,Cassia,Idaho,1997
+84016033,Clark,Idaho,48
+84016035,Clearwater,Idaho,360
+84016037,Custer,Idaho,131
+84016039,Elmore,Idaho,810
+84016041,Franklin,Idaho,591
+84016043,Fremont,Idaho,644
+84016045,Gem,Idaho,738
+84016047,Gooding,Idaho,895
+84016049,Idaho,Idaho,662
+84016051,Jefferson,Idaho,1378
+84016053,Jerome,Idaho,1765
+84016055,Kootenai,Idaho,6645
+84016057,Latah,Idaho,1571
+84016059,Lemhi,Idaho,411
+84016061,Lewis,Idaho,175
+84016063,Lincoln,Idaho,335
+84016065,Madison,Idaho,3706
+84016067,Minidoka,Idaho,1645
+84016069,Nez Perce,Idaho,1995
+84016071,Oneida,Idaho,119
+84080016,Out of ID,Idaho,0
+84016073,Owyhee,Idaho,566
+84016075,Payette,Idaho,1467
+84016077,Power,Idaho,436
+84016079,Shoshone,Idaho,458
+84016081,Teton,Idaho,478
+84016083,Twin Falls,Idaho,6368
+84090016,Unassigned,Idaho,1
+84016085,Valley,Idaho,214
+84016087,Washington,Idaho,669
+84017001,Adams,Illinois,4294
+84017003,Alexander,Illinois,241
+84017005,Bond,Illinois,907
+84017007,Boone,Illinois,3471
+84017009,Brown,Illinois,273
+84017011,Bureau,Illinois,1903
+84017013,Calhoun,Illinois,212
+84017015,Carroll,Illinois,966
+84017017,Cass,Illinois,868
+84017019,Champaign,Illinois,9974
+84017021,Christian,Illinois,1719
+84017023,Clark,Illinois,699
+84017025,Clay,Illinois,715
+84017027,Clinton,Illinois,2910
+84017029,Coles,Illinois,3046
+84017031,Cook,Illinois,277026
+84017033,Crawford,Illinois,1001
+84017035,Cumberland,Illinois,555
+84017039,De Witt,Illinois,564
+84017037,DeKalb,Illinois,4497
+84017041,Douglas,Illinois,1231
+84017043,DuPage,Illinois,40314
+84017045,Edgar,Illinois,679
+84017047,Edwards,Illinois,197
+84017049,Effingham,Illinois,2386
+84017051,Fayette,Illinois,1386
+84017053,Ford,Illinois,643
+84017055,Franklin,Illinois,1816
+84017057,Fulton,Illinois,1213
+84017059,Gallatin,Illinois,175
+84017061,Greene,Illinois,731
+84017063,Grundy,Illinois,2387
+84017065,Hamilton,Illinois,351
+84017067,Hancock,Illinois,868
+84017069,Hardin,Illinois,116
+84017071,Henderson,Illinois,248
+84017073,Henry,Illinois,2264
+84017075,Iroquois,Illinois,1465
+84017077,Jackson,Illinois,2413
+84017079,Jasper,Illinois,571
+84017081,Jefferson,Illinois,1619
+84017083,Jersey,Illinois,1078
+84017085,Jo Daviess,Illinois,958
+84017087,Johnson,Illinois,647
+84017089,Kane,Illinois,28832
+84017091,Kankakee,Illinois,7536
+84017093,Kendall,Illinois,5566
+84017095,Knox,Illinois,2481
+84017099,LaSalle,Illinois,5450
+84017097,Lake,Illinois,33841
+84017101,Lawrence,Illinois,821
+84017103,Lee,Illinois,1645
+84017105,Livingston,Illinois,1978
+84017107,Logan,Illinois,1398
+84017115,Macon,Illinois,5863
+84017117,Macoupin,Illinois,1874
+84017119,Madison,Illinois,12653
+84017121,Marion,Illinois,2172
+84017123,Marshall,Illinois,331
+84017125,Mason,Illinois,612
+84017127,Massac,Illinois,443
+84017109,McDonough,Illinois,1460
+84017111,McHenry,Illinois,12789
+84017113,McLean,Illinois,7526
+84017129,Menard,Illinois,396
+84017131,Mercer,Illinois,658
+84017133,Monroe,Illinois,1748
+84017135,Montgomery,Illinois,1030
+84017137,Morgan,Illinois,1922
+84017139,Moultrie,Illinois,801
+84017141,Ogle,Illinois,2529
+84080017,Out of IL,Illinois,9
+84017143,Peoria,Illinois,7968
+84017145,Perry,Illinois,898
+84017147,Piatt,Illinois,695
+84017149,Pike,Illinois,919
+84017151,Pope,Illinois,71
+84017153,Pulaski,Illinois,370
+84017155,Putnam,Illinois,220
+84017157,Randolph,Illinois,1992
+84017159,Richland,Illinois,626
+84017161,Rock Island,Illinois,7794
+84017165,Saline,Illinois,1013
+84017167,Sangamon,Illinois,8908
+84017169,Schuyler,Illinois,227
+84017171,Scott,Illinois,211
+84017173,Shelby,Illinois,1177
+84017163,St. Clair,Illinois,11679
+84017175,Stark,Illinois,193
+84017177,Stephenson,Illinois,2234
+84017179,Tazewell,Illinois,5695
+84090017,Unassigned,Illinois,293
+84017181,Union,Illinois,1094
+84017183,Vermilion,Illinois,3335
+84017185,Wabash,Illinois,452
+84017187,Warren,Illinois,937
+84017189,Washington,Illinois,569
+84017191,Wayne,Illinois,800
+84017193,White,Illinois,511
+84017195,Whiteside,Illinois,3369
+84017197,Will,Illinois,34338
+84017199,Williamson,Illinois,3176
+84017201,Winnebago,Illinois,17073
+84017203,Woodford,Illinois,1488
+84018001,Adams,Indiana,1574
+84018003,Allen,Indiana,16650
+84018005,Bartholomew,Indiana,2889
+84018007,Benton,Indiana,302
+84018009,Blackford,Indiana,482
+84018011,Boone,Indiana,2271
+84018013,Brown,Indiana,308
+84018015,Carroll,Indiana,637
+84018017,Cass,Indiana,2889
+84018019,Clark,Indiana,4793
+84018021,Clay,Indiana,1073
+84018023,Clinton,Indiana,1675
+84018025,Crawford,Indiana,266
+84018027,Daviess,Indiana,1411
+84018033,DeKalb,Indiana,1648
+84018029,Dearborn,Indiana,1999
+84018031,Decatur,Indiana,1186
+84018035,Delaware,Indiana,4653
+84018037,Dubois,Indiana,2258
+84018039,Elkhart,Indiana,16074
+84018041,Fayette,Indiana,1393
+84018043,Floyd,Indiana,2948
+84018045,Fountain,Indiana,717
+84018047,Franklin,Indiana,617
+84018049,Fulton,Indiana,775
+84018051,Gibson,Indiana,1690
+84018053,Grant,Indiana,2467
+84018055,Greene,Indiana,944
+84018057,Hamilton,Indiana,11889
+84018059,Hancock,Indiana,2349
+84018061,Harrison,Indiana,1307
+84018063,Hendricks,Indiana,5539
+84018065,Henry,Indiana,2300
+84018067,Howard,Indiana,3115
+84018069,Huntington,Indiana,1097
+84018071,Jackson,Indiana,1953
+84018073,Jasper,Indiana,1337
+84018075,Jay,Indiana,919
+84018077,Jefferson,Indiana,1082
+84018079,Jennings,Indiana,775
+84018081,Johnson,Indiana,5814
+84018083,Knox,Indiana,1646
+84018085,Kosciusko,Indiana,4250
+84018087,LaGrange,Indiana,1338
+84018091,LaPorte,Indiana,4301
+84018089,Lake,Indiana,25519
+84018093,Lawrence,Indiana,1672
+84018095,Madison,Indiana,4487
+84018097,Marion,Indiana,39860
+84018099,Marshall,Indiana,2796
+84018101,Martin,Indiana,335
+84018103,Miami,Indiana,1472
+84018105,Monroe,Indiana,5115
+84018107,Montgomery,Indiana,1257
+84018109,Morgan,Indiana,1908
+84018111,Newton,Indiana,527
+84018113,Noble,Indiana,2379
+84018115,Ohio,Indiana,221
+84018117,Orange,Indiana,635
+84080018,Out of IN,Indiana,0
+84018119,Owen,Indiana,549
+84018121,Parke,Indiana,512
+84018123,Perry,Indiana,798
+84018125,Pike,Indiana,489
+84018127,Porter,Indiana,7577
+84018129,Posey,Indiana,1152
+84018131,Pulaski,Indiana,359
+84018133,Putnam,Indiana,1123
+84018135,Randolph,Indiana,1126
+84018137,Ripley,Indiana,1171
+84018139,Rush,Indiana,492
+84018143,Scott,Indiana,968
+84018145,Shelby,Indiana,1663
+84018147,Spencer,Indiana,782
+84018141,St. Joseph,Indiana,15868
+84018149,Starke,Indiana,866
+84018151,Steuben,Indiana,1356
+84018153,Sullivan,Indiana,812
+84018155,Switzerland,Indiana,242
+84018157,Tippecanoe,Indiana,7865
+84018159,Tipton,Indiana,519
+84090018,Unassigned,Indiana,0
+84018161,Union,Indiana,251
+84018163,Vanderburgh,Indiana,9091
+84018165,Vermillion,Indiana,554
+84018167,Vigo,Indiana,5512
+84018169,Wabash,Indiana,1414
+84018171,Warren,Indiana,224
+84018173,Warrick,Indiana,3044
+84018175,Washington,Indiana,675
+84018177,Wayne,Indiana,2851
+84018179,Wells,Indiana,1129
+84018181,White,Indiana,1125
+84018183,Whitley,Indiana,1241
+84019001,Adair,Iowa,405
+84019003,Adams,Iowa,151
+84019005,Allamakee,Iowa,695
+84019007,Appanoose,Iowa,710
+84019009,Audubon,Iowa,279
+84019011,Benton,Iowa,1545
+84019013,Black Hawk,Iowa,10145
+84019015,Boone,Iowa,1252
+84019017,Bremer,Iowa,1740
+84019019,Buchanan,Iowa,1064
+84019021,Buena Vista,Iowa,2888
+84019023,Butler,Iowa,882
+84019025,Calhoun,Iowa,977
+84019027,Carroll,Iowa,1863
+84019029,Cass,Iowa,730
+84019031,Cedar,Iowa,976
+84019033,Cerro Gordo,Iowa,3195
+84019035,Cherokee,Iowa,732
+84019037,Chickasaw,Iowa,767
+84019039,Clarke,Iowa,454
+84019041,Clay,Iowa,1026
+84019043,Clayton,Iowa,985
+84019045,Clinton,Iowa,2998
+84019047,Crawford,Iowa,1670
+84019049,Dallas,Iowa,5857
+84019051,Davis,Iowa,419
+84019053,Decatur,Iowa,295
+84019055,Delaware,Iowa,1334
+84019057,Des Moines,Iowa,2647
+84019059,Dickinson,Iowa,1258
+84019061,Dubuque,Iowa,8580
+84019063,Emmet,Iowa,696
+84019065,Fayette,Iowa,942
+84019067,Floyd,Iowa,912
+84019069,Franklin,Iowa,668
+84019071,Fremont,Iowa,341
+84019073,Greene,Iowa,479
+84019075,Grundy,Iowa,762
+84019077,Guthrie,Iowa,682
+84019079,Hamilton,Iowa,970
+84019081,Hancock,Iowa,787
+84019083,Hardin,Iowa,1038
+84019085,Harrison,Iowa,1002
+84019087,Henry,Iowa,1678
+84019089,Howard,Iowa,494
+84019091,Humboldt,Iowa,646
+84019093,Ida,Iowa,425
+84019095,Iowa,Iowa,857
+84019097,Jackson,Iowa,1333
+84019099,Jasper,Iowa,1998
+84019101,Jefferson,Iowa,607
+84019103,Johnson,Iowa,8954
+84019105,Jones,Iowa,2183
+84019107,Keokuk,Iowa,517
+84019109,Kossuth,Iowa,919
+84019111,Lee,Iowa,1858
+84019113,Linn,Iowa,13080
+84019115,Louisa,Iowa,792
+84019117,Lucas,Iowa,302
+84019119,Lyon,Iowa,937
+84019121,Madison,Iowa,635
+84019123,Mahaska,Iowa,1173
+84019125,Marion,Iowa,1889
+84019127,Marshall,Iowa,3249
+84019129,Mills,Iowa,960
+84019131,Mitchell,Iowa,705
+84019133,Monona,Iowa,384
+84019135,Monroe,Iowa,416
+84019137,Montgomery,Iowa,408
+84019139,Muscatine,Iowa,2631
+84019141,O'Brien,Iowa,1176
+84019143,Osceola,Iowa,486
+84080019,Out of IA,Iowa,0
+84019145,Page,Iowa,1067
+84019147,Palo Alto,Iowa,595
+84019149,Plymouth,Iowa,2563
+84019151,Pocahontas,Iowa,507
+84019153,Polk,Iowa,30796
+84019155,Pottawattamie,Iowa,5670
+84019157,Poweshiek,Iowa,901
+84019159,Ringgold,Iowa,174
+84019161,Sac,Iowa,755
+84019163,Scott,Iowa,10087
+84019165,Shelby,Iowa,710
+84019167,Sioux,Iowa,3478
+84019169,Story,Iowa,6313
+84019171,Tama,Iowa,1445
+84019173,Taylor,Iowa,413
+84090019,Unassigned,Iowa,558
+84019175,Union,Iowa,676
+84019177,Van Buren,Iowa,325
+84019179,Wapello,Iowa,2371
+84019181,Warren,Iowa,2492
+84019183,Washington,Iowa,1251
+84019185,Wayne,Iowa,280
+84019187,Webster,Iowa,3274
+84019189,Winnebago,Iowa,862
+84019191,Winneshiek,Iowa,883
+84019193,Woodbury,Iowa,9805
+84019195,Worth,Iowa,330
+84019197,Wright,Iowa,1132
+84020001,Allen,Kansas,298
+84020003,Anderson,Kansas,343
+84020005,Atchison,Kansas,777
+84020007,Barber,Kansas,171
+84020009,Barton,Kansas,1455
+84020011,Bourbon,Kansas,463
+84020013,Brown,Kansas,606
+84020015,Butler,Kansas,2790
+84020017,Chase,Kansas,145
+84020019,Chautauqua,Kansas,63
+84020021,Cherokee,Kansas,1023
+84020023,Cheyenne,Kansas,199
+84020025,Clark,Kansas,100
+84020027,Clay,Kansas,410
+84020029,Cloud,Kansas,498
+84020031,Coffey,Kansas,273
+84020033,Comanche,Kansas,44
+84020035,Cowley,Kansas,1267
+84020037,Crawford,Kansas,2103
+84020039,Decatur,Kansas,189
+84020041,Dickinson,Kansas,645
+84020043,Doniphan,Kansas,391
+84020045,Douglas,Kansas,4226
+84020047,Edwards,Kansas,156
+84020049,Elk,Kansas,42
+84020051,Ellis,Kansas,2129
+84020053,Ellsworth,Kansas,539
+84020055,Finney,Kansas,4413
+84020057,Ford,Kansas,4421
+84020059,Franklin,Kansas,947
+84020061,Geary,Kansas,773
+84020063,Gove,Kansas,272
+84020065,Graham,Kansas,125
+84020067,Grant,Kansas,665
+84020069,Gray,Kansas,383
+84020071,Greeley,Kansas,83
+84020073,Greenwood,Kansas,161
+84020075,Hamilton,Kansas,128
+84020077,Harper,Kansas,275
+84020079,Harvey,Kansas,1553
+84020081,Haskell,Kansas,235
+84020083,Hodgeman,Kansas,124
+84020085,Jackson,Kansas,573
+84020087,Jefferson,Kansas,601
+84020089,Jewell,Kansas,51
+84020091,Johnson,Kansas,23891
+84020093,Kearny,Kansas,304
+84020095,Kingman,Kansas,302
+84020097,Kiowa,Kansas,100
+84020099,Labette,Kansas,734
+84020101,Lane,Kansas,67
+84020103,Leavenworth,Kansas,3408
+84020105,Lincoln,Kansas,52
+84020107,Linn,Kansas,248
+84020109,Logan,Kansas,207
+84020111,Lyon,Kansas,2230
+84020115,Marion,Kansas,373
+84020117,Marshall,Kansas,362
+84020113,McPherson,Kansas,1248
+84020119,Meade,Kansas,280
+84020121,Miami,Kansas,866
+84020123,Mitchell,Kansas,179
+84020125,Montgomery,Kansas,969
+84020127,Morris,Kansas,145
+84020129,Morton,Kansas,137
+84020131,Nemaha,Kansas,873
+84020133,Neosho,Kansas,592
+84020135,Ness,Kansas,231
+84020137,Norton,Kansas,1040
+84020139,Osage,Kansas,425
+84020141,Osborne,Kansas,66
+84020143,Ottawa,Kansas,192
+84080020,Out of KS,Kansas,0
+84020145,Pawnee,Kansas,591
+84020147,Phillips,Kansas,356
+84020149,Pottawatomie,Kansas,613
+84020151,Pratt,Kansas,437
+84020153,Rawlins,Kansas,160
+84020155,Reno,Kansas,4125
+84020157,Republic,Kansas,244
+84020159,Rice,Kansas,333
+84020161,Riley,Kansas,3157
+84020163,Rooks,Kansas,284
+84020165,Rush,Kansas,181
+84020167,Russell,Kansas,460
+84020169,Saline,Kansas,2002
+84020171,Scott,Kansas,325
+84020173,Sedgwick,Kansas,23476
+84020175,Seward,Kansas,2694
+84020177,Shawnee,Kansas,6381
+84020179,Sheridan,Kansas,288
+84020181,Sherman,Kansas,394
+84020183,Smith,Kansas,108
+84020185,Stafford,Kansas,177
+84020187,Stanton,Kansas,132
+84020189,Stevens,Kansas,395
+84020191,Sumner,Kansas,658
+84020193,Thomas,Kansas,622
+84020195,Trego,Kansas,192
+84090020,Unassigned,Kansas,0
+84020197,Wabaunsee,Kansas,278
+84020199,Wallace,Kansas,133
+84020201,Washington,Kansas,264
+84020203,Wichita,Kansas,124
+84020205,Wilson,Kansas,242
+84020207,Woodson,Kansas,56
+84020209,Wyandotte,Kansas,10535
+84021001,Adair,Kentucky,680
+84021003,Allen,Kentucky,660
+84021005,Anderson,Kentucky,444
+84021007,Ballard,Kentucky,128
+84021009,Barren,Kentucky,1808
+84021011,Bath,Kentucky,231
+84021013,Bell,Kentucky,1150
+84021015,Boone,Kentucky,3888
+84021017,Bourbon,Kentucky,490
+84021019,Boyd,Kentucky,1458
+84021021,Boyle,Kentucky,798
+84021023,Bracken,Kentucky,121
+84021025,Breathitt,Kentucky,292
+84021027,Breckinridge,Kentucky,412
+84021029,Bullitt,Kentucky,2509
+84021031,Butler,Kentucky,503
+84021033,Caldwell,Kentucky,484
+84021035,Calloway,Kentucky,1522
+84021037,Campbell,Kentucky,2461
+84021039,Carlisle,Kentucky,178
+84021041,Carroll,Kentucky,298
+84021043,Carter,Kentucky,609
+84021045,Casey,Kentucky,455
+84021047,Christian,Kentucky,2688
+84021049,Clark,Kentucky,801
+84021051,Clay,Kentucky,920
+84021053,Clinton,Kentucky,356
+84021055,Crittenden,Kentucky,217
+84021057,Cumberland,Kentucky,207
+84021059,Daviess,Kentucky,3046
+84021061,Edmonson,Kentucky,331
+84021063,Elliott,Kentucky,560
+84021065,Estill,Kentucky,409
+84021067,Fayette,Kentucky,15241
+84021069,Fleming,Kentucky,292
+84021071,Floyd,Kentucky,1025
+84021073,Franklin,Kentucky,1242
+84021075,Fulton,Kentucky,276
+84021077,Gallatin,Kentucky,181
+84021079,Garrard,Kentucky,498
+84021081,Grant,Kentucky,540
+84021083,Graves,Kentucky,1553
+84021085,Grayson,Kentucky,831
+84021087,Green,Kentucky,457
+84021089,Greenup,Kentucky,1091
+84021091,Hancock,Kentucky,276
+84021093,Hardin,Kentucky,3727
+84021095,Harlan,Kentucky,807
+84021097,Harrison,Kentucky,404
+84021099,Hart,Kentucky,689
+84021101,Henderson,Kentucky,1864
+84021103,Henry,Kentucky,449
+84021105,Hickman,Kentucky,141
+84021107,Hopkins,Kentucky,1627
+84021109,Jackson,Kentucky,621
+84021111,Jefferson,Kentucky,32638
+84021113,Jessamine,Kentucky,1541
+84021115,Johnson,Kentucky,653
+84021117,Kenton,Kentucky,4662
+84021119,Knott,Kentucky,510
+84021121,Knox,Kentucky,1132
+84021123,Larue,Kentucky,504
+84021125,Laurel,Kentucky,2227
+84021127,Lawrence,Kentucky,339
+84021129,Lee,Kentucky,846
+84021131,Leslie,Kentucky,199
+84021133,Letcher,Kentucky,463
+84021135,Lewis,Kentucky,448
+84021137,Lincoln,Kentucky,550
+84021139,Livingston,Kentucky,244
+84021141,Logan,Kentucky,1119
+84021143,Lyon,Kentucky,176
+84021151,Madison,Kentucky,3334
+84021153,Magoffin,Kentucky,371
+84021155,Marion,Kentucky,866
+84021157,Marshall,Kentucky,840
+84021159,Martin,Kentucky,364
+84021161,Mason,Kentucky,341
+84021145,McCracken,Kentucky,2268
+84021147,McCreary,Kentucky,341
+84021149,McLean,Kentucky,354
+84021163,Meade,Kentucky,611
+84021165,Menifee,Kentucky,113
+84021167,Mercer,Kentucky,586
+84021169,Metcalfe,Kentucky,348
+84021171,Monroe,Kentucky,655
+84021173,Montgomery,Kentucky,805
+84021175,Morgan,Kentucky,268
+84021177,Muhlenberg,Kentucky,1265
+84021179,Nelson,Kentucky,1908
+84021181,Nicholas,Kentucky,153
+84021183,Ohio,Kentucky,845
+84021185,Oldham,Kentucky,2139
+84080021,Out of KY,Kentucky,0
+84021187,Owen,Kentucky,173
+84021189,Owsley,Kentucky,178
+84021191,Pendleton,Kentucky,297
+84021193,Perry,Kentucky,867
+84021195,Pike,Kentucky,1628
+84021197,Powell,Kentucky,415
+84021199,Pulaski,Kentucky,1393
+84021201,Robertson,Kentucky,68
+84021203,Rockcastle,Kentucky,465
+84021205,Rowan,Kentucky,661
+84021207,Russell,Kentucky,518
+84021209,Scott,Kentucky,1535
+84021211,Shelby,Kentucky,2027
+84021213,Simpson,Kentucky,544
+84021215,Spencer,Kentucky,549
+84021217,Taylor,Kentucky,815
+84021219,Todd,Kentucky,381
+84021221,Trigg,Kentucky,356
+84021223,Trimble,Kentucky,144
+84090021,Unassigned,Kentucky,0
+84021225,Union,Kentucky,681
+84021227,Warren,Kentucky,6669
+84021229,Washington,Kentucky,446
+84021231,Wayne,Kentucky,454
+84021233,Webster,Kentucky,522
+84021235,Whitley,Kentucky,1339
+84021237,Wolfe,Kentucky,161
+84021239,Woodford,Kentucky,650
+84022001,Acadia,Louisiana,3678
+84022003,Allen,Louisiana,2046
+84022005,Ascension,Louisiana,5325
+84022007,Assumption,Louisiana,972
+84022009,Avoyelles,Louisiana,1997
+84022011,Beauregard,Louisiana,1270
+84022013,Bienville,Louisiana,726
+84022015,Bossier,Louisiana,5774
+84022017,Caddo,Louisiana,12329
+84022019,Calcasieu,Louisiana,9924
+84022021,Caldwell,Louisiana,593
+84022023,Cameron,Louisiana,272
+84022025,Catahoula,Louisiana,582
+84022027,Claiborne,Louisiana,715
+84022029,Concordia,Louisiana,911
+84022031,De Soto,Louisiana,1178
+84022033,East Baton Rouge,Louisiana,18764
+84022035,East Carroll,Louisiana,670
+84022037,East Feliciana,Louisiana,2048
+84022039,Evangeline,Louisiana,1753
+84022041,Franklin,Louisiana,1653
+84022043,Grant,Louisiana,664
+84022045,Iberia,Louisiana,3446
+84022047,Iberville,Louisiana,1799
+84022049,Jackson,Louisiana,1098
+84022051,Jefferson,Louisiana,20927
+84022053,Jefferson Davis,Louisiana,1603
+84022059,LaSalle,Louisiana,819
+84022055,Lafayette,Louisiana,11146
+84022057,Lafourche,Louisiana,4455
+84022061,Lincoln,Louisiana,2318
+84022063,Livingston,Louisiana,5456
+84022065,Madison,Louisiana,1018
+84022067,Morehouse,Louisiana,1197
+84022069,Natchitoches,Louisiana,1909
+84022071,Orleans,Louisiana,14978
+84022073,Ouachita,Louisiana,9267
+84080022,Out of LA,Louisiana,0
+84022075,Plaquemines,Louisiana,1057
+84022077,Pointe Coupee,Louisiana,1302
+84022079,Rapides,Louisiana,5948
+84022081,Red River,Louisiana,551
+84022083,Richland,Louisiana,1323
+84022085,Sabine,Louisiana,1320
+84022087,St. Bernard,Louisiana,1715
+84022089,St. Charles,Louisiana,2391
+84022091,St. Helena,Louisiana,501
+84022093,St. James,Louisiana,934
+84022095,St. John the Baptist,Louisiana,1873
+84022097,St. Landry,Louisiana,4597
+84022099,St. Martin,Louisiana,2545
+84022101,St. Mary,Louisiana,2271
+84022103,St. Tammany,Louisiana,9514
+84022105,Tangipahoa,Louisiana,6190
+84022107,Tensas,Louisiana,205
+84022109,Terrebonne,Louisiana,4303
+84090022,Unassigned,Louisiana,357
+84022111,Union,Louisiana,1338
+84022113,Vermilion,Louisiana,2404
+84022115,Vernon,Louisiana,1327
+84022117,Washington,Louisiana,2150
+84022119,Webster,Louisiana,1844
+84022121,West Baton Rouge,Louisiana,1228
+84022123,West Carroll,Louisiana,556
+84022125,West Feliciana,Louisiana,779
+84022127,Winn,Louisiana,906
+84023001,Androscoggin,Maine,1327
+84023003,Aroostook,Maine,94
+84023005,Cumberland,Maine,3488
+84023007,Franklin,Maine,192
+84023009,Hancock,Maine,208
+84023011,Kennebec,Maine,657
+84023013,Knox,Maine,182
+84023015,Lincoln,Maine,132
+84080023,Out of ME,Maine,0
+84023017,Oxford,Maine,278
+84023019,Penobscot,Maine,629
+84023021,Piscataquis,Maine,34
+84023023,Sagadahoc,Maine,128
+84023025,Somerset,Maine,397
+84090023,Unassigned,Maine,1
+84023027,Waldo,Maine,203
+84023029,Washington,Maine,178
+84023031,York,Maine,1995
+84024001,Allegany,Maryland,2282
+84024003,Anne Arundel,Maryland,15294
+84024005,Baltimore,Maryland,26583
+84024510,Baltimore City,Maryland,22466
+84024009,Calvert,Maryland,1456
+84024011,Caroline,Maryland,860
+84024013,Carroll,Maryland,2978
+84024015,Cecil,Maryland,1820
+84024017,Charles,Maryland,3990
+84024019,Dorchester,Maryland,950
+84024021,Frederick,Maryland,6036
+84024023,Garrett,Maryland,470
+84024025,Harford,Maryland,5344
+84024027,Howard,Maryland,7340
+84024029,Kent,Maryland,399
+84024031,Montgomery,Maryland,30882
+84080024,Out of MD,Maryland,0
+84024033,Prince George's,Maryland,38428
+84024035,Queen Anne's,Maryland,1001
+84024039,Somerset,Maryland,727
+84024037,St. Mary's,Maryland,1889
+84024041,Talbot,Maryland,742
+84090024,Unassigned,Maryland,0
+84024043,Washington,Maryland,3509
+84024045,Wicomico,Maryland,3112
+84024047,Worcester,Maryland,1413
+84025001,Barnstable,Massachusetts,2626
+84025003,Berkshire,Massachusetts,1245
+84025005,Bristol,Massachusetts,17718
+84025007,Dukes,Massachusetts,0
+84070002,Dukes and Nantucket,Massachusetts,496
+84025009,Essex,Massachusetts,31122
+84025011,Franklin,Massachusetts,579
+84025013,Hampden,Massachusetts,14167
+84025015,Hampshire,Massachusetts,2074
+84025017,Middlesex,Massachusetts,41384
+84025019,Nantucket,Massachusetts,0
+84025021,Norfolk,Massachusetts,14766
+84080025,Out of MA,Massachusetts,0
+84025023,Plymouth,Massachusetts,13617
+84025025,Suffolk,Massachusetts,34584
+84090025,Unassigned,Massachusetts,7362
+84025027,Worcester,Massachusetts,22415
+84026001,Alcona,Michigan,127
+84026003,Alger,Michigan,205
+84026005,Allegan,Michigan,3348
+84026007,Alpena,Michigan,452
+84026009,Antrim,Michigan,324
+84026011,Arenac,Michigan,309
+84026013,Baraga,Michigan,387
+84026015,Barry,Michigan,1707
+84026017,Bay,Michigan,3634
+84026019,Benzie,Michigan,295
+84026021,Berrien,Michigan,5564
+84026023,Branch,Michigan,1951
+84026025,Calhoun,Michigan,5309
+84026027,Cass,Michigan,1926
+84026029,Charlevoix,Michigan,459
+84026031,Cheboygan,Michigan,389
+84026033,Chippewa,Michigan,649
+84026035,Clare,Michigan,624
+84026037,Clinton,Michigan,2396
+84026039,Crawford,Michigan,284
+84026041,Delta,Michigan,2286
+84026043,Dickinson,Michigan,1527
+84026045,Eaton,Michigan,2564
+84026047,Emmet,Michigan,835
+84070005,Federal Correctional Institution (FCI),Michigan,199
+84026049,Genesee,Michigan,12517
+84026051,Gladwin,Michigan,643
+84026053,Gogebic,Michigan,702
+84026055,Grand Traverse,Michigan,1586
+84026057,Gratiot,Michigan,1344
+84026059,Hillsdale,Michigan,1348
+84026061,Houghton,Michigan,1416
+84026063,Huron,Michigan,592
+84026065,Ingham,Michigan,7733
+84026067,Ionia,Michigan,1882
+84026069,Iosco,Michigan,591
+84026071,Iron,Michigan,674
+84026073,Isabella,Michigan,2114
+84026075,Jackson,Michigan,4113
+84026077,Kalamazoo,Michigan,8256
+84026079,Kalkaska,Michigan,293
+84026081,Kent,Michigan,28334
+84026083,Keweenaw,Michigan,62
+84026085,Lake,Michigan,165
+84026087,Lapeer,Michigan,1954
+84026089,Leelanau,Michigan,319
+84026091,Lenawee,Michigan,2103
+84026093,Livingston,Michigan,4534
+84026095,Luce,Michigan,153
+84026097,Mackinac,Michigan,246
+84026099,Macomb,Michigan,31828
+84026101,Manistee,Michigan,301
+84026103,Marquette,Michigan,2540
+84026105,Mason,Michigan,504
+84026107,Mecosta,Michigan,1030
+84026109,Menominee,Michigan,1186
+84070004,Michigan Department of Corrections (MDOC),Michigan,11730
+84026111,Midland,Michigan,2564
+84026113,Missaukee,Michigan,238
+84026115,Monroe,Michigan,4351
+84026117,Montcalm,Michigan,1538
+84026119,Montmorency,Michigan,115
+84026121,Muskegon,Michigan,6244
+84026123,Newaygo,Michigan,1308
+84026125,Oakland,Michigan,40381
+84026127,Oceana,Michigan,1039
+84026129,Ogemaw,Michigan,387
+84026131,Ontonagon,Michigan,257
+84026133,Osceola,Michigan,417
+84026135,Oscoda,Michigan,118
+84026137,Otsego,Michigan,630
+84026139,Ottawa,Michigan,11699
+84080026,Out of MI,Michigan,896
+84026141,Presque Isle,Michigan,196
+84026143,Roscommon,Michigan,478
+84026145,Saginaw,Michigan,7360
+84026151,Sanilac,Michigan,548
+84026153,Schoolcraft,Michigan,163
+84026155,Shiawassee,Michigan,1626
+84026147,St. Clair,Michigan,3620
+84026149,St. Joseph,Michigan,2266
+84026157,Tuscola,Michigan,1426
+84090026,Unassigned,Michigan,27
+84026159,Van Buren,Michigan,2352
+84026161,Washtenaw,Michigan,8673
+84026163,Wayne,Michigan,57090
+84026165,Wexford,Michigan,471
+84027001,Aitkin,Minnesota,616
+84027003,Anoka,Minnesota,18740
+84027005,Becker,Minnesota,1606
+84027007,Beltrami,Minnesota,1729
+84027009,Benton,Minnesota,2511
+84027011,Big Stone,Minnesota,262
+84027013,Blue Earth,Minnesota,3599
+84027015,Brown,Minnesota,1069
+84027017,Carlton,Minnesota,1407
+84027019,Carver,Minnesota,3808
+84027021,Cass,Minnesota,1117
+84027023,Chippewa,Minnesota,721
+84027025,Chisago,Minnesota,2700
+84027027,Clay,Minnesota,4248
+84027029,Clearwater,Minnesota,407
+84027031,Cook,Minnesota,54
+84027033,Cottonwood,Minnesota,627
+84027035,Crow Wing,Minnesota,2976
+84027037,Dakota,Minnesota,18228
+84027039,Dodge,Minnesota,752
+84027041,Douglas,Minnesota,2038
+84027043,Faribault,Minnesota,449
+84027045,Fillmore,Minnesota,564
+84027047,Freeborn,Minnesota,1307
+84027049,Goodhue,Minnesota,1675
+84027051,Grant,Minnesota,215
+84027053,Hennepin,Minnesota,56816
+84027055,Houston,Minnesota,582
+84027057,Hubbard,Minnesota,898
+84027059,Isanti,Minnesota,1539
+84027061,Itasca,Minnesota,1601
+84027063,Jackson,Minnesota,384
+84027065,Kanabec,Minnesota,482
+84027067,Kandiyohi,Minnesota,3298
+84027069,Kittson,Minnesota,170
+84027071,Koochiching,Minnesota,315
+84027073,Lac qui Parle,Minnesota,303
+84027075,Lake,Minnesota,326
+84027077,Lake of the Woods,Minnesota,78
+84027079,Le Sueur,Minnesota,1249
+84027081,Lincoln,Minnesota,293
+84027083,Lyon,Minnesota,1783
+84027087,Mahnomen,Minnesota,231
+84027089,Marshall,Minnesota,388
+84027091,Martin,Minnesota,935
+84027085,McLeod,Minnesota,1691
+84027093,Meeker,Minnesota,960
+84027095,Mille Lacs,Minnesota,1238
+84027097,Morrison,Minnesota,2011
+84027099,Mower,Minnesota,2256
+84027101,Murray,Minnesota,509
+84027103,Nicollet,Minnesota,1388
+84027105,Nobles,Minnesota,2915
+84027107,Norman,Minnesota,293
+84027109,Olmsted,Minnesota,5889
+84027111,Otter Tail,Minnesota,2415
+84080027,Out of MN,Minnesota,0
+84027113,Pennington,Minnesota,480
+84027115,Pine,Minnesota,1139
+84027117,Pipestone,Minnesota,640
+84027119,Polk,Minnesota,2140
+84027121,Pope,Minnesota,443
+84027123,Ramsey,Minnesota,24102
+84027125,Red Lake,Minnesota,172
+84027127,Redwood,Minnesota,724
+84027129,Renville,Minnesota,652
+84027131,Rice,Minnesota,3431
+84027133,Rock,Minnesota,607
+84027135,Roseau,Minnesota,899
+84027139,Scott,Minnesota,7131
+84027141,Sherburne,Minnesota,4868
+84027143,Sibley,Minnesota,648
+84027137,St. Louis,Minnesota,6911
+84027145,Stearns,Minnesota,11795
+84027147,Steele,Minnesota,1590
+84027149,Stevens,Minnesota,419
+84027151,Swift,Minnesota,468
+84027153,Todd,Minnesota,1581
+84027155,Traverse,Minnesota,116
+84090027,Unassigned,Minnesota,363
+84027157,Wabasha,Minnesota,862
+84027159,Wadena,Minnesota,652
+84027161,Waseca,Minnesota,1254
+84027163,Washington,Minnesota,12043
+84027165,Watonwan,Minnesota,754
+84027167,Wilkin,Minnesota,309
+84027169,Winona,Minnesota,2360
+84027171,Wright,Minnesota,6218
+84027173,Yellow Medicine,Minnesota,520
+84028001,Adams,Mississippi,1337
+84028003,Alcorn,Mississippi,1421
+84028005,Amite,Mississippi,503
+84028007,Attala,Mississippi,1054
+84028009,Benton,Mississippi,482
+84028011,Bolivar,Mississippi,2369
+84028013,Calhoun,Mississippi,710
+84028015,Carroll,Mississippi,698
+84028017,Chickasaw,Mississippi,1019
+84028019,Choctaw,Mississippi,303
+84028021,Claiborne,Mississippi,574
+84028023,Clarke,Mississippi,877
+84028025,Clay,Mississippi,855
+84028027,Coahoma,Mississippi,1460
+84028029,Copiah,Mississippi,1586
+84028031,Covington,Mississippi,1157
+84028033,DeSoto,Mississippi,9467
+84028035,Forrest,Mississippi,3591
+84028037,Franklin,Mississippi,313
+84028039,George,Mississippi,1210
+84028041,Greene,Mississippi,581
+84028043,Grenada,Mississippi,1354
+84028045,Hancock,Mississippi,1123
+84028047,Harrison,Mississippi,6763
+84028049,Hinds,Mississippi,9460
+84028051,Holmes,Mississippi,1231
+84028053,Humphreys,Mississippi,519
+84028055,Issaquena,Mississippi,108
+84028057,Itawamba,Mississippi,1439
+84028059,Jackson,Mississippi,6019
+84028061,Jasper,Mississippi,799
+84028063,Jefferson,Mississippi,335
+84028065,Jefferson Davis,Mississippi,537
+84028067,Jones,Mississippi,3400
+84028069,Kemper,Mississippi,405
+84028071,Lafayette,Mississippi,3107
+84028073,Lamar,Mississippi,2722
+84028075,Lauderdale,Mississippi,3312
+84028077,Lawrence,Mississippi,697
+84028079,Leake,Mississippi,1312
+84028081,Lee,Mississippi,4740
+84028083,Leflore,Mississippi,1987
+84028085,Lincoln,Mississippi,1833
+84028087,Lowndes,Mississippi,2265
+84028089,Madison,Mississippi,4573
+84028091,Marion,Mississippi,1079
+84028093,Marshall,Mississippi,2057
+84028095,Monroe,Mississippi,1882
+84028097,Montgomery,Mississippi,717
+84028099,Neshoba,Mississippi,2161
+84028101,Newton,Mississippi,1025
+84028103,Noxubee,Mississippi,688
+84028105,Oktibbeha,Mississippi,2364
+84080028,Out of MS,Mississippi,0
+84028107,Panola,Mississippi,2094
+84028109,Pearl River,Mississippi,1405
+84028111,Perry,Mississippi,636
+84028113,Pike,Mississippi,1596
+84028115,Pontotoc,Mississippi,1907
+84028117,Prentiss,Mississippi,1377
+84028119,Quitman,Mississippi,474
+84028121,Rankin,Mississippi,5187
+84028123,Scott,Mississippi,1491
+84028125,Sharkey,Mississippi,304
+84028127,Simpson,Mississippi,1430
+84028129,Smith,Mississippi,684
+84028131,Stone,Mississippi,704
+84028133,Sunflower,Mississippi,1870
+84028135,Tallahatchie,Mississippi,944
+84028137,Tate,Mississippi,1607
+84028139,Tippah,Mississippi,1199
+84028141,Tishomingo,Mississippi,1049
+84028143,Tunica,Mississippi,594
+84090028,Unassigned,Mississippi,0
+84028145,Union,Mississippi,1586
+84028147,Walthall,Mississippi,735
+84028149,Warren,Mississippi,1707
+84028151,Washington,Mississippi,3034
+84028153,Wayne,Mississippi,1151
+84028155,Webster,Mississippi,415
+84028157,Wilkinson,Mississippi,383
+84028159,Winston,Mississippi,1124
+84028161,Yalobusha,Mississippi,666
+84028163,Yazoo,Mississippi,1468
+84029001,Adair,Missouri,997
+84029003,Andrew,Missouri,702
+84029005,Atchison,Missouri,184
+84029007,Audrain,Missouri,938
+84029009,Barry,Missouri,1351
+84029011,Barton,Missouri,595
+84029013,Bates,Missouri,460
+84029015,Benton,Missouri,722
+84029017,Bollinger,Missouri,760
+84029019,Boone,Missouri,9516
+84029021,Buchanan,Missouri,4151
+84029023,Butler,Missouri,1934
+84029025,Caldwell,Missouri,344
+84029027,Callaway,Missouri,2520
+84029029,Camden,Missouri,2281
+84029031,Cape Girardeau,Missouri,4523
+84029033,Carroll,Missouri,368
+84029035,Carter,Missouri,272
+84029037,Cass,Missouri,3338
+84029039,Cedar,Missouri,418
+84029041,Chariton,Missouri,217
+84029043,Christian,Missouri,3444
+84029045,Clark,Missouri,269
+84029047,Clay,Missouri,4213
+84029049,Clinton,Missouri,814
+84029051,Cole,Missouri,5523
+84029053,Cooper,Missouri,1082
+84029055,Crawford,Missouri,1077
+84029057,Dade,Missouri,268
+84029059,Dallas,Missouri,559
+84029061,Daviess,Missouri,306
+84029063,DeKalb,Missouri,505
+84029065,Dent,Missouri,442
+84029067,Douglas,Missouri,381
+84029069,Dunklin,Missouri,1578
+84029071,Franklin,Missouri,4330
+84029073,Gasconade,Missouri,405
+84029075,Gentry,Missouri,369
+84029077,Greene,Missouri,12699
+84029079,Grundy,Missouri,468
+84029081,Harrison,Missouri,357
+84029083,Henry,Missouri,964
+84029085,Hickory,Missouri,344
+84029087,Holt,Missouri,232
+84029089,Howard,Missouri,437
+84029091,Howell,Missouri,1505
+84029093,Iron,Missouri,206
+84029095,Jackson,Missouri,15478
+84029097,Jasper,Missouri,7699
+84029099,Jefferson,Missouri,9555
+84029101,Johnson,Missouri,2301
+84070003,Kansas City,Missouri,21042
+84029103,Knox,Missouri,124
+84029105,Laclede,Missouri,1659
+84029107,Lafayette,Missouri,1355
+84029109,Lawrence,Missouri,1772
+84029111,Lewis,Missouri,410
+84029113,Lincoln,Missouri,2114
+84029115,Linn,Missouri,283
+84029117,Livingston,Missouri,730
+84029121,Macon,Missouri,565
+84029123,Madison,Missouri,773
+84029125,Maries,Missouri,330
+84029127,Marion,Missouri,1593
+84029119,McDonald,Missouri,1352
+84029129,Mercer,Missouri,76
+84029131,Miller,Missouri,1390
+84029133,Mississippi,Missouri,696
+84029135,Moniteau,Missouri,1120
+84029137,Monroe,Missouri,339
+84029139,Montgomery,Missouri,292
+84029141,Morgan,Missouri,989
+84029143,New Madrid,Missouri,1228
+84029145,Newton,Missouri,2796
+84029147,Nodaway,Missouri,1826
+84029149,Oregon,Missouri,346
+84029151,Osage,Missouri,848
+84080029,Out of MO,Missouri,0
+84029153,Ozark,Missouri,274
+84029155,Pemiscot,Missouri,1012
+84029157,Perry,Missouri,1423
+84029159,Pettis,Missouri,2564
+84029161,Phelps,Missouri,1508
+84029163,Pike,Missouri,797
+84029165,Platte,Missouri,1487
+84029167,Polk,Missouri,1297
+84029169,Pulaski,Missouri,1447
+84029171,Putnam,Missouri,110
+84029173,Ralls,Missouri,400
+84029175,Randolph,Missouri,1106
+84029177,Ray,Missouri,607
+84029179,Reynolds,Missouri,152
+84029181,Ripley,Missouri,453
+84029195,Saline,Missouri,1464
+84029197,Schuyler,Missouri,119
+84029199,Scotland,Missouri,170
+84029201,Scott,Missouri,2382
+84029203,Shannon,Missouri,323
+84029205,Shelby,Missouri,177
+84029183,St. Charles,Missouri,17715
+84029185,St. Clair,Missouri,290
+84029187,St. Francois,Missouri,4597
+84029189,St. Louis,Missouri,45635
+84029510,St. Louis City,Missouri,11550
+84029186,Ste. Genevieve,Missouri,929
+84029207,Stoddard,Missouri,1459
+84029209,Stone,Missouri,1070
+84029211,Sullivan,Missouri,537
+84029213,Taney,Missouri,2562
+84029215,Texas,Missouri,891
+84090029,Unassigned,Missouri,0
+84029217,Vernon,Missouri,603
+84029219,Warren,Missouri,1057
+84029221,Washington,Missouri,1299
+84029223,Wayne,Missouri,450
+84029225,Webster,Missouri,1673
+84029227,Worth,Missouri,59
+84029229,Wright,Missouri,724
+84030001,Beaverhead,Montana,520
+84030003,Big Horn,Montana,1754
+84030005,Blaine,Montana,481
+84030007,Broadwater,Montana,167
+84030009,Carbon,Montana,542
+84030011,Carter,Montana,108
+84030013,Cascade,Montana,4405
+84030015,Chouteau,Montana,237
+84030017,Custer,Montana,649
+84030019,Daniels,Montana,90
+84030021,Dawson,Montana,563
+84030023,Deer Lodge,Montana,658
+84030025,Fallon,Montana,223
+84030027,Fergus,Montana,496
+84030029,Flathead,Montana,5737
+84030031,Gallatin,Montana,6514
+84030033,Garfield,Montana,59
+84030035,Glacier,Montana,1137
+84030037,Golden Valley,Montana,24
+84030039,Granite,Montana,119
+84030041,Hill,Montana,1229
+84030043,Jefferson,Montana,409
+84030045,Judith Basin,Montana,46
+84030047,Lake,Montana,897
+84030049,Lewis and Clark,Montana,2265
+84030051,Liberty,Montana,65
+84030053,Lincoln,Montana,660
+84030057,Madison,Montana,386
+84030055,McCone,Montana,87
+84030059,Meagher,Montana,103
+84030061,Mineral,Montana,42
+84030063,Missoula,Montana,4106
+84030065,Musselshell,Montana,195
+84080030,Out of MT,Montana,0
+84030067,Park,Montana,531
+84030069,Petroleum,Montana,6
+84030071,Phillips,Montana,247
+84030073,Pondera,Montana,278
+84030075,Powder River,Montana,82
+84030077,Powell,Montana,425
+84030079,Prairie,Montana,65
+84030081,Ravalli,Montana,1260
+84030083,Richland,Montana,491
+84030085,Roosevelt,Montana,1181
+84030087,Rosebud,Montana,840
+84030089,Sanders,Montana,196
+84030091,Sheridan,Montana,234
+84030093,Silver Bow,Montana,1677
+84030095,Stillwater,Montana,398
+84030097,Sweet Grass,Montana,213
+84030099,Teton,Montana,159
+84030101,Toole,Montana,589
+84030103,Treasure,Montana,28
+84090030,Unassigned,Montana,0
+84030105,Valley,Montana,525
+84030107,Wheatland,Montana,98
+84030109,Wibaux,Montana,73
+84030111,Yellowstone,Montana,9973
+84031001,Adams,Nebraska,1463
+84031003,Antelope,Nebraska,297
+84031005,Arthur,Nebraska,14
+84031007,Banner,Nebraska,13
+84031009,Blaine,Nebraska,14
+84031011,Boone,Nebraska,281
+84031013,Box Butte,Nebraska,523
+84031015,Boyd,Nebraska,112
+84031017,Brown,Nebraska,152
+84031019,Buffalo,Nebraska,3241
+84031021,Burt,Nebraska,366
+84031023,Butler,Nebraska,493
+84031025,Cass,Nebraska,1016
+84031027,Cedar,Nebraska,318
+84031029,Chase,Nebraska,244
+84031031,Cherry,Nebraska,163
+84031033,Cheyenne,Nebraska,412
+84031035,Clay,Nebraska,344
+84031037,Colfax,Nebraska,1228
+84031039,Cuming,Nebraska,550
+84031041,Custer,Nebraska,418
+84031043,Dakota,Nebraska,3006
+84031045,Dawes,Nebraska,422
+84031047,Dawson,Nebraska,1843
+84031049,Deuel,Nebraska,33
+84031051,Dixon,Nebraska,350
+84031053,Dodge,Nebraska,2591
+84031055,Douglas,Nebraska,35661
+84031057,Dundy,Nebraska,54
+84031059,Fillmore,Nebraska,298
+84031061,Franklin,Nebraska,158
+84031063,Frontier,Nebraska,95
+84031065,Furnas,Nebraska,223
+84031067,Gage,Nebraska,1136
+84031069,Garden,Nebraska,70
+84031071,Garfield,Nebraska,89
+84031073,Gosper,Nebraska,103
+84031075,Grant,Nebraska,16
+84031077,Greeley,Nebraska,112
+84031079,Hall,Nebraska,4098
+84031081,Hamilton,Nebraska,469
+84031083,Harlan,Nebraska,115
+84031085,Hayes,Nebraska,38
+84031087,Hitchcock,Nebraska,86
+84031089,Holt,Nebraska,487
+84031091,Hooker,Nebraska,42
+84031093,Howard,Nebraska,315
+84031095,Jefferson,Nebraska,287
+84031097,Johnson,Nebraska,302
+84031099,Kearney,Nebraska,454
+84031101,Keith,Nebraska,322
+84031103,Keya Paha,Nebraska,17
+84031105,Kimball,Nebraska,148
+84031107,Knox,Nebraska,395
+84031109,Lancaster,Nebraska,14345
+84031111,Lincoln,Nebraska,1992
+84031113,Logan,Nebraska,32
+84031115,Loup,Nebraska,28
+84031119,Madison,Nebraska,2845
+84031117,McPherson,Nebraska,15
+84031121,Merrick,Nebraska,402
+84031123,Morrill,Nebraska,275
+84031125,Nance,Nebraska,238
+84031127,Nemaha,Nebraska,281
+84031129,Nuckolls,Nebraska,180
+84031131,Otoe,Nebraska,676
+84080031,Out of NE,Nebraska,0
+84031133,Pawnee,Nebraska,70
+84031135,Perkins,Nebraska,119
+84031137,Phelps,Nebraska,499
+84031139,Pierce,Nebraska,395
+84031141,Platte,Nebraska,2871
+84031143,Polk,Nebraska,297
+84031145,Red Willow,Nebraska,523
+84031147,Richardson,Nebraska,296
+84031149,Rock,Nebraska,75
+84031151,Saline,Nebraska,1363
+84031153,Sarpy,Nebraska,10167
+84031155,Saunders,Nebraska,1121
+84031157,Scotts Bluff,Nebraska,2500
+84031159,Seward,Nebraska,732
+84031161,Sheridan,Nebraska,260
+84031163,Sherman,Nebraska,116
+84031165,Sioux,Nebraska,18
+84031167,Stanton,Nebraska,182
+84031169,Thayer,Nebraska,215
+84031171,Thomas,Nebraska,27
+84031173,Thurston,Nebraska,520
+84090031,Unassigned,Nebraska,930
+84031175,Valley,Nebraska,168
+84031177,Washington,Nebraska,1018
+84031179,Wayne,Nebraska,677
+84031181,Webster,Nebraska,172
+84031183,Wheeler,Nebraska,12
+84031185,York,Nebraska,880
+84032510,Carson City,Nevada,1562
+84032001,Churchill,Nevada,643
+84032003,Clark,Nevada,103499
+84032005,Douglas,Nevada,523
+84032007,Elko,Nevada,2279
+84032009,Esmeralda,Nevada,5
+84032011,Eureka,Nevada,22
+84032013,Humboldt,Nevada,263
+84032015,Lander,Nevada,160
+84032017,Lincoln,Nevada,162
+84032019,Lyon,Nevada,751
+84032021,Mineral,Nevada,65
+84032023,Nye,Nevada,1126
+84080032,Out of NV,Nevada,0
+84032027,Pershing,Nevada,46
+84032029,Storey,Nevada,33
+84090032,Unassigned,Nevada,0
+84032031,Washoe,Nevada,20358
+84032033,White Pine,Nevada,236
+84033001,Belknap,New Hampshire,532
+84033003,Carroll,New Hampshire,290
+84033005,Cheshire,New Hampshire,423
+84033007,Coos,New Hampshire,271
+84033009,Grafton,New Hampshire,463
+84033011,Hillsborough,New Hampshire,7620
+84033013,Merrimack,New Hampshire,1476
+84080033,Out of NH,New Hampshire,0
+84033015,Rockingham,New Hampshire,4118
+84033017,Strafford,New Hampshire,1394
+84033019,Sullivan,New Hampshire,192
+84090033,Unassigned,New Hampshire,536
+84034001,Atlantic,New Jersey,7162
+84034003,Bergen,New Jersey,31447
+84034005,Burlington,New Jersey,11699
+84034007,Camden,New Jersey,16540
+84034009,Cape May,New Jersey,1516
+84034011,Cumberland,New Jersey,4689
+84034013,Essex,New Jersey,32441
+84034015,Gloucester,New Jersey,7947
+84034017,Hudson,New Jersey,28764
+84034019,Hunterdon,New Jersey,2186
+84034021,Mercer,New Jersey,12257
+84034023,Middlesex,New Jersey,27671
+84034025,Monmouth,New Jersey,18335
+84034027,Morris,New Jersey,12085
+84034029,Ocean,New Jersey,19880
+84080034,Out of NJ,New Jersey,0
+84034031,Passaic,New Jersey,26806
+84034033,Salem,New Jersey,1457
+84034035,Somerset,New Jersey,8251
+84034037,Sussex,New Jersey,2278
+84090034,Unassigned,New Jersey,650
+84034039,Union,New Jersey,25763
+84034041,Warren,New Jersey,2215
+84035001,Bernalillo,New Mexico,21178
+84035003,Catron,New Mexico,32
+84035005,Chaves,New Mexico,3844
+84035006,Cibola,New Mexico,1318
+84035007,Colfax,New Mexico,130
+84035009,Curry,New Mexico,2790
+84035011,De Baca,New Mexico,32
+84035013,Dona Ana,New Mexico,11857
+84035015,Eddy,New Mexico,2508
+84035017,Grant,New Mexico,414
+84035019,Guadalupe,New Mexico,96
+84035021,Harding,New Mexico,4
+84035023,Hidalgo,New Mexico,158
+84035025,Lea,New Mexico,3564
+84035027,Lincoln,New Mexico,637
+84035028,Los Alamos,New Mexico,110
+84035029,Luna,New Mexico,1745
+84035031,McKinley,New Mexico,5990
+84035033,Mora,New Mexico,32
+84035035,Otero,New Mexico,1172
+84080035,Out of NM,New Mexico,0
+84035037,Quay,New Mexico,193
+84035039,Rio Arriba,New Mexico,1055
+84035041,Roosevelt,New Mexico,863
+84035045,San Juan,New Mexico,4935
+84035047,San Miguel,New Mexico,347
+84035043,Sandoval,New Mexico,3946
+84035049,Santa Fe,New Mexico,4098
+84035051,Sierra,New Mexico,237
+84035053,Socorro,New Mexico,510
+84035055,Taos,New Mexico,652
+84035057,Torrance,New Mexico,226
+84090035,Unassigned,New Mexico,2438
+84035059,Union,New Mexico,90
+84035061,Valencia,New Mexico,2239
+84036001,Albany,New York,5013
+84036003,Allegany,New York,807
+84036005,Bronx,New York,60635
+84036007,Broome,New York,4792
+84036009,Cattaraugus,New York,842
+84036011,Cayuga,New York,698
+84036013,Chautauqua,New York,1362
+84036015,Chemung,New York,2571
+84036017,Chenango,New York,551
+84036019,Clinton,New York,412
+84036021,Columbia,New York,952
+84036023,Cortland,New York,870
+84036025,Delaware,New York,300
+84036027,Dutchess,New York,6569
+84036029,Erie,New York,20554
+84036031,Essex,New York,246
+84036033,Franklin,New York,229
+84036035,Fulton,New York,429
+84036037,Genesee,New York,735
+84036039,Greene,New York,622
+84036041,Hamilton,New York,36
+84036043,Herkimer,New York,564
+84036045,Jefferson,New York,407
+84036047,Kings,New York,84130
+84036049,Lewis,New York,300
+84036051,Livingston,New York,577
+84036053,Madison,New York,795
+84036055,Monroe,New York,12092
+84036057,Montgomery,New York,376
+84036059,Nassau,New York,56269
+84036061,New York,New York,41996
+84036063,Niagara,New York,3088
+84036065,Oneida,New York,4038
+84036067,Onondaga,New York,8947
+84036069,Ontario,New York,1072
+84036071,Orange,New York,15799
+84036073,Orleans,New York,554
+84036075,Oswego,New York,1164
+84036077,Otsego,New York,505
+84080036,Out of NY,New York,0
+84036079,Putnam,New York,2356
+84036081,Queens,New York,85284
+84036083,Rensselaer,New York,1494
+84036085,Richmond,New York,20790
+84036087,Rockland,New York,20511
+84036091,Saratoga,New York,1875
+84036093,Schenectady,New York,2062
+84036095,Schoharie,New York,166
+84036097,Schuyler,New York,253
+84036099,Seneca,New York,240
+84036089,St. Lawrence,New York,658
+84036101,Steuben,New York,1525
+84036103,Suffolk,New York,55807
+84036105,Sullivan,New York,2065
+84036107,Tioga,New York,1013
+84036109,Tompkins,New York,876
+84036111,Ulster,New York,3004
+84090036,Unassigned,New York,0
+84036113,Warren,New York,537
+84036115,Washington,New York,418
+84036117,Wayne,New York,901
+84036119,Westchester,New York,46469
+84036121,Wyoming,New York,397
+84036123,Yates,New York,224
+84037001,Alamance,North Carolina,6473
+84037003,Alexander,North Carolina,1430
+84037005,Alleghany,North Carolina,373
+84037007,Anson,North Carolina,852
+84037009,Ashe,North Carolina,701
+84037011,Avery,North Carolina,847
+84037013,Beaufort,North Carolina,1610
+84037015,Bertie,North Carolina,843
+84037017,Bladen,North Carolina,1258
+84037019,Brunswick,North Carolina,2719
+84037021,Buncombe,North Carolina,5123
+84037023,Burke,North Carolina,3492
+84037025,Cabarrus,North Carolina,6267
+84037027,Caldwell,North Carolina,3242
+84037029,Camden,North Carolina,168
+84037031,Carteret,North Carolina,1554
+84037033,Caswell,North Carolina,773
+84037035,Catawba,North Carolina,6149
+84037037,Chatham,North Carolina,2261
+84037039,Cherokee,North Carolina,895
+84037041,Chowan,North Carolina,580
+84037043,Clay,North Carolina,272
+84037045,Cleveland,North Carolina,3952
+84037047,Columbus,North Carolina,2430
+84037049,Craven,North Carolina,2871
+84037051,Cumberland,North Carolina,8764
+84037053,Currituck,North Carolina,304
+84037055,Dare,North Carolina,580
+84037057,Davidson,North Carolina,4794
+84037059,Davie,North Carolina,1104
+84037061,Duplin,North Carolina,3195
+84037063,Durham,North Carolina,10616
+84037065,Edgecombe,North Carolina,2380
+84037067,Forsyth,North Carolina,11909
+84037069,Franklin,North Carolina,1813
+84037071,Gaston,North Carolina,9418
+84037073,Gates,North Carolina,194
+84037075,Graham,North Carolina,268
+84037077,Granville,North Carolina,2379
+84037079,Greene,North Carolina,1133
+84037081,Guilford,North Carolina,15130
+84037083,Halifax,North Carolina,1825
+84037085,Harnett,North Carolina,3657
+84037087,Haywood,North Carolina,979
+84037089,Henderson,North Carolina,2931
+84037091,Hertford,North Carolina,937
+84037093,Hoke,North Carolina,1861
+84037095,Hyde,North Carolina,181
+84037097,Iredell,North Carolina,4951
+84037099,Jackson,North Carolina,1325
+84037101,Johnston,North Carolina,7054
+84037103,Jones,North Carolina,239
+84037105,Lee,North Carolina,2360
+84037107,Lenoir,North Carolina,1935
+84037109,Lincoln,North Carolina,3118
+84037113,Macon,North Carolina,894
+84037115,Madison,North Carolina,440
+84037117,Martin,North Carolina,775
+84037111,McDowell,North Carolina,1677
+84037119,Mecklenburg,North Carolina,40220
+84037121,Mitchell,North Carolina,459
+84037123,Montgomery,North Carolina,1330
+84037125,Moore,North Carolina,2691
+84037127,Nash,North Carolina,4155
+84037129,New Hanover,North Carolina,6490
+84037131,Northampton,North Carolina,741
+84037133,Onslow,North Carolina,4659
+84037135,Orange,North Carolina,3660
+84080037,Out of NC,North Carolina,0
+84037137,Pamlico,North Carolina,372
+84037139,Pasquotank,North Carolina,1020
+84037141,Pender,North Carolina,1735
+84037143,Perquimans,North Carolina,310
+84037145,Person,North Carolina,875
+84037147,Pitt,North Carolina,7317
+84037149,Polk,North Carolina,451
+84037151,Randolph,North Carolina,4930
+84037153,Richmond,North Carolina,1738
+84037155,Robeson,North Carolina,6965
+84037157,Rockingham,North Carolina,2739
+84037159,Rowan,North Carolina,5162
+84037161,Rutherford,North Carolina,2148
+84037163,Sampson,North Carolina,3399
+84037165,Scotland,North Carolina,1845
+84037167,Stanly,North Carolina,2776
+84037169,Stokes,North Carolina,1020
+84037171,Surry,North Carolina,2548
+84037173,Swain,North Carolina,362
+84037175,Transylvania,North Carolina,502
+84037177,Tyrrell,North Carolina,138
+84090037,Unassigned,North Carolina,388
+84037179,Union,North Carolina,7181
+84037181,Vance,North Carolina,1560
+84037183,Wake,North Carolina,26089
+84037185,Warren,North Carolina,581
+84037187,Washington,North Carolina,294
+84037189,Watauga,North Carolina,1700
+84037191,Wayne,North Carolina,5403
+84037193,Wilkes,North Carolina,2461
+84037195,Wilson,North Carolina,3748
+84037197,Yadkin,North Carolina,1357
+84037199,Yancey,North Carolina,487
+84038001,Adams,North Dakota,155
+84038003,Barnes,North Dakota,892
+84038005,Benson,North Dakota,716
+84038007,Billings,North Dakota,39
+84038009,Bottineau,North Dakota,490
+84038011,Bowman,North Dakota,178
+84038013,Burke,North Dakota,164
+84038015,Burleigh,North Dakota,10892
+84038017,Cass,North Dakota,15029
+84038019,Cavalier,North Dakota,326
+84038021,Dickey,North Dakota,512
+84038023,Divide,North Dakota,117
+84038025,Dunn,North Dakota,279
+84038027,Eddy,North Dakota,338
+84038029,Emmons,North Dakota,327
+84038031,Foster,North Dakota,416
+84038033,Golden Valley,North Dakota,148
+84038035,Grand Forks,North Dakota,7604
+84038037,Grant,North Dakota,146
+84038039,Griggs,North Dakota,203
+84038041,Hettinger,North Dakota,209
+84038043,Kidder,North Dakota,174
+84038045,LaMoure,North Dakota,334
+84038047,Logan,North Dakota,151
+84038049,McHenry,North Dakota,416
+84038051,McIntosh,North Dakota,230
+84038053,McKenzie,North Dakota,809
+84038055,McLean,North Dakota,904
+84038057,Mercer,North Dakota,795
+84038059,Morton,North Dakota,3684
+84038061,Mountrail,North Dakota,974
+84038063,Nelson,North Dakota,323
+84038065,Oliver,North Dakota,117
+84080038,Out of ND,North Dakota,0
+84038067,Pembina,North Dakota,556
+84038069,Pierce,North Dakota,370
+84038071,Ramsey,North Dakota,1013
+84038073,Ransom,North Dakota,394
+84038075,Renville,North Dakota,188
+84038077,Richland,North Dakota,991
+84038079,Rolette,North Dakota,1242
+84038081,Sargent,North Dakota,257
+84038083,Sheridan,North Dakota,73
+84038085,Sioux,North Dakota,419
+84038087,Slope,North Dakota,19
+84038089,Stark,North Dakota,3283
+84038091,Steele,North Dakota,110
+84038093,Stutsman,North Dakota,2317
+84038095,Towner,North Dakota,197
+84038097,Traill,North Dakota,634
+84090038,Unassigned,North Dakota,0
+84038099,Walsh,North Dakota,1329
+84038101,Ward,North Dakota,6950
+84038103,Wells,North Dakota,288
+84038105,Williams,North Dakota,2819
+580,,Northern Mariana Islands,103
+84039001,Adams,Ohio,700
+84039003,Allen,Ohio,4410
+84039005,Ashland,Ohio,945
+84039007,Ashtabula,Ohio,1981
+84039009,Athens,Ohio,1773
+84039011,Auglaize,Ohio,2159
+84039013,Belmont,Ohio,1503
+84039015,Brown,Ohio,908
+84039017,Butler,Ohio,13913
+84039019,Carroll,Ohio,406
+84039021,Champaign,Ohio,872
+84039023,Clark,Ohio,4799
+84039025,Clermont,Ohio,5317
+84039027,Clinton,Ohio,990
+84039029,Columbiana,Ohio,3240
+84039031,Coshocton,Ohio,777
+84039033,Crawford,Ohio,1115
+84039035,Cuyahoga,Ohio,32905
+84039037,Darke,Ohio,2049
+84039039,Defiance,Ohio,1302
+84039041,Delaware,Ohio,5048
+84039043,Erie,Ohio,1983
+84039045,Fairfield,Ohio,4891
+84039047,Fayette,Ohio,857
+84039049,Franklin,Ohio,47321
+84039051,Fulton,Ohio,1162
+84039053,Gallia,Ohio,671
+84039055,Geauga,Ohio,1814
+84039057,Greene,Ohio,4812
+84039059,Guernsey,Ohio,783
+84039061,Hamilton,Ohio,28270
+84039063,Hancock,Ohio,2221
+84039065,Hardin,Ohio,811
+84039067,Harrison,Ohio,176
+84039069,Henry,Ohio,927
+84039071,Highland,Ohio,947
+84039073,Hocking,Ohio,569
+84039075,Holmes,Ohio,1346
+84039077,Huron,Ohio,1359
+84039079,Jackson,Ohio,863
+84039081,Jefferson,Ohio,973
+84039083,Knox,Ohio,1147
+84039085,Lake,Ohio,5991
+84039087,Lawrence,Ohio,1774
+84039089,Licking,Ohio,4948
+84039091,Logan,Ohio,1134
+84039093,Lorain,Ohio,5644
+84039095,Lucas,Ohio,13263
+84039097,Madison,Ohio,1470
+84039099,Mahoning,Ohio,6643
+84039101,Marion,Ohio,4462
+84039103,Medina,Ohio,3941
+84039105,Meigs,Ohio,360
+84039107,Mercer,Ohio,2785
+84039109,Miami,Ohio,3875
+84039111,Monroe,Ohio,287
+84039113,Montgomery,Ohio,18559
+84039115,Morgan,Ohio,233
+84039117,Morrow,Ohio,807
+84039119,Muskingum,Ohio,2222
+84039121,Noble,Ohio,552
+84039123,Ottawa,Ohio,1124
+84080039,Out of OH,Ohio,0
+84039125,Paulding,Ohio,602
+84039127,Perry,Ohio,716
+84039129,Pickaway,Ohio,3846
+84039131,Pike,Ohio,686
+84039133,Portage,Ohio,3128
+84039135,Preble,Ohio,1395
+84039137,Putnam,Ohio,2162
+84039139,Richland,Ohio,2840
+84039141,Ross,Ohio,2319
+84039143,Sandusky,Ohio,1409
+84039145,Scioto,Ohio,1804
+84039147,Seneca,Ohio,1616
+84039149,Shelby,Ohio,1709
+84039151,Stark,Ohio,7859
+84039153,Summit,Ohio,12143
+84039155,Trumbull,Ohio,4838
+84039157,Tuscarawas,Ohio,2943
+84090039,Unassigned,Ohio,0
+84039159,Union,Ohio,1744
+84039161,Van Wert,Ohio,839
+84039163,Vinton,Ohio,202
+84039165,Warren,Ohio,7543
+84039167,Washington,Ohio,1079
+84039169,Wayne,Ohio,2961
+84039171,Williams,Ohio,983
+84039173,Wood,Ohio,4167
+84039175,Wyandot,Ohio,664
+84040001,Adair,Oklahoma,1129
+84040003,Alfalfa,Oklahoma,278
+84040005,Atoka,Oklahoma,767
+84040007,Beaver,Oklahoma,157
+84040009,Beckham,Oklahoma,1159
+84040011,Blaine,Oklahoma,317
+84040013,Bryan,Oklahoma,2563
+84040015,Caddo,Oklahoma,1594
+84040017,Canadian,Oklahoma,6081
+84040019,Carter,Oklahoma,1381
+84040021,Cherokee,Oklahoma,2013
+84040023,Choctaw,Oklahoma,637
+84040025,Cimarron,Oklahoma,63
+84040027,Cleveland,Oklahoma,11418
+84040029,Coal,Oklahoma,244
+84040031,Comanche,Oklahoma,3988
+84040033,Cotton,Oklahoma,182
+84040035,Craig,Oklahoma,836
+84040037,Creek,Oklahoma,2308
+84040039,Custer,Oklahoma,1635
+84040041,Delaware,Oklahoma,1740
+84040043,Dewey,Oklahoma,161
+84040045,Ellis,Oklahoma,112
+84040047,Garfield,Oklahoma,3290
+84040049,Garvin,Oklahoma,1384
+84040051,Grady,Oklahoma,2344
+84040053,Grant,Oklahoma,187
+84040055,Greer,Oklahoma,217
+84040057,Harmon,Oklahoma,96
+84040059,Harper,Oklahoma,146
+84040061,Haskell,Oklahoma,601
+84040063,Hughes,Oklahoma,546
+84040065,Jackson,Oklahoma,1638
+84040067,Jefferson,Oklahoma,166
+84040069,Johnston,Oklahoma,466
+84040071,Kay,Oklahoma,1513
+84040073,Kingfisher,Oklahoma,788
+84040075,Kiowa,Oklahoma,288
+84040077,Latimer,Oklahoma,293
+84040079,Le Flore,Oklahoma,2244
+84040081,Lincoln,Oklahoma,1173
+84040083,Logan,Oklahoma,1233
+84040085,Love,Oklahoma,496
+84040093,Major,Oklahoma,376
+84040095,Marshall,Oklahoma,601
+84040097,Mayes,Oklahoma,1386
+84040087,McClain,Oklahoma,2150
+84040089,McCurtain,Oklahoma,2177
+84040091,McIntosh,Oklahoma,737
+84040099,Murray,Oklahoma,540
+84040101,Muskogee,Oklahoma,3802
+84040103,Noble,Oklahoma,364
+84040105,Nowata,Oklahoma,372
+84040107,Okfuskee,Oklahoma,891
+84040109,Oklahoma,Oklahoma,34709
+84040111,Okmulgee,Oklahoma,1647
+84040113,Osage,Oklahoma,1822
+84040115,Ottawa,Oklahoma,1601
+84080040,Out of OK,Oklahoma,0
+84040117,Pawnee,Oklahoma,502
+84040119,Payne,Oklahoma,3833
+84040121,Pittsburg,Oklahoma,1745
+84040123,Pontotoc,Oklahoma,1644
+84040125,Pottawatomie,Oklahoma,3054
+84040127,Pushmataha,Oklahoma,389
+84040129,Roger Mills,Oklahoma,135
+84040131,Rogers,Oklahoma,3624
+84040133,Seminole,Oklahoma,1141
+84040135,Sequoyah,Oklahoma,1684
+84040137,Stephens,Oklahoma,1369
+84040139,Texas,Oklahoma,2193
+84040141,Tillman,Oklahoma,275
+84040143,Tulsa,Oklahoma,29516
+84090040,Unassigned,Oklahoma,89
+84040145,Wagoner,Oklahoma,2511
+84040147,Washington,Oklahoma,1790
+84040149,Washita,Oklahoma,315
+84040151,Woods,Oklahoma,417
+84040153,Woodward,Oklahoma,1651
+84041001,Baker,Oregon,257
+84041003,Benton,Oregon,702
+84041005,Clackamas,Oregon,5146
+84041007,Clatsop,Oregon,326
+84041009,Columbia,Oregon,415
+84041011,Coos,Oregon,374
+84041013,Crook,Oregon,184
+84041015,Curry,Oregon,105
+84041017,Deschutes,Oregon,1874
+84041019,Douglas,Oregon,793
+84041021,Gilliam,Oregon,21
+84041023,Grant,Oregon,109
+84041025,Harney,Oregon,86
+84041027,Hood River,Oregon,355
+84041029,Jackson,Oregon,3302
+84041031,Jefferson,Oregon,757
+84041033,Josephine,Oregon,417
+84041035,Klamath,Oregon,632
+84041037,Lake,Oregon,92
+84041039,Lane,Oregon,3758
+84041041,Lincoln,Oregon,562
+84041043,Linn,Oregon,1233
+84041045,Malheur,Oregon,2292
+84041047,Marion,Oregon,8145
+84041049,Morrow,Oregon,612
+84041051,Multnomah,Oregon,14472
+84080041,Out of OR,Oregon,0
+84041053,Polk,Oregon,1025
+84041055,Sherman,Oregon,23
+84041057,Tillamook,Oregon,111
+84041059,Umatilla,Oregon,4052
+84090041,Unassigned,Oregon,0
+84041061,Union,Oregon,686
+84041063,Wallowa,Oregon,70
+84041065,Wasco,Oregon,461
+84041067,Washington,Oregon,8687
+84041069,Wheeler,Oregon,2
+84041071,Yamhill,Oregon,1530
+84042001,Adams,Pennsylvania,1666
+84042003,Allegheny,Pennsylvania,23121
+84042005,Armstrong,Pennsylvania,1496
+84042007,Beaver,Pennsylvania,3243
+84042009,Bedford,Pennsylvania,1147
+84042011,Berks,Pennsylvania,12379
+84042013,Blair,Pennsylvania,3200
+84042015,Bradford,Pennsylvania,1626
+84042017,Bucks,Pennsylvania,14794
+84042019,Butler,Pennsylvania,3536
+84042021,Cambria,Pennsylvania,2995
+84042023,Cameron,Pennsylvania,18
+84042025,Carbon,Pennsylvania,1028
+84042027,Centre,Pennsylvania,5582
+84042029,Chester,Pennsylvania,10505
+84042031,Clarion,Pennsylvania,684
+84042033,Clearfield,Pennsylvania,1146
+84042035,Clinton,Pennsylvania,508
+84042037,Columbia,Pennsylvania,1338
+84042039,Crawford,Pennsylvania,1420
+84042041,Cumberland,Pennsylvania,4133
+84042043,Dauphin,Pennsylvania,6756
+84042045,Delaware,Pennsylvania,18172
+84042047,Elk,Pennsylvania,419
+84042049,Erie,Pennsylvania,4268
+84042051,Fayette,Pennsylvania,1643
+84042053,Forest,Pennsylvania,55
+84042055,Franklin,Pennsylvania,3667
+84042057,Fulton,Pennsylvania,207
+84042059,Greene,Pennsylvania,580
+84042061,Huntingdon,Pennsylvania,1519
+84042063,Indiana,Pennsylvania,2132
+84042065,Jefferson,Pennsylvania,538
+84042067,Juniata,Pennsylvania,569
+84042069,Lackawanna,Pennsylvania,4665
+84042071,Lancaster,Pennsylvania,13770
+84042073,Lawrence,Pennsylvania,1818
+84042075,Lebanon,Pennsylvania,4519
+84042077,Lehigh,Pennsylvania,9694
+84042079,Luzerne,Pennsylvania,8156
+84042081,Lycoming,Pennsylvania,1660
+84042083,McKean,Pennsylvania,341
+84042085,Mercer,Pennsylvania,2263
+84042087,Mifflin,Pennsylvania,1279
+84042089,Monroe,Pennsylvania,2844
+84042091,Montgomery,Pennsylvania,19213
+84042093,Montour,Pennsylvania,404
+84042095,Northampton,Pennsylvania,7666
+84042097,Northumberland,Pennsylvania,2188
+84080042,Out of PA,Pennsylvania,0
+84042099,Perry,Pennsylvania,566
+84042101,Philadelphia,Pennsylvania,59081
+84042103,Pike,Pennsylvania,789
+84042105,Potter,Pennsylvania,134
+84042107,Schuylkill,Pennsylvania,3331
+84042109,Snyder,Pennsylvania,843
+84042111,Somerset,Pennsylvania,1365
+84042113,Sullivan,Pennsylvania,43
+84042115,Susquehanna,Pennsylvania,548
+84042117,Tioga,Pennsylvania,719
+84090042,Unassigned,Pennsylvania,0
+84042119,Union,Pennsylvania,1234
+84042121,Venango,Pennsylvania,701
+84042123,Warren,Pennsylvania,154
+84042125,Washington,Pennsylvania,3713
+84042127,Wayne,Pennsylvania,391
+84042129,Westmoreland,Pennsylvania,7315
+84042131,Wyoming,Pennsylvania,388
+84042133,York,Pennsylvania,9103
+63072001,Adjuntas,Puerto Rico,141
+63072003,Aguada,Puerto Rico,362
+63072005,Aguadilla,Puerto Rico,423
+63072007,Aguas Buenas,Puerto Rico,300
+63072009,Aibonito,Puerto Rico,136
+63072011,Anasco,Puerto Rico,257
+63072013,Arecibo,Puerto Rico,849
+63072015,Arroyo,Puerto Rico,74
+63072017,Barceloneta,Puerto Rico,249
+63072019,Barranquitas,Puerto Rico,386
+63072021,Bayamon,Puerto Rico,3716
+63072023,Cabo Rojo,Puerto Rico,239
+63072025,Caguas,Puerto Rico,1877
+63072027,Camuy,Puerto Rico,336
+63072029,Canovanas,Puerto Rico,655
+63072031,Carolina,Puerto Rico,3250
+63072033,Catano,Puerto Rico,433
+63072035,Cayey,Puerto Rico,304
+63072037,Ceiba,Puerto Rico,97
+63072039,Ciales,Puerto Rico,296
+63072041,Cidra,Puerto Rico,346
+63072043,Coamo,Puerto Rico,224
+63072045,Comerio,Puerto Rico,204
+63072047,Corozal,Puerto Rico,562
+63072049,Culebra,Puerto Rico,20
+63072051,Dorado,Puerto Rico,727
+63072053,Fajardo,Puerto Rico,373
+63072054,Florida,Puerto Rico,175
+63072055,Guanica,Puerto Rico,83
+63072057,Guayama,Puerto Rico,221
+63072059,Guayanilla,Puerto Rico,102
+63072061,Guaynabo,Puerto Rico,1743
+63072063,Gurabo,Puerto Rico,634
+63072065,Hatillo,Puerto Rico,323
+63072067,Hormigueros,Puerto Rico,150
+63072069,Humacao,Puerto Rico,502
+63072071,Isabela,Puerto Rico,320
+63072073,Jayuya,Puerto Rico,116
+63072075,Juana Diaz,Puerto Rico,328
+63072077,Juncos,Puerto Rico,493
+63072079,Lajas,Puerto Rico,82
+63072081,Lares,Puerto Rico,242
+63072083,Las Marias,Puerto Rico,77
+63072085,Las Piedras,Puerto Rico,487
+63072087,Loiza,Puerto Rico,322
+63072089,Luquillo,Puerto Rico,197
+63072091,Manati,Puerto Rico,446
+63072093,Maricao,Puerto Rico,50
+63072095,Maunabo,Puerto Rico,80
+63072097,Mayaguez,Puerto Rico,644
+63072099,Moca,Puerto Rico,395
+63072101,Morovis,Puerto Rico,475
+63072103,Naguabo,Puerto Rico,304
+63072105,Naranjito,Puerto Rico,486
+63072107,Orocovis,Puerto Rico,292
+63072888,Out of PR,Puerto Rico,172
+63072109,Patillas,Puerto Rico,92
+63072111,Penuelas,Puerto Rico,132
+63072113,Ponce,Puerto Rico,844
+63072115,Quebradillas,Puerto Rico,246
+63072117,Rincon,Puerto Rico,137
+63072119,Rio Grande,Puerto Rico,608
+63072121,Sabana Grande,Puerto Rico,106
+63072123,Salinas,Puerto Rico,214
+63072125,San German,Puerto Rico,177
+63072127,San Juan,Puerto Rico,7992
+63072129,San Lorenzo,Puerto Rico,587
+63072131,San Sebastian,Puerto Rico,429
+63072133,Santa Isabel,Puerto Rico,111
+63072135,Toa Alta,Puerto Rico,1374
+63072137,Toa Baja,Puerto Rico,1437
+63072139,Trujillo Alto,Puerto Rico,1250
+63072999,Unassigned,Puerto Rico,1149
+63072141,Utuado,Puerto Rico,211
+63072143,Vega Alta,Puerto Rico,651
+63072145,Vega Baja,Puerto Rico,1012
+63072147,Vieques,Puerto Rico,25
+63072149,Villalba,Puerto Rico,313
+63072151,Yabucoa,Puerto Rico,274
+63072153,Yauco,Puerto Rico,286
+84044001,Bristol,Rhode Island,1044
+84044003,Kent,Rhode Island,4152
+84044005,Newport,Rhode Island,1046
+84080044,Out of RI,Rhode Island,0
+84044007,Providence,Rhode Island,31512
+84090044,Unassigned,Rhode Island,8356
+84044009,Washington,Rhode Island,1891
+84045001,Abbeville,South Carolina,906
+84045003,Aiken,South Carolina,6015
+84045005,Allendale,South Carolina,441
+84045007,Anderson,South Carolina,7473
+84045009,Bamberg,South Carolina,726
+84045011,Barnwell,South Carolina,949
+84045013,Beaufort,South Carolina,6866
+84045015,Berkeley,South Carolina,6874
+84045017,Calhoun,South Carolina,545
+84045019,Charleston,South Carolina,19178
+84045021,Cherokee,South Carolina,1963
+84045023,Chester,South Carolina,1462
+84045025,Chesterfield,South Carolina,1686
+84045027,Clarendon,South Carolina,1318
+84045029,Colleton,South Carolina,1448
+84045031,Darlington,South Carolina,2897
+84045033,Dillon,South Carolina,1473
+84045035,Dorchester,South Carolina,5527
+84045037,Edgefield,South Carolina,1121
+84045039,Fairfield,South Carolina,1002
+84045041,Florence,South Carolina,6373
+84045043,Georgetown,South Carolina,2678
+84045045,Greenville,South Carolina,22166
+84045047,Greenwood,South Carolina,2935
+84045049,Hampton,South Carolina,844
+84045051,Horry,South Carolina,14153
+84045053,Jasper,South Carolina,1036
+84045055,Kershaw,South Carolina,2853
+84045057,Lancaster,South Carolina,3277
+84045059,Laurens,South Carolina,2354
+84045061,Lee,South Carolina,854
+84045063,Lexington,South Carolina,10804
+84045067,Marion,South Carolina,1284
+84045069,Marlboro,South Carolina,1336
+84045065,McCormick,South Carolina,320
+84045071,Newberry,South Carolina,2032
+84045073,Oconee,South Carolina,3019
+84045075,Orangeburg,South Carolina,3660
+84080045,Out of SC,South Carolina,0
+84045077,Pickens,South Carolina,5853
+84045079,Richland,South Carolina,19559
+84045081,Saluda,South Carolina,782
+84045083,Spartanburg,South Carolina,11468
+84045085,Sumter,South Carolina,4036
+84090045,Unassigned,South Carolina,0
+84045087,Union,South Carolina,984
+84045089,Williamsburg,South Carolina,1593
+84045091,York,South Carolina,8895
+84046003,Aurora,South Dakota,325
+84046005,Beadle,South Dakota,2129
+84046007,Bennett,South Dakota,299
+84046009,Bon Homme,South Dakota,1301
+84046011,Brookings,South Dakota,2222
+84046013,Brown,South Dakota,3213
+84046015,Brule,South Dakota,517
+84046017,Buffalo,South Dakota,359
+84046019,Butte,South Dakota,646
+84046021,Campbell,South Dakota,97
+84046023,Charles Mix,South Dakota,744
+84046025,Clark,South Dakota,224
+84046027,Clay,South Dakota,1214
+84046029,Codington,South Dakota,2450
+84046031,Corson,South Dakota,343
+84046033,Custer,South Dakota,484
+84046035,Davison,South Dakota,2197
+84046037,Day,South Dakota,310
+84046039,Deuel,South Dakota,277
+84046041,Dewey,South Dakota,730
+84046043,Douglas,South Dakota,272
+84046045,Edmunds,South Dakota,226
+84046047,Fall River,South Dakota,343
+84046049,Faulk,South Dakota,271
+84046051,Grant,South Dakota,539
+84046053,Gregory,South Dakota,402
+84046055,Haakon,South Dakota,131
+84046057,Hamlin,South Dakota,427
+84046059,Hand,South Dakota,264
+84046061,Hanson,South Dakota,211
+84046063,Harding,South Dakota,64
+84046065,Hughes,South Dakota,1513
+84046067,Hutchinson,South Dakota,499
+84046069,Hyde,South Dakota,112
+84046071,Jackson,South Dakota,185
+84046073,Jerauld,South Dakota,229
+84046075,Jones,South Dakota,55
+84046077,Kingsbury,South Dakota,397
+84046079,Lake,South Dakota,760
+84046081,Lawrence,South Dakota,1790
+84046083,Lincoln,South Dakota,4921
+84046085,Lyman,South Dakota,422
+84046091,Marshall,South Dakota,143
+84046087,McCook,South Dakota,551
+84046089,McPherson,South Dakota,129
+84046093,Meade,South Dakota,1553
+84046095,Mellette,South Dakota,152
+84046097,Miner,South Dakota,181
+84046099,Minnehaha,South Dakota,18533
+84046101,Moody,South Dakota,378
+84046102,Oglala Lakota,South Dakota,1518
+84080046,Out of SD,South Dakota,0
+84046103,Pennington,South Dakota,7679
+84046105,Perkins,South Dakota,153
+84046107,Potter,South Dakota,236
+84046109,Roberts,South Dakota,634
+84046111,Sanborn,South Dakota,238
+84046115,Spink,South Dakota,506
+84046117,Stanley,South Dakota,212
+84046119,Sully,South Dakota,84
+84046121,Todd,South Dakota,816
+84046123,Tripp,South Dakota,441
+84046125,Turner,South Dakota,751
+84090046,Unassigned,South Dakota,0
+84046127,Union,South Dakota,1148
+84046129,Walworth,South Dakota,431
+84046135,Yankton,South Dakota,1474
+84046137,Ziebach,South Dakota,159
+84047001,Anderson,Tennessee,2650
+84047003,Bedford,Tennessee,2458
+84047005,Benton,Tennessee,727
+84047007,Bledsoe,Tennessee,1135
+84047009,Blount,Tennessee,4963
+84047011,Bradley,Tennessee,4712
+84047013,Campbell,Tennessee,1421
+84047015,Cannon,Tennessee,678
+84047017,Carroll,Tennessee,1590
+84047019,Carter,Tennessee,2474
+84047021,Cheatham,Tennessee,1450
+84047023,Chester,Tennessee,969
+84047025,Claiborne,Tennessee,734
+84047027,Clay,Tennessee,520
+84047029,Cocke,Tennessee,1512
+84047031,Coffee,Tennessee,2582
+84047033,Crockett,Tennessee,1101
+84047035,Cumberland,Tennessee,2365
+84047037,Davidson,Tennessee,40119
+84047041,DeKalb,Tennessee,1072
+84047039,Decatur,Tennessee,897
+84047043,Dickson,Tennessee,2628
+84047045,Dyer,Tennessee,3036
+84047047,Fayette,Tennessee,2105
+84047049,Fentress,Tennessee,1151
+84047051,Franklin,Tennessee,1874
+84047053,Gibson,Tennessee,2919
+84047055,Giles,Tennessee,1328
+84047057,Grainger,Tennessee,877
+84047059,Greene,Tennessee,2741
+84047061,Grundy,Tennessee,727
+84047063,Hamblen,Tennessee,3214
+84047065,Hamilton,Tennessee,15557
+84047067,Hancock,Tennessee,140
+84047069,Hardeman,Tennessee,2183
+84047071,Hardin,Tennessee,1695
+84047073,Hawkins,Tennessee,1749
+84047075,Haywood,Tennessee,1576
+84047077,Henderson,Tennessee,1758
+84047079,Henry,Tennessee,1384
+84047081,Hickman,Tennessee,1089
+84047083,Houston,Tennessee,564
+84047085,Humphreys,Tennessee,631
+84047087,Jackson,Tennessee,652
+84047089,Jefferson,Tennessee,2086
+84047091,Johnson,Tennessee,1356
+84047093,Knox,Tennessee,17242
+84047095,Lake,Tennessee,1137
+84047097,Lauderdale,Tennessee,1967
+84047099,Lawrence,Tennessee,2457
+84047101,Lewis,Tennessee,697
+84047103,Lincoln,Tennessee,1420
+84047105,Loudon,Tennessee,2125
+84047111,Macon,Tennessee,1740
+84047113,Madison,Tennessee,4974
+84047115,Marion,Tennessee,1022
+84047117,Marshall,Tennessee,1600
+84047119,Maury,Tennessee,5373
+84047107,McMinn,Tennessee,2294
+84047109,McNairy,Tennessee,1364
+84047121,Meigs,Tennessee,455
+84047123,Monroe,Tennessee,1951
+84047125,Montgomery,Tennessee,6044
+84047127,Moore,Tennessee,361
+84047129,Morgan,Tennessee,639
+84047131,Obion,Tennessee,2466
+84080047,Out of TN,Tennessee,6470
+84047133,Overton,Tennessee,1487
+84047135,Perry,Tennessee,456
+84047137,Pickett,Tennessee,362
+84047139,Polk,Tennessee,619
+84047141,Putnam,Tennessee,5647
+84047143,Rhea,Tennessee,1525
+84047145,Roane,Tennessee,2149
+84047147,Robertson,Tennessee,3467
+84047149,Rutherford,Tennessee,16458
+84047151,Scott,Tennessee,911
+84047153,Sequatchie,Tennessee,487
+84047155,Sevier,Tennessee,4495
+84047157,Shelby,Tennessee,45045
+84047159,Smith,Tennessee,1362
+84047161,Stewart,Tennessee,539
+84047163,Sullivan,Tennessee,5855
+84047165,Sumner,Tennessee,8833
+84047167,Tipton,Tennessee,3367
+84047169,Trousdale,Tennessee,1888
+84090047,Unassigned,Tennessee,3992
+84047171,Unicoi,Tennessee,754
+84047173,Union,Tennessee,673
+84047175,Van Buren,Tennessee,336
+84047177,Warren,Tennessee,2229
+84047179,Washington,Tennessee,5415
+84047181,Wayne,Tennessee,1785
+84047183,Weakley,Tennessee,2040
+84047185,White,Tennessee,1647
+84047187,Williamson,Tennessee,10323
+84047189,Wilson,Tennessee,6794
+84048001,Anderson,Texas,3127
+84048003,Andrews,Texas,977
+84048005,Angelina,Texas,2515
+84048007,Aransas,Texas,376
+84048009,Archer,Texas,231
+84048011,Armstrong,Texas,42
+84048013,Atascosa,Texas,1417
+84048015,Austin,Texas,558
+84048017,Bailey,Texas,454
+84048019,Bandera,Texas,223
+84048021,Bastrop,Texas,2216
+84048023,Baylor,Texas,52
+84048025,Bee,Texas,1936
+84048027,Bell,Texas,8018
+84048029,Bexar,Texas,72805
+84048031,Blanco,Texas,178
+84048033,Borden,Texas,5
+84048035,Bosque,Texas,507
+84048037,Bowie,Texas,2414
+84048039,Brazoria,Texas,13722
+84048041,Brazos,Texas,9032
+84048043,Brewster,Texas,439
+84048045,Briscoe,Texas,39
+84048047,Brooks,Texas,389
+84048049,Brown,Texas,885
+84048051,Burleson,Texas,628
+84048053,Burnet,Texas,1324
+84048055,Caldwell,Texas,1820
+84048057,Calhoun,Texas,973
+84048059,Callahan,Texas,197
+84048061,Cameron,Texas,25507
+84048063,Camp,Texas,441
+84048065,Carson,Texas,87
+84048067,Cass,Texas,719
+84048069,Castro,Texas,439
+84048071,Chambers,Texas,1845
+84048073,Cherokee,Texas,1726
+84048075,Childress,Texas,812
+84048077,Clay,Texas,244
+84048079,Cochran,Texas,148
+84048081,Coke,Texas,163
+84048083,Coleman,Texas,173
+84048085,Collin,Texas,22691
+84048087,Collingsworth,Texas,38
+84048089,Colorado,Texas,559
+84048091,Comal,Texas,3110
+84048093,Comanche,Texas,421
+84048095,Concho,Texas,181
+84048097,Cooke,Texas,715
+84048099,Coryell,Texas,2301
+84048101,Cottle,Texas,52
+84048103,Crane,Texas,159
+84048105,Crockett,Texas,210
+84048107,Crosby,Texas,165
+84048109,Culberson,Texas,175
+84048111,Dallam,Texas,426
+84048113,Dallas,Texas,117151
+84048115,Dawson,Texas,1147
+84048123,DeWitt,Texas,1190
+84048117,Deaf Smith,Texas,1224
+84048119,Delta,Texas,46
+84048121,Denton,Texas,18382
+84048125,Dickens,Texas,65
+84048127,Dimmit,Texas,341
+84048129,Donley,Texas,107
+84048131,Duval,Texas,570
+84048133,Eastland,Texas,338
+84048135,Ector,Texas,8206
+84048137,Edwards,Texas,81
+84048141,El Paso,Texas,80291
+84048139,Ellis,Texas,6107
+84048143,Erath,Texas,1251
+84048145,Falls,Texas,771
+84048147,Fannin,Texas,948
+84048149,Fayette,Texas,751
+84048151,Fisher,Texas,145
+84048153,Floyd,Texas,182
+84048155,Foard,Texas,25
+84048157,Fort Bend,Texas,19352
+84048159,Franklin,Texas,245
+84048161,Freestone,Texas,500
+84048163,Frio,Texas,1084
+84048165,Gaines,Texas,870
+84048167,Galveston,Texas,14020
+84048169,Garza,Texas,159
+84048171,Gillespie,Texas,443
+84048173,Glasscock,Texas,30
+84048175,Goliad,Texas,177
+84048177,Gonzales,Texas,1208
+84048179,Gray,Texas,1201
+84048181,Grayson,Texas,3921
+84048183,Gregg,Texas,3109
+84048185,Grimes,Texas,1327
+84048187,Guadalupe,Texas,4145
+84048189,Hale,Texas,3742
+84048191,Hall,Texas,76
+84048193,Hamilton,Texas,278
+84048195,Hansford,Texas,226
+84048197,Hardeman,Texas,77
+84048199,Hardin,Texas,1578
+84048201,Harris,Texas,181361
+84048203,Harrison,Texas,1218
+84048205,Hartley,Texas,204
+84048207,Haskell,Texas,95
+84048209,Hays,Texas,6960
+84048211,Hemphill,Texas,234
+84048213,Henderson,Texas,1699
+84048215,Hidalgo,Texas,40085
+84048217,Hill,Texas,1147
+84048219,Hockley,Texas,1234
+84048221,Hood,Texas,1472
+84048223,Hopkins,Texas,793
+84048225,Houston,Texas,544
+84048227,Howard,Texas,1627
+84048229,Hudspeth,Texas,140
+84048231,Hunt,Texas,2601
+84048233,Hutchinson,Texas,608
+84048235,Irion,Texas,16
+84048237,Jack,Texas,215
+84048239,Jackson,Texas,767
+84048241,Jasper,Texas,541
+84048243,Jeff Davis,Texas,44
+84048245,Jefferson,Texas,9804
+84048247,Jim Hogg,Texas,206
+84048249,Jim Wells,Texas,1910
+84048251,Johnson,Texas,4842
+84048253,Jones,Texas,1596
+84048255,Karnes,Texas,993
+84048257,Kaufman,Texas,4315
+84048259,Kendall,Texas,483
+84048261,Kenedy,Texas,11
+84048263,Kent,Texas,23
+84048265,Kerr,Texas,870
+84048267,Kimble,Texas,79
+84048269,King,Texas,1
+84048271,Kinney,Texas,85
+84048273,Kleberg,Texas,1160
+84048275,Knox,Texas,117
+84048283,La Salle,Texas,388
+84048277,Lamar,Texas,2385
+84048279,Lamb,Texas,914
+84048281,Lampasas,Texas,363
+84048285,Lavaca,Texas,1333
+84048287,Lee,Texas,277
+84048289,Leon,Texas,427
+84048291,Liberty,Texas,2414
+84048293,Limestone,Texas,764
+84048295,Lipscomb,Texas,120
+84048297,Live Oak,Texas,419
+84048299,Llano,Texas,261
+84048301,Loving,Texas,1
+84048303,Lubbock,Texas,28134
+84048305,Lynn,Texas,313
+84048313,Madison,Texas,849
+84048315,Marion,Texas,182
+84048317,Martin,Texas,176
+84048319,Mason,Texas,133
+84048321,Matagorda,Texas,1204
+84048323,Maverick,Texas,4722
+84048307,McCulloch,Texas,277
+84048309,McLennan,Texas,13156
+84048311,McMullen,Texas,27
+84048325,Medina,Texas,1378
+84048327,Menard,Texas,104
+84048329,Midland,Texas,6576
+84048331,Milam,Texas,615
+84048333,Mills,Texas,129
+84048335,Mitchell,Texas,304
+84048337,Montague,Texas,511
+84048339,Montgomery,Texas,15920
+84048341,Moore,Texas,1579
+84048343,Morris,Texas,265
+84048345,Motley,Texas,19
+84048347,Nacogdoches,Texas,1925
+84048349,Navarro,Texas,1729
+84048351,Newton,Texas,195
+84048353,Nolan,Texas,655
+84048355,Nueces,Texas,23130
+84048357,Ochiltree,Texas,494
+84048359,Oldham,Texas,36
+84048361,Orange,Texas,2495
+84080048,Out of TX,Texas,0
+84048363,Palo Pinto,Texas,891
+84048365,Panola,Texas,523
+84048367,Parker,Texas,3449
+84048369,Parmer,Texas,674
+84048371,Pecos,Texas,692
+84048373,Polk,Texas,991
+84048375,Potter,Texas,11521
+84048377,Presidio,Texas,272
+84048379,Rains,Texas,152
+84048381,Randall,Texas,9326
+84048383,Reagan,Texas,162
+84048385,Real,Texas,130
+84048387,Red River,Texas,218
+84048389,Reeves,Texas,470
+84048391,Refugio,Texas,333
+84048393,Roberts,Texas,24
+84048395,Robertson,Texas,484
+84048397,Rockwall,Texas,2538
+84048399,Runnels,Texas,335
+84048401,Rusk,Texas,1176
+84048403,Sabine,Texas,121
+84048405,San Augustine,Texas,256
+84048407,San Jacinto,Texas,250
+84048409,San Patricio,Texas,1819
+84048411,San Saba,Texas,294
+84048413,Schleicher,Texas,109
+84048415,Scurry,Texas,1486
+84048417,Shackelford,Texas,47
+84048419,Shelby,Texas,596
+84048421,Sherman,Texas,88
+84048423,Smith,Texas,5677
+84048425,Somervell,Texas,228
+84048427,Starr,Texas,3784
+84048429,Stephens,Texas,228
+84048431,Sterling,Texas,33
+84048433,Stonewall,Texas,24
+84048435,Sutton,Texas,197
+84048437,Swisher,Texas,239
+84048439,Tarrant,Texas,90316
+84048441,Taylor,Texas,3033
+84048443,Terrell,Texas,13
+84048445,Terry,Texas,890
+84048447,Throckmorton,Texas,23
+84048449,Titus,Texas,1831
+84048451,Tom Green,Texas,8087
+84048453,Travis,Texas,36175
+84048455,Trinity,Texas,225
+84048457,Tyler,Texas,295
+84090048,Unassigned,Texas,0
+84048459,Upshur,Texas,591
+84048461,Upton,Texas,43
+84048463,Uvalde,Texas,1046
+84048465,Val Verde,Texas,2932
+84048467,Van Zandt,Texas,1027
+84048469,Victoria,Texas,4780
+84048471,Walker,Texas,4094
+84048473,Waller,Texas,1088
+84048475,Ward,Texas,314
+84048477,Washington,Texas,915
+84048479,Webb,Texas,18369
+84048481,Wharton,Texas,1555
+84048483,Wheeler,Texas,210
+84048485,Wichita,Texas,6141
+84048487,Wilbarger,Texas,593
+84048489,Willacy,Texas,1319
+84048491,Williamson,Texas,11559
+84048493,Wilson,Texas,1080
+84048495,Winkler,Texas,266
+84048497,Wise,Texas,1418
+84048499,Wood,Texas,853
+84048501,Yoakum,Texas,579
+84048503,Young,Texas,810
+84048505,Zapata,Texas,451
+84048507,Zavala,Texas,553
+84070015,Bear River,Utah,8962
+84049001,Beaver,Utah,0
+84049003,Box Elder,Utah,0
+84049005,Cache,Utah,0
+84049007,Carbon,Utah,0
+84070016,Central Utah,Utah,2668
+84049009,Daggett,Utah,0
+84049011,Davis,Utah,14498
+84049013,Duchesne,Utah,0
+84049015,Emery,Utah,0
+84049017,Garfield,Utah,0
+84049019,Grand,Utah,0
+84049021,Iron,Utah,0
+84049023,Juab,Utah,0
+84049025,Kane,Utah,0
+84049027,Millard,Utah,0
+84049029,Morgan,Utah,0
+84080049,Out of UT,Utah,0
+84049031,Piute,Utah,0
+84049033,Rich,Utah,0
+84049035,Salt Lake,Utah,72206
+84049037,San Juan,Utah,981
+84049039,Sanpete,Utah,0
+84049041,Sevier,Utah,0
+84070017,Southeast Utah,Utah,1139
+84070018,Southwest Utah,Utah,10370
+84049043,Summit,Utah,2056
+84049045,Tooele,Utah,2559
+84070019,TriCounty,Utah,1245
+84049047,Uintah,Utah,0
+84090049,Unassigned,Utah,0
+84049049,Utah,Utah,43875
+84049051,Wasatch,Utah,1844
+84049053,Washington,Utah,0
+84049055,Wayne,Utah,0
+84049057,Weber,Utah,0
+84070020,Weber-Morgan,Utah,11576
+84050001,Addison,Vermont,160
+84050003,Bennington,Vermont,188
+84050005,Caledonia,Vermont,97
+84050007,Chittenden,Vermont,1341
+84050009,Essex,Vermont,26
+84050011,Franklin,Vermont,191
+84050013,Grand Isle,Vermont,36
+84050015,Lamoille,Vermont,130
+84050017,Orange,Vermont,165
+84050019,Orleans,Vermont,111
+84080050,Out of VT,Vermont,0
+84050021,Rutland,Vermont,212
+84090050,Unassigned,Vermont,8
+84050023,Washington,Vermont,519
+84050025,Windham,Vermont,193
+84050027,Windsor,Vermont,169
+850,,Virgin Islands,1491
+84051001,Accomack,Virginia,1288
+84051003,Albemarle,Virginia,1786
+84051510,Alexandria,Virginia,4882
+84051005,Alleghany,Virginia,271
+84051007,Amelia,Virginia,174
+84051009,Amherst,Virginia,715
+84051011,Appomattox,Virginia,373
+84051013,Arlington,Virginia,5673
+84051015,Augusta,Virginia,1018
+84051017,Bath,Virginia,51
+84051019,Bedford,Virginia,1676
+84051021,Bland,Virginia,115
+84051023,Botetourt,Virginia,685
+84051520,Bristol,Virginia,474
+84051025,Brunswick,Virginia,454
+84051027,Buchanan,Virginia,364
+84051029,Buckingham,Virginia,839
+84051530,Buena Vista,Virginia,219
+84051031,Campbell,Virginia,1012
+84051033,Caroline,Virginia,538
+84051035,Carroll,Virginia,842
+84051036,Charles City,Virginia,134
+84051037,Charlotte,Virginia,267
+84051540,Charlottesville,Virginia,1788
+84051550,Chesapeake,Virginia,5856
+84051041,Chesterfield,Virginia,8540
+84051043,Clarke,Virginia,179
+84051570,Colonial Heights,Virginia,374
+84051580,Covington,Virginia,118
+84051045,Craig,Virginia,81
+84051047,Culpeper,Virginia,1872
+84051049,Cumberland,Virginia,142
+84051590,Danville,Virginia,1506
+84051051,Dickenson,Virginia,234
+84051053,Dinwiddie,Virginia,622
+84051595,Emporia,Virginia,311
+84051057,Essex,Virginia,224
+84051059,Fairfax,Virginia,28060
+84051600,Fairfax City,Virginia,197
+84051610,Falls Church,Virginia,88
+84051061,Fauquier,Virginia,1337
+84051063,Floyd,Virginia,307
+84051065,Fluvanna,Virginia,472
+84051067,Franklin,Virginia,1397
+84051620,Franklin City,Virginia,534
+84051069,Frederick,Virginia,1759
+84051630,Fredericksburg,Virginia,649
+84051640,Galax,Virginia,524
+84051071,Giles,Virginia,234
+84051073,Gloucester,Virginia,392
+84051075,Goochland,Virginia,392
+84051077,Grayson,Virginia,483
+84051079,Greene,Virginia,341
+84051081,Greensville,Virginia,926
+84051083,Halifax,Virginia,772
+84051650,Hampton,Virginia,2534
+84051085,Hanover,Virginia,2163
+84051660,Harrisonburg,Virginia,3347
+84051087,Henrico,Virginia,7683
+84051089,Henry,Virginia,1712
+84051091,Highland,Virginia,14
+84051670,Hopewell,Virginia,580
+84051093,Isle of Wight,Virginia,967
+84051095,James City,Virginia,1111
+84051099,King George,Virginia,361
+84051101,King William,Virginia,264
+84051097,King and Queen,Virginia,101
+84051103,Lancaster,Virginia,224
+84051105,Lee,Virginia,789
+84051678,Lexington,Virginia,321
+84051107,Loudoun,Virginia,9216
+84051109,Louisa,Virginia,467
+84051111,Lunenburg,Virginia,162
+84051680,Lynchburg,Virginia,2469
+84051113,Madison,Virginia,173
+84051683,Manassas,Virginia,2197
+84051685,Manassas Park,Virginia,692
+84051690,Martinsville,Virginia,624
+84051115,Mathews,Virginia,152
+84051117,Mecklenburg,Virginia,968
+84051119,Middlesex,Virginia,152
+84051121,Montgomery,Virginia,3675
+84051125,Nelson,Virginia,164
+84051127,New Kent,Virginia,351
+84051700,Newport News,Virginia,3729
+84051710,Norfolk,Virginia,6178
+84051131,Northampton,Virginia,335
+84051133,Northumberland,Virginia,247
+84051720,Norton,Virginia,69
+84051135,Nottoway,Virginia,478
+84051137,Orange,Virginia,518
+84080051,Out of VA,Virginia,0
+84051139,Page,Virginia,551
+84051141,Patrick,Virginia,422
+84051730,Petersburg,Virginia,1037
+84051143,Pittsylvania,Virginia,1586
+84051735,Poquoson,Virginia,125
+84051740,Portsmouth,Virginia,3067
+84051145,Powhatan,Virginia,400
+84051147,Prince Edward,Virginia,845
+84051149,Prince George,Virginia,1361
+84051153,Prince William,Virginia,16724
+84051155,Pulaski,Virginia,530
+84051750,Radford,Virginia,1100
+84051157,Rappahannock,Virginia,75
+84051159,Richmond,Virginia,382
+84051760,Richmond City,Virginia,6268
+84051161,Roanoke,Virginia,2500
+84051770,Roanoke City,Virginia,3820
+84051163,Rockbridge,Virginia,220
+84051165,Rockingham,Virginia,2110
+84051167,Russell,Virginia,734
+84051775,Salem,Virginia,794
+84051169,Scott,Virginia,689
+84051171,Shenandoah,Virginia,1279
+84051173,Smyth,Virginia,916
+84051175,Southampton,Virginia,964
+84051177,Spotsylvania,Virginia,2891
+84051179,Stafford,Virginia,2960
+84051790,Staunton,Virginia,562
+84051800,Suffolk,Virginia,2602
+84051181,Surry,Virginia,156
+84051183,Sussex,Virginia,659
+84051185,Tazewell,Virginia,894
+84090051,Unassigned,Virginia,0
+84051810,Virginia Beach,Virginia,9865
+84051187,Warren,Virginia,749
+84051191,Washington,Virginia,1558
+84051820,Waynesboro,Virginia,527
+84051193,Westmoreland,Virginia,395
+84051830,Williamsburg,Virginia,279
+84051840,Winchester,Virginia,855
+84051195,Wise,Virginia,1114
+84051197,Wythe,Virginia,549
+84051199,York,Virginia,817
+84053001,Adams,Washington,1243
+84053003,Asotin,Washington,537
+84053005,Benton,Washington,7112
+84053007,Chelan,Washington,2210
+84053009,Clallam,Washington,377
+84053011,Clark,Washington,7198
+84053013,Columbia,Washington,28
+84053015,Cowlitz,Washington,1152
+84053017,Douglas,Washington,1295
+84053019,Ferry,Washington,48
+84053021,Franklin,Washington,5813
+84053023,Garfield,Washington,52
+84053025,Grant,Washington,3799
+84053027,Grays Harbor,Washington,922
+84053029,Island,Washington,552
+84053031,Jefferson,Washington,139
+84053033,King,Washington,37631
+84053035,Kitsap,Washington,2122
+84053037,Kittitas,Washington,867
+84053039,Klickitat,Washington,239
+84053041,Lewis,Washington,1010
+84053043,Lincoln,Washington,129
+84053045,Mason,Washington,654
+84053047,Okanogan,Washington,1184
+84080053,Out of WA,Washington,0
+84053049,Pacific,Washington,192
+84053051,Pend Oreille,Washington,192
+84053053,Pierce,Washington,14228
+84053055,San Juan,Washington,56
+84053057,Skagit,Washington,1736
+84053059,Skamania,Washington,88
+84053061,Snohomish,Washington,12337
+84053063,Spokane,Washington,13668
+84053065,Stevens,Washington,490
+84053067,Thurston,Washington,2531
+84090053,Unassigned,Washington,487
+84053069,Wahkiakum,Washington,13
+84053071,Walla Walla,Washington,1882
+84053073,Whatcom,Washington,2039
+84053075,Whitman,Washington,2193
+84053077,Yakima,Washington,12815
+84054001,Barbour,West Virginia,333
+84054003,Berkeley,West Virginia,2600
+84054005,Boone,West Virginia,570
+84054007,Braxton,West Virginia,99
+84054009,Brooke,West Virginia,503
+84054011,Cabell,West Virginia,2508
+84054013,Calhoun,West Virginia,55
+84054015,Clay,West Virginia,104
+84054017,Doddridge,West Virginia,103
+84054019,Fayette,West Virginia,1040
+84054021,Gilmer,West Virginia,182
+84054023,Grant,West Virginia,270
+84054025,Greenbrier,West Virginia,373
+84054027,Hampshire,West Virginia,256
+84054029,Hancock,West Virginia,494
+84054031,Hardy,West Virginia,192
+84054033,Harrison,West Virginia,1052
+84054035,Jackson,West Virginia,648
+84054037,Jefferson,West Virginia,1128
+84054039,Kanawha,West Virginia,5135
+84054041,Lewis,West Virginia,217
+84054043,Lincoln,West Virginia,377
+84054045,Logan,West Virginia,978
+84054049,Marion,West Virginia,701
+84054051,Marshall,West Virginia,986
+84054053,Mason,West Virginia,327
+84054047,McDowell,West Virginia,567
+84054055,Mercer,West Virginia,1194
+84054057,Mineral,West Virginia,934
+84054059,Mingo,West Virginia,901
+84054061,Monongalia,West Virginia,2985
+84054063,Monroe,West Virginia,326
+84054065,Morgan,West Virginia,233
+84054067,Nicholas,West Virginia,299
+84054069,Ohio,West Virginia,1262
+84080054,Out of WV,West Virginia,0
+84054071,Pendleton,West Virginia,93
+84054073,Pleasants,West Virginia,69
+84054075,Pocahontas,West Virginia,94
+84054077,Preston,West Virginia,432
+84054079,Putnam,West Virginia,1585
+84054081,Raleigh,West Virginia,1359
+84054083,Randolph,West Virginia,617
+84054085,Ritchie,West Virginia,120
+84054087,Roane,West Virginia,144
+84054089,Summers,West Virginia,251
+84054091,Taylor,West Virginia,247
+84054093,Tucker,West Virginia,101
+84054095,Tyler,West Virginia,119
+84090054,Unassigned,West Virginia,0
+84054097,Upshur,West Virginia,422
+84054099,Wayne,West Virginia,885
+84054101,Webster,West Virginia,50
+84054103,Wetzel,West Virginia,363
+84054105,Wirt,West Virginia,83
+84054107,Wood,West Virginia,2035
+84054109,Wyoming,West Virginia,597
+84055001,Adams,Wisconsin,1021
+84055003,Ashland,Wisconsin,587
+84055005,Barron,Wisconsin,3267
+84055007,Bayfield,Wisconsin,625
+84055009,Brown,Wisconsin,21579
+84055011,Buffalo,Wisconsin,714
+84055013,Burnett,Wisconsin,702
+84055015,Calumet,Wisconsin,3996
+84055017,Chippewa,Wisconsin,4218
+84055019,Clark,Wisconsin,2059
+84055021,Columbia,Wisconsin,3270
+84055023,Crawford,Wisconsin,813
+84055025,Dane,Wisconsin,25345
+84055027,Dodge,Wisconsin,8010
+84055029,Door,Wisconsin,1617
+84055031,Douglas,Wisconsin,1723
+84055033,Dunn,Wisconsin,2395
+84055035,Eau Claire,Wisconsin,7184
+84055037,Florence,Wisconsin,315
+84055039,Fond du Lac,Wisconsin,8197
+84055041,Forest,Wisconsin,733
+84055043,Grant,Wisconsin,3354
+84055045,Green,Wisconsin,1547
+84055047,Green Lake,Wisconsin,1324
+84055049,Iowa,Wisconsin,1198
+84055051,Iron,Wisconsin,383
+84055053,Jackson,Wisconsin,1505
+84055055,Jefferson,Wisconsin,5108
+84055057,Juneau,Wisconsin,1755
+84055059,Kenosha,Wisconsin,9282
+84055061,Kewaunee,Wisconsin,1589
+84055063,La Crosse,Wisconsin,7547
+84055065,Lafayette,Wisconsin,1028
+84055067,Langlade,Wisconsin,1512
+84055069,Lincoln,Wisconsin,1816
+84055071,Manitowoc,Wisconsin,5092
+84055073,Marathon,Wisconsin,9544
+84055075,Marinette,Wisconsin,2933
+84055077,Marquette,Wisconsin,1104
+84055078,Menominee,Wisconsin,536
+84055079,Milwaukee,Wisconsin,65295
+84055081,Monroe,Wisconsin,2265
+84055083,Oconto,Wisconsin,3174
+84055085,Oneida,Wisconsin,2165
+84080055,Out of WI,Wisconsin,0
+84055087,Outagamie,Wisconsin,13633
+84055089,Ozaukee,Wisconsin,4830
+84055091,Pepin,Wisconsin,437
+84055093,Pierce,Wisconsin,2150
+84055095,Polk,Wisconsin,1846
+84055097,Portage,Wisconsin,4508
+84055099,Price,Wisconsin,676
+84055101,Racine,Wisconsin,14206
+84055103,Richland,Wisconsin,804
+84055105,Rock,Wisconsin,8824
+84055107,Rusk,Wisconsin,748
+84055111,Sauk,Wisconsin,3352
+84055113,Sawyer,Wisconsin,779
+84055115,Shawano,Wisconsin,3645
+84055117,Sheboygan,Wisconsin,8649
+84055109,St. Croix,Wisconsin,4074
+84055119,Taylor,Wisconsin,1116
+84055121,Trempealeau,Wisconsin,2149
+84090055,Unassigned,Wisconsin,0
+84055123,Vernon,Wisconsin,970
+84055125,Vilas,Wisconsin,1128
+84055127,Walworth,Wisconsin,6260
+84055129,Washburn,Wisconsin,583
+84055131,Washington,Wisconsin,8801
+84055133,Waukesha,Wisconsin,25542
+84055135,Waupaca,Wisconsin,3924
+84055137,Waushara,Wisconsin,1722
+84055139,Winnebago,Wisconsin,13485
+84055141,Wood,Wisconsin,3952
+84056001,Albany,Wyoming,2830
+84056003,Big Horn,Wyoming,422
+84056005,Campbell,Wyoming,2488
+84056007,Carbon,Wyoming,568
+84056009,Converse,Wyoming,537
+84056011,Crook,Wyoming,273
+84056013,Fremont,Wyoming,2850
+84056015,Goshen,Wyoming,514
+84056017,Hot Springs,Wyoming,118
+84056019,Johnson,Wyoming,255
+84056021,Laramie,Wyoming,4071
+84056023,Lincoln,Wyoming,574
+84056025,Natrona,Wyoming,4108
+84056027,Niobrara,Wyoming,90
+84080056,Out of WY,Wyoming,0
+84056029,Park,Wyoming,1161
+84056031,Platte,Wyoming,284
+84056033,Sheridan,Wyoming,1595
+84056035,Sublette,Wyoming,369
+84056037,Sweetwater,Wyoming,1378
+84056039,Teton,Wyoming,1360
+84056041,Uinta,Wyoming,901
+84090056,Unassigned,Wyoming,0
+84056043,Washakie,Wyoming,298
+84056045,Weston,Wyoming,366
