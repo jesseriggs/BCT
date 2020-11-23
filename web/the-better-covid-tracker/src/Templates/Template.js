@@ -3,6 +3,7 @@ import { ToolBar } from '../ToolBars';
 import { Footer, masterSounds } from './';
 import { Arwes, Heading, Link, SoundsProvider, ThemeProvider, createTheme, createSounds } from 'arwes';
 import '../styles/index.css';
+import './index.css';
 
 const theme    = createTheme();
 theme.animTime = 1000;

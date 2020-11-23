@@ -61,7 +61,7 @@ class ToolForm extends Component
 					}}>
 					  <Frame>
 					    <select
-						id = "stateselector"
+						id = "bct-stateselector"
 						onChange = { this.onStateClick }
 						ref = { ( a ) =>
 							this.stateItem = a } >

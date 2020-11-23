@@ -1,0 +1,113 @@
+/**
+ * @class TemplateCSS
+ * @description css stylings for all Template Components.
+ */
+
+#bct-content-area{
+	position: absolute;
+	display: flex;
+	left: 10px;
+	right: 10px;
+	bottom: 80px;
+	top: 112px;
+}
+
+#bct-description-pane-wrapper{
+	width : 100%;
+	height : 100%;
+	position : relative;
+}
+
+#bct-main-container-wrapper{
+	width : 100%;
+	height : 100%;
+	position : relative;
+}
+
+#bct-template-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.bct-description-pane{
+	z-index:5;
+	top:0;bottom:0;right:0;left:0px;
+	background-color: rgba( 2, 17, 20, 0.3 );
+	position:absolute;
+}
+
+.bct-footer{
+	height: 50px;
+	position: absolute;
+	background-color: rgba(2,17,20,0.88);
+	font-size: 12px;
+	bottom: 0;
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.bct-full-size{
+	height:100%;
+}
+
+.bct-general-container{
+	width: 100%;
+	height:100%;
+	z-index:5;
+	top:50px;bottom:0;left:0;right:0;
+	background-color: rgba( 2, 17, 20, 0.3 );
+	float: left;
+}
+
+.bct-main-container{
+	position:absolute;
+	z-index:5;
+	top:0;bottom:0;left:0;right:0px;
+	background-color: rgba( 2, 17, 20, 0.3 );
+}
+
+.bct-pages-lpane-wrap{
+	position : absolute;
+	left : 0;
+	width : 67%;
+	height : 100%;
+	padding-right : 10px;
+}
+
+.bct-pages-rpane-wrap{
+	position : absolute;
+	right : 0;
+	width : 33%;
+	height : 100%;
+	padding-left : 10px;
+}
+
+.bct-pages-splitter{
+	position : absolute;
+	display : flex;
+	width : 100%;
+	height : 100%;
+}
+
+@media only screen and ( max-width: 770px ){
+	.bct-pages-lpane-wrap{
+		position:relative;
+		width:100%;
+		padding:3px;
+		max-height:60vw;
+	}
+	.bct-pages-rpane-wrap{
+		position:relative;
+		width:100%;
+		padding:3px;
+		padding-top:10px;
+	}
+	.bct-pages-splitter{
+		display:block;
+		overflow-y:scroll;
+	}
+}
+

@@ -65,8 +65,8 @@ class Menu extends Component
 		return(
 		    <ThemeProvider theme={ theme }>
 			<div
-				id        = { "main-menu" }
-				className = { "menu-container" }
+				id        = { "bct-main-menu" }
+				className = { "bct-menu-container" }
 				style     = {{
 					height : maxH,
 					...outsty[ animation.status ]

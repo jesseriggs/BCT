@@ -3,6 +3,7 @@ import { Buttons, MenuButton } from '../Buttons/Button.js';
 import { Animation, Frame, ThemeProvider } from 'arwes';
 import { theme } from '../globals.js';
 import { Menu, ToolForm } from './';
+import './index.css';
 
 
 /**
@@ -67,7 +68,7 @@ class ToolBar extends Component
 		};
 		return(
 		    <div id = "bct-toolbar-wrapper" >
-			<div className = { "toolbar" }>
+			<div className = { "bct-toolbar" }>
 			    <ThemeProvider theme = { theme }>
 				<Frame corners = { 3 } >
 					<div style = {{
