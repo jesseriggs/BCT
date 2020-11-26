@@ -1,0 +1,22 @@
+/**
+ * @class HeatMapCSS
+ * @description css styles for heatmapping
+ */
+.bct-heatmap{
+	width: 100%;
+	height: 100%;
+	margin-top: -20px;
+	background-image: url("/static/images/US_Map.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.bct-heatmap-wrapper{
+	height: 100%;
+	width: 100%;
+	padding-bottom: 50px;
+	padding-right: 20px;
+	transition: opacity 1s;
+	transition-delay: 1s;
+}
