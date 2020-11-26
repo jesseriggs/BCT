@@ -4,6 +4,29 @@ import { Graph } from '../../Graphs/Graph.js';
 import { HeatMap } from '../../HeatMap';
 import { DescriptionPane, MainContainer } from '../../Templates';
 
+const graph = ( datacontroller )=>{ return (
+	<Graph controller = { datacontroller } ></Graph>
+) };
+const heatmap = ( datacontroller )=>{ return (
+	<HeatMap controller = { datacontroller } />
+) };
+
+const graphtitle = "TimeSeries Graph Description";
+const graphdesc = "Better Covid Tracker's TimeSeries graph displays cases ( in"
+		+ " cyan ) and deaths ( in magenta ), in thousands ( k ) of pe"
+		+ "ople, over the number of days that CoVid-19 has been tracke"
+		+ "d in the US. Each graph shows data from a specific county. "
+		+ "State and county may be selected from the dropdown menus ab"
+		+ "ove^.";
+
+const heattitle = "US HeatMap Description";
+const heatdesc  = "Better Covid Tracker's Heatmap shows distribution and inten"
+		+ "sity of CoVid19 throughout the lower 48 states of the US. E"
+		+ "ach circle represents a US conty. Each circles area is prop"
+		+ "ortional to the population of that county. The brightness o"
+		+ "f the circle coresponds to the percentage of population cum"
+		+ "ulatively affected by CoVid19, to date.";
+
 /**
  * @class HomePage
  * @extends React.Component
@@ -22,13 +45,8 @@ class HomePage extends Component
 	constructor( props )
 	{
 		super( props );
-		this.title = "heatmap";
-		this.text  = "Better Covid Tracker's graph displays cases ( in"
-			+ " cyan ) and deaths ( in magenta ), in thousands ( k"
-			+ " ) of people, over the number of days that CoVid-19"
-			+ " has been tracked in the US. Each graph shows data "
-			+ "from a specific county. State and county may be sel"
-			+ "ected from the dropdown menus above^.";
+		this.title = heattitle;
+		this.text  = heatdesc;
 		this.state = {
 			data : {
 				graph : false,
@@ -47,13 +65,10 @@ class HomePage extends Component
 	render()
 	{
 		const datacontroller = this.props.datacontroller;
-		const graph = ()=>{ return (
-			<Graph controller = { datacontroller } ></Graph>
-		) };
-		const heatmap = ()=>{ return (
-			<HeatMap controller = { datacontroller } />
-		) };
-		const component = this.state.graph ? graph : heatmap;
+		const isgraph        = this.state.graph;
+		const component      = isgraph ? graph : heatmap;
+		const componentdesc  = isgraph ? graphdesc : heatdesc;
+		const componenttitle = isgraph ? graphtitle : heattitle;
 
 		return(
 		    <div className = "bct-pages-splitter" >
@@ -73,14 +88,14 @@ class HomePage extends Component
 			      >
 				<Title controller = { datacontroller } />
 			    </Heading>
-			    { component() }
+			    { component( datacontroller ) }
 			  </div>
 			</MainContainer>
 		      </div>
 		      <div className = "bct-pages-rpane-wrap" >
 			<DescriptionPane
-			    text  = { this.text }
-			    title = { this.title }
+			    text  = { componentdesc }
+			    title = { componenttitle }
 			  />
 		      </div>
 		    </div>

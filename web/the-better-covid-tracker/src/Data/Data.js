@@ -79,7 +79,7 @@ class DataController
 			let fips = confirmed[ i ].fips + '';
 			let pop  = deaths[ i ].population;
 			let d    = deaths[ i ].cum_total_deaths_to_date;
-			let r    = Math.log2( pop / 1024 );
+			let r    = Math.sqrt( pop / 10000 );
 			let op   = 8 * cum / pop;
 			let str  = 0.8;
 
