@@ -25,12 +25,13 @@ class DataController
 		this.map      = props.map;
 		this.states   = Object.keys( props.map );
 		this.model    = {
-			data   : { confirmed : [], deaths : [] },
-			title  : props.title,
-			desc   : props.desc,
-			axis   : { x : props.axis.x, y : props.axis.y },
-			ticks  : { x : props.ticks.x, y : props.ticks.y },
-			map    : {}
+			axis  : { x : props.axis.x, y : props.axis.y },
+			data  : { confirmed : [], deaths : [] },
+			desc  : props.desc,
+			map   : {},
+			pop   : 0,
+			ticks : { x : props.ticks.x, y : props.ticks.y },
+			title : props.title,
 		};
 		this.heatmap  = {};
 		this.heatView = null;
@@ -69,11 +70,14 @@ class DataController
 	 */
 	setHeatmap( confirmed, deaths )
 	{
-		var heatmap = {};
 		if( !confirmed || !deaths ){
 			console.log("DataController.setHeatmap recieved NULL.");
 			return;
 		}
+		var tot_confirmed  = 0;
+		var tot_deaths     = 0;
+		var population     = 0;
+		var heatmap        = {};
 		for( var i = 0; i < confirmed.length; i++ ){
 			let cum  = confirmed[ i ].cum_total_confirmed_to_date;
 			let fips = confirmed[ i ].fips + '';
@@ -82,6 +86,10 @@ class DataController
 			let r    = Math.sqrt( pop / 10000 );
 			let op   = 8 * cum / pop;
 			let str  = 0.8;
+
+			tot_confirmed  += cum;
+			tot_deaths     += d;
+			population     += pop;
 
 			heatmap[ fips ] = {
 				fips    : fips,
@@ -94,8 +102,11 @@ class DataController
 			};
 		}
 		this.heatmap = heatmap;
+
 		this.heatView && this.heatView.update( this.heatmap );
-		this.title && this.title.update( "US Heat Map" );
+		this.title    && this.title.update( "US Heat Map" );
+		this.stats    && this.stats.update(
+				tot_confirmed, tot_deaths, population, 'US' );
 	}
 
 	/**
@@ -109,15 +120,30 @@ class DataController
 	 */
 	setData( data )
 	{
-		console.log("setting data");
+		var model              = this.model;
+		model.data.confirmed   = [];
+		model.data.deaths      = [];
+		model.population       = 0;
+		model.title            = "";
+
 		var county = data.counties[ this.county ];
-		this.model.title = county ? county.combined : "";
-		this.model.data = {
-				confirmed : county ? county.confirmed : [],
-				deaths    : county ? county.deaths : []
-			};
-		this.view &&  this.view.update( this.model );
-		this.title && this.title.update( this.model.title );
+		if( county ){
+			model.title          = county.combined;
+			model.data.confirmed = county.confirmed;
+			model.data.deaths    = county.deaths;
+			model.population     = county.population;
+		}
+
+		this.view  && this.view.update( model );
+		this.title && this.title.update( model.title );
+
+		var confirmed =
+			county.confirmed[ county.confirmed.length - 1 ];
+		var deaths    =
+			county.deaths[ county.deaths.length - 1 ];
+		var population = model.population;
+		this.stats && this.stats.update(
+			confirmed, deaths, population, model.title );
 	}
 
 	/**
@@ -142,6 +168,17 @@ class DataController
 		this.view = view;
 		this.view.update( this.model );
 		this.fetchData();
+	}
+
+	/**
+	 * @method setStats
+	 * @param React.Component stats: view to present quick stats
+	 * @description sets DataController's stats view to new
+	 * 	React.Component.
+	 */
+	setStats( stats )
+	{
+		this.stats = stats;
 	}
 
 	/**

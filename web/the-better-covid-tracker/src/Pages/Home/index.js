@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Heading, Words } from 'arwes';
+import { Button, Heading, Words } from 'arwes';
 import { Graph } from '../../Graphs/Graph.js';
 import { HeatMap } from '../../HeatMap';
 import { DescriptionPane, MainContainer } from '../../Templates';
@@ -51,9 +51,10 @@ class HomePage extends Component
 			data : {
 				graph : false,
 				title : "none",
-				data  : []
-			}
+				data  : [],
+			},
 		};
+		this.toggleView = this.toggleView.bind( this );
 	}
 
 	/**
@@ -88,14 +89,23 @@ class HomePage extends Component
 			      >
 				<Title controller = { datacontroller } />
 			    </Heading>
+			    <Button
+			    	style = {{
+					position : "absolute",
+					top      : "0",
+					right    : "33px"
+				}}
+				onClick = { () => { this.toggleView() } }
+				>Toggle View</Button>
 			    { component( datacontroller ) }
 			  </div>
 			</MainContainer>
 		      </div>
 		      <div className = "bct-pages-rpane-wrap" >
 			<DescriptionPane
-			    text  = { componentdesc }
-			    title = { componenttitle }
+			    text       = { componentdesc }
+			    title      = { componenttitle }
+			    controller = { datacontroller }
 			  />
 		      </div>
 		    </div>
@@ -107,9 +117,18 @@ class HomePage extends Component
 	 * @param Object apiResponse: object conatining data to be presented in
 	 * 	content area.
 	 */
-	update( apiResponse )
+	update( apiResponse, stats = false )
 	{
-		this.setState( { data : apiResponse.data } );
+		this.setState( { data : apiResponse.data, stats : stats } );
+	}
+
+	/**
+	 * @method toggleView
+	 * @description toggles between HeatMap and TimeSeries views
+	 */
+	toggleView(){
+		var val = !this.state.graph;
+		this.setState( { graph : val } );
 	}
 }
 

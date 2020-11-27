@@ -92,6 +92,12 @@
 	height : 100%;
 }
 
+.bct-quickstat-wrapper{
+	position: absolute;
+	overflow-x: scroll;
+	max-width: 100%;
+}
+
 @media only screen and ( max-width: 770px ){
 	.bct-pages-lpane-wrap{
 		position:relative;

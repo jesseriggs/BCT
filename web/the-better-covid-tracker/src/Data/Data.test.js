@@ -16,7 +16,8 @@ test(
 				desc  : "Description",
 				axis  : { x : 'xaxis', y : 'yaxis' },
 				ticks : { x : 'xticks', y : 'yticks' },
-				map   : {}
+				map   : {},
+				pop   : 0
 			};
 		const controller = new DataController( model );
 		expect( controller.model ).toEqual( model );

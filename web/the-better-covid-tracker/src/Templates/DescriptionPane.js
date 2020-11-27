@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Frame, Heading, Words } from 'arwes';
+import { Frame, Heading, Table, Words } from 'arwes';
 
 /*
- * lorem ipsum: fo when ya need ta say shit but you ain't got shit ta say...
+ * lorem ipsum: Fun for the whole family ;)
  */
 const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
 	+ "eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"
@@ -31,8 +31,10 @@ class DescriptionPane extends Component
 	 */
 	constructor( props ){
 		super( props );
-		this.state = { show : false };
+		this.state      = { show : false };
+		this.statistics = props.stats;
 	}
+
 	/**
 	 * @method render
 	 * @description required method of React.Component.
@@ -45,6 +47,7 @@ class DescriptionPane extends Component
 		const title = typeof this.props.title === 'undefined' ?
 				"Lorem Ipsum" :
 				this.props.title;
+		//const statistics = this.statistics;
 		return(
 		      <div id = "bct-description-pane-wrapper">
 			<div className = { "bct-description-pane" }>
@@ -85,12 +88,14 @@ class DescriptionPane extends Component
 					    { text }
 				    </Words>
 				</p>
+				<QuickStats controller = { this.props.controller } />
 			    </div>
 			  </div>
 			</div>
 		      </div>
 		);
 	}
+
 	/**
 	 * @method componentDidMount
 	 * @overrides React.Component.componentDidMount
@@ -106,6 +111,116 @@ class DescriptionPane extends Component
 			this.setState( { show : true } );
 		    }, 100 );
 		}
+	}
+
+	/**
+	 * @method getStats
+	 * @para Function statistics: returns JSX.
+	 * @description present statistics in this small wrapper
+	 */
+	getStats( statistics )
+	{
+		if( !statistics ) return( <></> );
+		return(
+			<div>
+			<Heading node = 'h4'>Statistics</Heading>
+			{ statistics() }
+			</div>
+		);
+	}
+}
+
+/**
+ * @class QuickStats
+ * @extends React.Component
+ * @description instance renders quick statistics in small table
+ */
+class QuickStats extends Component
+{
+	/**
+	 * @constructor
+	 * @description set state to default stats
+	 */
+	constructor( props )
+	{
+		super( props );
+		this.state = {
+			confirmed  : 0,
+			deaths     : 0,
+			mounted    : false,
+			population : 0,
+			title      : "none"
+		};
+	}
+
+	/**
+	 * @method render
+	 */
+	render()
+	{
+		const population = this.state.population;
+		const popdesc    = "population of area"
+		const confirmed  = this.state.confirmed;
+		const confrate   = population
+			? Math.floor( 1000 * confirmed / population )
+			  / 10 + "%"
+			: 0;
+		const confdesc   = "confirmed cases to date";
+		const deaths     = this.state.deaths;
+		const deathrate  = confirmed
+			? Math.floor( 1000 * deaths / confirmed )
+			  / 10 + "%"
+			: 0;
+		const deathdesc  = "deaths to date";
+		const title      = this.state.title;
+
+		const headers =
+		    ["Name", "Total", "%", "Description"];
+		const dataset = [
+		    ["Pop", population, "NA", popdesc ],
+		    ["Cases", confirmed, confrate, confdesc ],
+		    ["Deaths", deaths, deathrate, deathdesc ]
+		];
+
+		return(
+		    <div className = "bct-quickstat-wrapper">
+			<Heading node = 'h4'>Statistics For { title }</Heading>
+			<Table
+				animate
+				headers = { headers }
+				dataset = { dataset } />
+		    </div>
+		);
+	}
+
+	/**
+	 * @method componentDidMount
+	 * @overrides React.Component.componentDidMount()
+	 * @description reports to DataController
+	 */
+	componentDidMount()
+	{
+		if( this.state.mounted ) return;
+		this.props.controller.setStats( this );
+		this.setState( { mounted : true } );
+	}
+
+	/**
+	 * @method update
+	 * @param Integer confirmed: number of confirmed cases to date
+	 * @param Integer deaths: number of deaths to date
+	 * @param Integer population: population size of county
+	 * @param String title: title of quickstats
+	 * @description updates quickstats component with new stats
+	 */
+	update( confirmed, deaths, population, title )
+	{
+		this.setState({
+			confirmed  : confirmed,
+			deaths     : deaths,
+			population : population,
+			title      : title
+		} );
 	}
 }
 
