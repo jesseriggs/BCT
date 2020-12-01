@@ -1,0 +1,11 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/jesserig/covid.jesse-riggs.com/api"
+PassengerBaseURI "/bct/api"
+PassengerPython "/home/jesserig/virtualenv/covid.jesse-riggs.com/api/3.3/bin/python3.3"
+PassengerAppLogFile "/home/jesserig/logs/bct.log"
+RewriteEngine on
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
