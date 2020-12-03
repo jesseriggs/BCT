@@ -34,7 +34,7 @@ Launches the test runner in the interactive watch mode. See the section about [r
 ### `npm run build`
 Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 ## Preparing For Deployment
-This is done in three steps:
+Better Covid Tracker can also be deployed from an Apache webserver. React builds a static web page, which can be copied directly to the server. However, the Python backend does not run natively. So, we have to create an entry point for WSGI. Deployment is done in three steps:
 * prepare Apache server to run an instance of a Flask app
 * prepare and build Better Covid Tracker web app
 * scp the newly built application to the Apache server
@@ -79,7 +79,7 @@ After this script completes, there will be a directory `build/`, which contains 
 user@local$ cp -r ../../flaskr build/api/
 user@local$ cp -r ../../instance build/api/
 ```
-## Deploy To Server
+### Deploy To Server
 Now, if all goes well?, we should be able to scp everything to our server, and things will just magically run.
 ```sh
 user@local$ scp -r ./ user@remote:/path/to/application/root/
