@@ -1,12 +1,16 @@
 # The Better Covid Tracker
 The Better Covid Tracker is a React App. Get started by cloning this repo, and then running:
-### `npm install`
-### `npm start`
+```sh
+user@localhost$ npm install
+user@localhost$ npm start
+```
 
 ## Docker
 BCT is ready to be deployed from Docker. From Powershell run:
-### `docker build  -t the-better-covid-tracker:dev .`
-### `docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true the-better-covid-tracker:dev`
+```sh
+docker build  -t the-better-covid-tracker:dev .
+docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true the-better-covid-tracker:dev
+```
 BCT can now be accessed from [http://localhost:3001](http://localhost:3000).
 
 ## Available Scripts
@@ -17,8 +21,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 **Note:** In order to use HeatMap, an instance of flaskr database server must also be running on port 5000. After installing Python and Flask, from `../../flaskr` run:
 ```sh
-bash$ export FLASK_APP=__init__.py
-bash$ flask run
+user@localhost$ export FLASK_APP=__init__.py
+user@localhost$ flask run
 ```
 ### `npm test`
 Launches the test runner in the interactive watch mode.<br />
@@ -60,13 +64,13 @@ bash$ npm run build
 ```
 After this script completes, there will be a directory `build/`, which contains the new build. This is where we will copy flaskr.
 ```sh
-bash$ cp -r ../../flaskr build/api/
-bash$ cp -r ../../instance build/api/
+user@localhost$ cp -r ../../flaskr build/api/
+user@localhost$ cp -r ../../instance build/api/
 ```
 ## Deploy To Server
 Now, if all goes well?, we should be able to scp everything to our server, and things will just magically run.
 ```sh
-bash$ scp -r ./ user@host.com:/path/to/application/root/
+user@localhost$ scp -r ./ user@host.com:/path/to/application/root/
 ```
 **Note:** this will overwrite the data.js entrypoint that was automatically created by Passenger. This is correct. :)
 Now, check your page to see if it's installed correctly.
