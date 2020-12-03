@@ -5,11 +5,10 @@ Get started by cloning this repo:
 ```sh
 user@local$ git clone https://github.com/Pewcrafter/BetterCovidTracker
 ```
-and then:
+and then install the dependencies:
 ```sh
 user@local$ cd BetterCovidTracker/web/the-better-covid-tracker/
 user@local$ npm install
-user@local$ npm start
 ```
 In order to use `HeatMap`, an instance of `flaskr` database server must also be running on port 5000. After installing Python and Flask, from `BetterCovidTracker/flaskr` run:
 ```sh
@@ -20,6 +19,10 @@ To use `TimeSeries`, we must generate the appropriate JSON files to serve to the
 ```sh
 user@local$ cd public/data/
 user@local$ ./autogen.sh
+```
+Now, from `BetterCovidTracker/web/the-better-covid-tracker/`, BCT can be run:
+```sh
+user@local$ npm start
 ```
 ## Docker
 BCT is also ready to be deployed from Docker. From Powershell run:
