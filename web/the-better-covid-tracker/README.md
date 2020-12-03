@@ -34,14 +34,18 @@ This is done in three steps:
 * prepare and build Better Covid Tracker web app
 * scp the newly built application to the Apache server
 ### Preparing Apache
-**Note:** If you'd like to run this on your personal server, without CPanel, chekc out [mod wsgi](https://modwsgi.readthedocs.io/en/master/) for more information.
-The easiest way to do this is probably with Apache Passenger, from `CPanel > Software > Setup Python App`, and then click `CREATE APPLICATION`.
-Select Python 3.
-Now enter the application root `/path/to/application/root/api`. And then enter your application URL `host/api`.
-**Note:** Both of these paths must end with `api`.
-Application startup file must be `data.py` and entry point must be `application`.
-Now, hit `SAVE` and then `RESTART`.
-### Prepare And Build Web App
+**Note:** If you'd like to run this on your personal server, without CPanel, chekc out [mod wsgi](https://modwsgi.readthedocs.io/en/master/) for more information.<br />
+The "easiest" way to do this is probably with Apache Passenger, from `CPanel > Software > Setup Python App`, and then click `CREATE APPLICATION`.
+Select Python 3.<br />
+Now enter the application root `/path/to/application/root/api`. And then enter your application URL `host/api`.<br />
+**Note:** Both of these paths must end with `api`.<br />
+Application startup file must be `data.py` and entry point must be `application`.<br />
+Now, hit `SAVE` and then `RESTART`.<br />
+**Notice** that there is now a path to a virtual environment, shown at the top of the screen. You need to copy this, and then past it into your shell, on your server. Now, you can install flask:
+```sh
+(ve)[user@host api]$ pip install flask
+```
+### Prepare And Then Build Web App
 First, we want to change the database server from localhost to our new Appache entry point.
 ```javascript
 // src/Data/Data.js
@@ -59,6 +63,7 @@ After this script completes, there will be a directory `build/`, which contains 
 bash$ cp -r ../../flaskr build/api/
 bash$ cp -r ../../instance build/api/
 ```
+## Deploy To Server
 Now, if all goes well?, we should be able to scp everything to our server, and things will just magically run.
 ```sh
 bash$ scp -r ./ user@host.com:/path/to/application/root/
