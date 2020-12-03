@@ -56,9 +56,12 @@ Now, hit `SAVE` and then `RESTART`. **Notice** that there is now a path to a vir
 ### Prepare And Then Build Web App
 First, we want to change the database server from localhost to our new Appache entry point.
 ```javascript
-// src/Data/Data.js
-// const confirmed    = "/state/confirmed";
-// const deaths       = "/state/deaths";
+/*
+ * from `src/Data/Data.js` change
+const confirmed    = "/state/confirmed";
+const deaths       = "/state/deaths";
+ * to:
+ */
 const confirmed    = "/api/state/confirmed";
 const deaths       = "/api/state/deaths";
 ```
