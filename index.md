@@ -26,12 +26,25 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Welcome to Covid Tracker Backened
 
-### Jekyll Themes
+The backend is an API for the BetterCovidTracker. It uses the most current Johns Hopkins data to fill a backend SQLite3 database and power the API.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Pewcrafter/BetterCovidTracker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Running the API
 
-### Support or Contact
+The API is written is python using the Flask framework. As a result the following are required:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Python 3.x
+- Flask 1.1.x
+
+To run, Issue the following commands:
+
+- venv/bin/activate
+- export FLASK_APP=flaskr
+- export FLASK_APP=development
+- flask run
+The server will run on port 5000.
+
+API Endpoints
+
+/state/confirmed /state/deaths /state/confirmed/population /state/deaths/population /state/dpc (Deaths per Capita)
