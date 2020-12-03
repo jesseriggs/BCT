@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+body{
+  background-color: #021114;
+  background-image: url("../images/corona360.png");
+  height: 100vh;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header{
+  border-bottom: 1px dashed #26dafd;
+}
+header .container{
+  background-image: url("../images/logo.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header h1{
+    color: #26dafd;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #26dafd;
+}
