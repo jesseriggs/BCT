@@ -5,13 +5,22 @@ Get started by cloning this repo:
 ```sh
 user@local$ git clone https://github.com/Pewcrafter/BetterCovidTracker
 ```
-and then run:
+and then:
 ```sh
 user@local$ cd BetterCovidTracker/web/the-better-covid-tracker/
 user@local$ npm install
 user@local$ npm start
 ```
-
+In order to use `HeatMap`, an instance of `flaskr` database server must also be running on port 5000. After installing Python and Flask, from `BetterCovidTracker/flaskr` run:
+```sh
+user@local$ export FLASK_APP=__init__.py
+user@local$ flask run
+```
+To use `TimeSeries`, we must generate the appropriate JSON files to serve to the app. From `BetterCovidTracker/web/the-better-covid-tracker/`, do:
+```sh
+user@local$ cd public/data/
+user@local$ ./autogen.sh
+```
 ## Docker
 BCT is also ready to be deployed from Docker. From Powershell run:
 ```sh
@@ -24,11 +33,6 @@ BCT can now be accessed from [http://localhost:3001](http://localhost:3000).
 In the project directory, you can run:
 ### `npm start`
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
-**Note:** In order to use `HeatMap`, an instance of `flaskr` database server must also be running on port 5000. After installing Python and Flask, from `../../flaskr` run:
-```sh
-user@local$ export FLASK_APP=__init__.py
-user@local$ flask run
-```
 ### `npm test`
 Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 ### `npm run build`
@@ -64,11 +68,6 @@ const deaths       = "/state/deaths";
  */
 const confirmed    = "/api/state/confirmed";
 const deaths       = "/api/state/deaths";
-```
-To use TimeSeries, we must generate the appropriate JSON files to serve to the app. From `BetterCovidTracker/web/the-better-covid-tracker/`, do:
-```sh
-user@local$ cd public/data/
-user@local$ ./autogen.sh
 ```
 Now, from `BetterCovidTracker/web/the-better-covid-tracker/` run:
 ```sh
