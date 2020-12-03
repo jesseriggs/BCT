@@ -23,24 +23,16 @@ BCT can now be accessed from [http://localhost:3001](http://localhost:3000).
 ## Available Scripts
 In the project directory, you can run:
 ### `npm start`
-Runs the app in the development mode.<br />
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-**Note:** In order to use HeatMap, an instance of flaskr database server must also be running on port 5000. After installing Python and Flask, from `../../flaskr` run:
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
+**Note:** In order to use `HeatMap`, an instance of `flaskr` database server must also be running on port 5000. After installing Python and Flask, from `../../flaskr` run:
 ```sh
-user@localhost$ export FLASK_APP=__init__.py
-user@localhost$ flask run
+user@local$ export FLASK_APP=__init__.py
+user@local$ flask run
 ```
 ### `npm test`
-Launches the test runner in the interactive watch mode.<br />
-
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 ### `npm run build`
-Builds the app for production to the `build` folder.<br />
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 ## Preparing For Deployment
 This is done in three steps:
 * prepare Apache server to run an instance of a Flask app
@@ -49,18 +41,17 @@ This is done in three steps:
 ### Preparing Apache
 **Note:** If you'd like to run this on your personal server, without CPanel, chekc out [mod wsgi](https://modwsgi.readthedocs.io/en/master/) for more information.<br />
 
-The "easiest" way to do this is probably with Apache Passenger, from `CPanel > Software > Setup Python App`, and then click `CREATE APPLICATION`.
+The "easiest" way to do this is ( probably ) with Apache Passenger, from `CPanel > Software > Setup Python App`, and then click `CREATE APPLICATION`.
 Select Python 3.<br />
 
 Now enter the application root `/path/to/application/root/api`. And then enter your application URL `host/api`.<br />
 **Note:** Both of these paths must end with `api`.<br />
 
-Application startup file must be `data.py` and entry point must be `application`.<br />
+Application startup file must be `data.py` and entry point must be `application`.
 
-Now, hit `SAVE` and then `RESTART`.<br />
-**Notice** that there is now a path to a virtual environment, shown at the top of the screen. You need to copy this, and then past it into your shell, on your server. Now, you can install flask:
+Now, hit `SAVE` and then `RESTART`. **Notice** that there is now a path to a virtual environment, shown at the top of the screen. You need to copy this, and then past it into your shell, on your server. Now, you can install flask:
 ```sh
-(ve)[user@host api]$ pip install flask
+(venv)[user@remote api]$ pip install flask
 ```
 ### Prepare And Then Build Web App
 First, we want to change the database server from localhost to our new Appache entry point.
