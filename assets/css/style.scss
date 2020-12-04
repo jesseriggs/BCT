@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 body{
+  color: #dafdfd;
   background-color: #021114;
   background-image: url("../images/corona360.png");
   height: 100vh;
@@ -20,8 +21,23 @@ header .container{
   background-size: contain;
 }
 header h1{
-    color: #26dafd;
+  color: #26dafd;
 }
 h1, h2, h3, h4, h5, h6{
-    color: #26dafd;
+  color: #26dafd;
+}
+.highlight {
+  color: #dafdfd;
+}
+.highlight .gh {
+  color: #26dafd;
+  font-weight: bold;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #26fdfd;
+}
+pre {
+  background: rgba(38,38,38,0.4);
+  border: 1px solid rgba(38,255,255,0.3);
+  color: #b5e853;
 }
