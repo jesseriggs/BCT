@@ -1,4 +1,4 @@
-# Better Covid Tracker Web Frontend
+# Better Covid Tracker Web Deployment
 The Better Covid Tracker is powered by React and utilizes the Arwes framework to show useful, unbiased statistics concerning the CoVid19 pandemic; in a cool, futuristic, SciFi kinda way.
 ## Get Started
 Building the React frontend of BCT requires [NodeJS](https://nodejs.org/ "Learn About NodeJS!") and a copy of BetterCovidTracker source code. Get started by cloning this repo:

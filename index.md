@@ -1,7 +1,9 @@
 # Welcome To The Better CoVid Tracker GitHub Page
 Better CoVid Tracker is built on a philosophy of objective accuracy to bring current information to the public.
 
-## Welcome to Covid Tracker Backened
+![Future Video](./assets/images/FutureVideo.png "Future Video Goes Here")
+
+## Welcome to Covid Tracker Backend
 
 The backend is an API for the BetterCovidTracker. It uses the most current Johns Hopkins data to fill a backend SQLite3 database and power the API.
 

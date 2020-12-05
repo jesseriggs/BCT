@@ -1,4 +1,4 @@
-# Better CoVid Tracker Features
+# Better CoVid Tracker Web Features
 BCT runs on most modern browsers and offers two main features for viewing US CoVid-19 statistics.
 * HeatMap
 * TimeSeries
