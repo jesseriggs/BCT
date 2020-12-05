@@ -1,32 +1,16 @@
-## Welcome to GitHub Pages
+# Welcome To The Better CoVid Tracker GitHub Page
+Better CoVid Tracker is built on a philosophy of objective accuracy to bring current information to the public.
 
-You can use the [editor on GitHub](https://github.com/Pewcrafter/BetterCovidTracker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Web Frontend
+Better CoVid Tracker utilizes the power of React JS to build comprehensive presentations of US CoVid-19 data. Follow the links to learn about BCT features, play a live version of BCT, or build and deploy your own copy.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[&#9881; CHECK OUT FEATURES](./web/features.html "See What BCT Features!")
 
-### Markdown
+[&#x25B6; PLAY A LIVE DEMO](https://covid.jesse-riggs.com "Interact With BCT Live!")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[&#9992; DEPLOY TO YOUR SERVER](./web/deploying.html "Learn How To Deploy BCT On Your Server!")
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-Welcome to Covid Tracker Backened
+## Welcome to Covid Tracker Backened
 
 The backend is an API for the BetterCovidTracker. It uses the most current Johns Hopkins data to fill a backend SQLite3 database and power the API.
 

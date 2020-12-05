@@ -2,14 +2,21 @@
 ---
 
 @import "{{ site.theme }}";
+a{
+  color: #26dbfd;
+  text-shadow: 0 0 5px rgba(38, 218, 253, 0.7);
+}
 body{
-  color: #dafdfd;
-  background-color: #021114;
-  background-image: url("../images/corona360.png");
-  height: 100vh;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  color: #a1ecfb;
+  background: #021114;
+}
+code.highlighter-rouge {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0px 3px;
+  margin: 0px -3px;
+  color: #26fdfd;
+  border-radius: 2px;
 }
 header{
   border-bottom: 1px dashed #26dafd;
@@ -23,21 +30,50 @@ header .container{
 header h1{
   color: #26dafd;
 }
+h2, h3{
+  padding-top: 30px;
+}
 h1, h2, h3, h4, h5, h6{
   color: #26dafd;
+  margin-top: 0;
 }
 .highlight {
   color: #dafdfd;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #268826;
+}
+.highlight .dl, .highlight .s2{
+  color: #268888;
+}
+.highlight .o, .highlight .nt{
+  color: #db8826;
 }
 .highlight .gh {
   color: #26dafd;
   font-weight: bold;
 }
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+.highlight .nv, .highlight .nb{
+	color: #26dada;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .sh, .highlight .sx, .highlight .s1 {
   color: #26fdfd;
 }
 pre {
-  background: rgba(38,38,38,0.4);
+  background: rgba(0,0,0,0.5);
   border: 1px solid rgba(38,255,255,0.3);
   color: #b5e853;
+}
+#background{
+  position: fixed;
+  top: 0;bottom: 0; left: 0; right: 0;
+  background-image: url("../images/corona360.png");
+  height: 100vh;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+#main_content h1, #main_content h2, #main_content h3{
+	font-weight: bold;
 }
