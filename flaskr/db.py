@@ -27,7 +27,7 @@ def init_db():
 
     with current_app.open_resource('schema.sql') as f:
         db.executescript(f.read().decode('utf8'))
-        
+
 def clean_data():
     import pandas as pd
     from datetime import date, timedelta
@@ -49,9 +49,8 @@ def clean_data():
     confirmed_data.columns = ["fips", "city", "state", "cum_total_confirmed_to_date"]
 
     confirmed_data.to_csv("data/confirmed.csv", index=False)
-    
     print("Latest data gathered and cleaned.")
-        
+
 def load_db():
     import csv, sqlite3
     import pandas as pd
@@ -84,8 +83,10 @@ def init_db_command():
     init_db()
     clean_data()
     load_db()
-    click.echo('Initialized the database.')
+    print('Initialized the database.')
 
 def init_app(app):
     app.teardown_appcontext(close_db)
     app.cli.add_command(init_db_command)
+
+init_db_command()
