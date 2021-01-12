@@ -56,7 +56,7 @@ class ToolForm extends Component
 					display  : "flex"
 				    }}>
 					<div style = {{
-						width        : "160px",
+						width        : "103px",
 						paddingRight : "5px"
 					}}>
 					  <Frame>
@@ -70,7 +70,7 @@ class ToolForm extends Component
 					  </Frame>
 					</div>
 					<div style = {{
-						width        : "160px",
+						width        : "103px",
 						paddingRight : "5px"
 					}}>
 					  <Frame>
