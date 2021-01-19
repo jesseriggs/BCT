@@ -23,9 +23,9 @@ const heattitle = "US HeatMap Description";
 const heatdesc  = "Better Covid Tracker's Heatmap shows distribution and inten"
 		+ "sity of CoVid19 throughout the lower 48 states of the US. E"
 		+ "ach circle represents a US conty. Each circles area is prop"
-		+ "ortional to the population of that county. The brightness o"
-		+ "f the circle coresponds to the percentage of population cum"
-		+ "ulatively affected by CoVid19, to date.";
+		+ "ortional to the population of that county. The hue of the c"
+		+ "ircle coresponds to the number of cases divided by populati"
+		+ "on.";
 
 /**
  * @class HomePage

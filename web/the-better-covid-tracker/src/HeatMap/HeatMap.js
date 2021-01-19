@@ -78,10 +78,12 @@ class HeatMap extends Component
 					cy          = { county.cy }
 					r           = { this.getFrom(
 							county.id, 'r' ) }
-					stroke      = "rgb(38,218,253)"
+					stroke      = { this.getFrom(
+							county.id, 'color' ) }
 					strokeWidth = { this.getFrom(
 							county.id, 'stroke' ) }
-					fill        = "transparent"
+					fill        = { this.getFrom(
+							county.id, 'color' ) }
 					opacity     = { this.getFrom(
 							county.id, 'opacity' ) }
 				    />

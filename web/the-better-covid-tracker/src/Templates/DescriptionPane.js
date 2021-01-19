@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Frame, Heading, Table, Words } from 'arwes';
+import { Legend } from '../Legend';
 
 /*
  * lorem ipsum: Fun for the whole family ;)
@@ -53,8 +54,8 @@ class DescriptionPane extends Component
 			<div className = { "bct-description-pane" }>
 			  <div style = {{
 			  	position : "absolute",
-				width : "100%",
-				height : "100%"
+				width    : "100%",
+				height   : "100%"
 			   }}>
 			    <Frame
 				animate   = { true }
@@ -88,7 +89,9 @@ class DescriptionPane extends Component
 					    { text }
 				    </Words>
 				</p>
-				<QuickStats controller = { this.props.controller } />
+				<Legend controller = { this.props.controller } />
+				<QuickStats
+					controller = { this.props.controller } />
 			    </div>
 			  </div>
 			</div>
@@ -165,13 +168,14 @@ class QuickStats extends Component
 			? Math.floor( 1000 * confirmed / population )
 			  / 10 + "%"
 			: 0;
-		const confdesc   = "confirmed cases to date";
+		const confdesc   = "confirmed cases to date, and confirmed"
+		                 + " cases/population";
 		const deaths     = this.state.deaths;
 		const deathrate  = confirmed
 			? Math.floor( 1000 * deaths / confirmed )
 			  / 10 + "%"
 			: 0;
-		const deathdesc  = "deaths to date";
+		const deathdesc  = "deaths to date, and deaths/cases";
 		const title      = this.state.title;
 
 		const headers =

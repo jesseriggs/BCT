@@ -22,6 +22,7 @@ class DataController
 		this.county   = "";
 		this.url      = props.url;
 		this.view     = null;
+		this.legend   = null;
 		this.map      = props.map;
 		this.states   = Object.keys( props.map );
 		this.model    = {
@@ -35,6 +36,8 @@ class DataController
 		};
 		this.heatmap  = {};
 		this.heatView = null;
+		this.natAVG   = 0;
+		this.natSTD   = 0;
 	}
 
 	/**
@@ -74,22 +77,30 @@ class DataController
 			console.log("DataController.setHeatmap recieved NULL.");
 			return;
 		}
+		var caption =
+			"number of confirmed cases per 100 citizens";
 		var tot_confirmed  = 0;
 		var tot_deaths     = 0;
+		var tot_cpp        = 0;
 		var population     = 0;
 		var heatmap        = {};
-		for( var i = 0; i < confirmed.length; i++ ){
+		var hiop           = 0;
+		var lowop          = 1;
+		for( let i = 0; i < confirmed.length; i++ ){
 			let cum  = confirmed[ i ].cum_total_confirmed_to_date;
 			let fips = confirmed[ i ].fips + '';
 			let pop  = deaths[ i ].population;
 			let d    = deaths[ i ].cum_total_deaths_to_date;
 			let r    = Math.sqrt( pop / 10000 );
-			let op   = 8 * cum / pop;
+			let op   = ( cum / pop ) < 1 ? ( cum / pop ) : 0;
 			let str  = 0.8;
 
 			tot_confirmed  += cum;
 			tot_deaths     += d;
+			tot_cpp        += pop !== 0 ? cum / pop : 0;
 			population     += pop;
+			hiop            = ( hiop < op )  ? op : hiop;
+			lowop           = ( lowop > op ) ? op : lowop;
 
 			heatmap[ fips ] = {
 				fips    : fips,
@@ -101,12 +112,103 @@ class DataController
 				deaths  : d,
 			};
 		}
+
+		var avg  = tot_cpp / confirmed.length;
+		var std  = 0;
+		for( let i = 0; i < confirmed.length; i++ ){
+			let fips = confirmed[ i ].fips + '';
+			let h    = heatmap[ fips ];
+			let o    = h.opacity - avg;
+			std     += o * o;
+		}
+		std = Math.sqrt( std / confirmed.length );
+
+		this.natAVG = avg;
+		this.natSTD = std;
+
+		/*
+		 * The idea here is that shades of cyan are confirmation rates
+		 * below the first standard deviation. Yellow are within the
+		 * first standard deviation. Reds are above the first standard
+		 * deviation. TODO: pull this out into it's own funciton. We
+		 * can reuse this code for deaths, 14 day avg, etc...
+		 */
+		var norm = 1 / ( hiop - lowop );
+		avg      = norm * ( avg - lowop );
+		std      = norm * std;
+		var lo   = avg - std;
+		lo       = lo > 0 ? lo : 0;
+		var hi   = avg + std;
+		hi       = hi < 1 ? hi : 1;
+		console.log("avg:" + avg + ";std:" + std + ";hi:" + hi + ";lo:"
+			+ lo + ";\n");
+		for( let i = 0; i < confirmed.length; i++ ){
+			let fips  = confirmed[ i ].fips + '';
+			let h     = heatmap[ fips ];
+			let o     = h.opacity;
+
+			o = ( o - lowop ) * norm;
+			o = ( o < 1 ) ? o : 1;
+			h.opacity = 0.3;
+
+			let r = 38;
+			let g = 38;
+			let b = 38;
+			if( o < lo ){
+				b  = 255;
+				g  = 255 * ( o / lo );
+			} else if( o < hi ){
+				g  = 255;
+				r  = 255 * ( o - lo ) / ( hi - lo );
+			} else {
+				r  = 255;
+				g  = 255 - ( 255 / std ) * ( o - hi );
+				g  = ( g >= 0 ) ? g : 0;
+			}
+			let c = 'rgb(' + r + ',' + g + ',' + b + ')';
+			h.color = c;
+		}
 		this.heatmap = heatmap;
 
 		this.heatView && this.heatView.update( this.heatmap );
 		this.title    && this.title.update( "US Heat Map" );
 		this.stats    && this.stats.update(
 				tot_confirmed, tot_deaths, population, 'US' );
+		this.setHeatmapLegend(
+				100 * this.natAVG,
+				100 * this.natSTD,
+				100 * hiop,
+				caption );
+	}
+
+	/**
+	 * @method setHeatmapLegend
+	 * @param String met: metric that map measures
+	 * @param Float avg: average for a county
+	 * @param Float std: standard deviation among counties
+	 * @param Float hi: highest value among counties
+	 * @description wrapper passes arguments to Legend component
+	 */
+	setHeatmapLegend( avg, std, hi, capt )
+	{
+		//const h  = Number.parseFloat( hi ).toFixed( 1 );
+		const u3 = Number.parseFloat( 2 * std + avg ).toFixed( 1 );
+		const u2 = Number.parseFloat( std + avg ).toFixed( 1 );
+		const mn = Number.parseFloat( avg ).toFixed( 1 );
+		//const l2 = Number.parseFloat( avg - std ).toFixed( 1 );
+		const l3 = Number.parseFloat( avg - 2 * std ).toFixed( 1 );
+
+		const headers = [ 'Value','STD' ];
+		const data    = [
+			[ ( '_ ' + u3 ), '3rd' ],
+			[ ( '_ ' + u2 ), '2nd' ],
+			[ ( '_ ' + mn ), '1st' ],
+			[ ( '_ ' + l3 ), '2nd' ],
+			[ '_ 0', '3rd' ]
+		];
+
+		this.legend && this.legend.update(
+				capt, headers, data, 'heatmap' );
 	}
 
 	/**
@@ -144,6 +246,23 @@ class DataController
 		var population = model.population;
 		this.stats && this.stats.update(
 			confirmed, deaths, population, model.title );
+		this.setGraphLegend();
+	}
+
+	/**
+	 * @method setDataLegend
+	 * @description sets the legend to describe graph
+	 */
+	setGraphLegend()
+	{
+		const caption = 'cumulative number per county';
+		const headers = [ 'description' ];
+		const data    = [
+			[ 'cumulative number of cases' ],
+			[ 'cumulative number of deaths' ]
+		];
+		this.legend && this.legend.update(
+				caption, headers, data, 'graph' );
 	}
 
 	/**
@@ -182,6 +301,17 @@ class DataController
 	}
 
 	/**
+	 * @method setLegend
+	 * @param React.Component legend: view to present legend
+	 * @description sets DataController's legend biew to new
+	 * 	React.Component
+	 */
+	setLegend( legend )
+	{
+		this.legend = legend;
+	}
+
+	/**
 	 * @method fetchData
 	 * @param String state: key to state object that holds county data
 	 * @param String county: key to county data
@@ -192,7 +322,7 @@ class DataController
 	fetchData( state = 'Idaho', county = 'Ada' )
 	{
 		this.county = county;
-		var request = this.url + "/" + state + ".json";
+		var request = "/static/data/" + state + ".json";
 		console.log( request );
 		fetch( request )
 			.then( responce => responce.json() )
@@ -208,8 +338,11 @@ class DataController
 	 */
 	fetchHeatmap()
 	{
-		const confirmed    = "/state/confirmed";
-		const deaths       = "/state/deaths";
+		const production   = false;
+		const confirmed    = production ? "/api/state/confirmed"
+					: "/api/confirmed.json";
+		const deaths       = production ? "/api/state/deaths"
+					: "/api/deaths.json";
 		const fetchheatmap = async() => {
 			const respconf   = await fetch( confirmed, {
 				headers : {

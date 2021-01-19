@@ -1,0 +1,95 @@
+.bct-legend
+{
+	font-size: 18px;
+	margin-bottom: 21px;
+	width: 100%;
+}
+
+.bct-legend th
+{
+	color: #a1ecfb;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Electrolize", "sans-serif";
+}
+
+.bct-legend table thead th:nth-child( 1 )
+{
+	width: 55px;
+}
+
+.bct-legend table thead tr
+{
+	border-bottom: 1px solid rgba(2,157,187,0.325);
+}
+
+.bct-legend table tbody tr:last-child
+{
+	border-bottom: 1px solid rgba(2,157,187,0.355);
+}
+
+#bct-legend-heatmap
+{
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#bct-legend-heatmap tbody tr:nth-child( 1 ) th
+{
+	background: #f00;
+}
+
+#bct-legend-heatmap tbody tr:nth-child( 2 ) th
+{
+	background: linear-gradient( #f00, #ff0 );
+}
+
+#bct-legend-heatmap tbody tr:nth-child( 3 ) th
+{
+	background: linear-gradient( #ff0, #0f0 );
+	padding-top: 72px;
+}
+
+#bct-legend-heatmap tbody tr:nth-child( 4 ) th
+{
+	background: linear-gradient( #0ff, #00f );
+}
+
+#bct-legend-heatmap tbody tr:nth-child( 5 ) th
+{
+	background: #00f;
+}
+
+#bct-legend-graph
+{
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#bct-legend-graph th
+{
+	color: #a1ecfb;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Electrolize", "sans-serif";
+}
+
+#bct-legend-graph thead th:nth-child( 1 )
+{
+	width: 55px;
+}
+
+#bct-legend-graph tbody tr:nth-child( 1 ) th:before
+{
+	color: #0ff;
+	content: "\2014";
+}
+
+#bct-legend-graph tbody tr:nth-child( 2 ) th:before
+{
+	color: #f00;
+	content: "\2014";
+}
+
