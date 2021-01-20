@@ -21,6 +21,10 @@
 # auto-generated json
 /public/static/data/*.json
 /public/static/data/*.csv
+/public/api/*.json
+
+#swap
+**/*.swp
 
 npm-debug.log*
 yarn-debug.log*
