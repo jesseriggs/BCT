@@ -338,7 +338,7 @@ class DataController
 	 */
 	fetchHeatmap()
 	{
-		const production   = false;
+		const production   = true;
 		const confirmed    = production ? "/api/state/confirmed"
 					: "/api/confirmed.json";
 		const deaths       = production ? "/api/state/deaths"

@@ -25,12 +25,13 @@ function dispatch( $action )
 
 function get_connection()
 {
-	$jstring  = file_get_contents( 'config.json' );
+	$jstring  = file_get_contents( __DIR__ . '/../../scripts/config.json' );
 	$config   = json_decode( $jstring );
 	$server   = $config->server;
 	$username = $config->username;
 	$password = $config->password;
 	$dbname   = $config->database;
+	echo $server . "; " . $username . "; " . $password . "; " . $dbname;
 
 	$con = mysqli_connect( $server, $username, $password )
 		or die( 'Could not connect: ' . mysqli_error( $con ) );

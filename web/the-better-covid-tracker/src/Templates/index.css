@@ -37,6 +37,10 @@
 	position:absolute;
 }
 
+.bct-description-pane h4{
+	margin-bottom: 0;
+}
+
 .bct-footer{
 	height: 50px;
 	position: absolute;
