@@ -101,7 +101,7 @@ async function parseFile( filename, deathfile )
 				counties : Object.keys( state.counties )
 			};
 		} );
-		fs.writeFile( "map.json", JSON.stringify( map ), 'utf8',
+		fs.writeFile( "data/map.json", JSON.stringify( map ), 'utf8',
 			( err ) => {
 				if( err ){
 					console.error(
@@ -112,7 +112,7 @@ async function parseFile( filename, deathfile )
 			}
 		);
 
-		fs.writeFile( "ticks.json", JSON.stringify( ticks ), 'utf8',
+		fs.writeFile( "data/ticks.json", JSON.stringify( ticks ), 'utf8',
 			( err ) => {
 				if( err ){
 					console.error(
@@ -129,7 +129,7 @@ async function parseFile( filename, deathfile )
 
 function saveToJSON( state )
 {
-	const fileName = "" + state.name + ".json";
+	const fileName = "data/" + state.name + ".json";
 	const data = JSON.stringify( state );
 	fs.writeFile( fileName, data, 'utf8', ( err ) => {
 		if( err ){

@@ -1,4 +1,5 @@
 #!/bin/bash
-rm *.json
 rm *.csv
-
+cd data
+rm *.json
+cd ..

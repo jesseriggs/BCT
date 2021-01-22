@@ -7,11 +7,6 @@ $username = $config->username;
 $password = $config->password;
 $database = $config->database;
 
-echo $server;
-echo $username;
-echo $password;
-echo $database;
-
 class Entry
 {
 	public $uuid    = 0;
